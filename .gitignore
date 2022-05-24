@@ -25,4 +25,4 @@ replay_pid*
 
 # Intellij IDEA
 *.iml
-.idea/
+.idea
