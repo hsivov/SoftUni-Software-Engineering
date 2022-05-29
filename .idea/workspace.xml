@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Recover all files needed for Intellij to work proper">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/CenturiesToMinutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/CharsToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/ConcatNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/ConvertMetersToKilometer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/ExactSumOfRealNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/LowerOrUpper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/PoundsToDollars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/RefactorSpecialNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/RefactorVolumeOfPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/ReversedChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/SpecialNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/lab/TownInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Data types and variables Lab">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/BeerKegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/Elevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/IntegerOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/PokeMon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/PrintPartOfASCIITable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/Snowballs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SpiceMustFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SumDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SumOfChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/TriplesOfLatinLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/WaterOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/more/DataTypeFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/more/FromLeftToTheRight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,26 +39,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29cz2s7sG7AtORBFtQG0SpzpLOj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
-  <component name="RunManager" selected="Application.RefactorSpecialNumbers">
-    <configuration name="CenturiesToMinutes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.lab.CenturiesToMinutes" />
+}]]></component>
+  <component name="RunManager" selected="Application.FromLeftToTheRight">
+    <configuration name="DataTypeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.more.DataTypeFinder" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.lab.*" />
+          <option name="PATTERN" value="DataTypesAndVariables.more.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowerOrUpper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.lab.LowerOrUpper" />
+    <configuration name="FromLeftToTheRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.more.FromLeftToTheRight" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.lab.*" />
+          <option name="PATTERN" value="DataTypesAndVariables.more.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorSpecialNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.lab.RefactorSpecialNumbers" />
+    <configuration name="PokeMon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.PokeMon" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.lab.*" />
+          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorVolumeOfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.lab.RefactorVolumeOfPyramid" />
+    <configuration name="Snowballs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.Snowballs" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.lab.*" />
+          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecialNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.lab.SpecialNumbers" />
+    <configuration name="SpiceMustFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.SpiceMustFlow" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.lab.*" />
+          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RefactorSpecialNumbers" />
-        <item itemvalue="Application.RefactorVolumeOfPyramid" />
-        <item itemvalue="Application.SpecialNumbers" />
-        <item itemvalue="Application.CenturiesToMinutes" />
-        <item itemvalue="Application.LowerOrUpper" />
+        <item itemvalue="Application.FromLeftToTheRight" />
+        <item itemvalue="Application.Snowballs" />
+        <item itemvalue="Application.DataTypeFinder" />
+        <item itemvalue="Application.PokeMon" />
+        <item itemvalue="Application.SpiceMustFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653427525850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Data types and variables Lab">
+      <created>1653660363255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653660363255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +171,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recover all files needed for Intellij to work proper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recover all files needed for Intellij to work proper" />
+    <MESSAGE value="Add Data types and variables Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Data types and variables Lab" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
