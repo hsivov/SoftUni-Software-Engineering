@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Data types and variables Lab">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/BeerKegs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/IntegerOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/PokeMon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/PrintPartOfASCIITable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/Snowballs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SpiceMustFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SumDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/SumOfChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/TriplesOfLatinLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/exercise/WaterOverflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/more/DataTypeFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/DataTypesAndVariables/more/FromLeftToTheRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/CondenseArrayToNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/EqualArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/EvenAndOddSubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/PrintNumbersInReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/ReverseArrayOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/SumEvenNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,24 +39,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FromLeftToTheRight">
-    <configuration name="DataTypeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.more.DataTypeFinder" />
+}</component>
+  <component name="RunManager" selected="Application.TreasureHunt">
+    <configuration name="CondenseArrayToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.lab.CondenseArrayToNumber" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.more.*" />
+          <option name="PATTERN" value="Arrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FromLeftToTheRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.more.FromLeftToTheRight" />
+    <configuration name="EqualArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.lab.EqualArrays" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.more.*" />
+          <option name="PATTERN" value="Arrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokeMon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.PokeMon" />
+    <configuration name="EvenAndOddSubtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.lab.EvenAndOddSubtraction" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
+          <option name="PATTERN" value="Arrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Snowballs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.Snowballs" />
+    <configuration name="ReverseArrayOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.lab.ReverseArrayOfStrings" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
+          <option name="PATTERN" value="Arrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiceMustFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataTypesAndVariables.exercise.SpiceMustFlow" />
+    <configuration name="TreasureHunt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.exercise.TreasureHunt" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataTypesAndVariables.exercise.*" />
+          <option name="PATTERN" value="Arrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FromLeftToTheRight" />
-        <item itemvalue="Application.Snowballs" />
-        <item itemvalue="Application.DataTypeFinder" />
-        <item itemvalue="Application.PokeMon" />
-        <item itemvalue="Application.SpiceMustFlow" />
+        <item itemvalue="Application.TreasureHunt" />
+        <item itemvalue="Application.CondenseArrayToNumber" />
+        <item itemvalue="Application.EqualArrays" />
+        <item itemvalue="Application.EvenAndOddSubtraction" />
+        <item itemvalue="Application.ReverseArrayOfStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +167,17 @@
     <MESSAGE value="Recover all files needed for Intellij to work proper" />
     <MESSAGE value="Add Data types and variables Lab" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Data types and variables Lab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Arrays/exercise/TreasureHunt.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
