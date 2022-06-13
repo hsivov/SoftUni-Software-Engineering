@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Data types and variables Lab">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/CondenseArrayToNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/EqualArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/EvenAndOddSubtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/PrintNumbersInReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/ReverseArrayOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Arrays/lab/SumEvenNumbers.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Arrays Lab and exercises">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/AddAndSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/ArrayManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/CharactersInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/FactorialDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/MiddleCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/NxNMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/PalindromeIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/SmallestOfThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/TopNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/VowelsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/CalculateRectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/MathPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/RepeatString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +57,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TreasureHunt">
-    <configuration name="CondenseArrayToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.lab.CondenseArrayToNumber" />
+  <component name="RunManager" selected="Application.ArrayManipulator">
+    <configuration name="ArrayManipulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods.exercise.ArrayManipulator" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.lab.*" />
+          <option name="PATTERN" value="Methods.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.lab.EqualArrays" />
+    <configuration name="FactorialDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods.exercise.FactorialDivision" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.lab.*" />
+          <option name="PATTERN" value="Methods.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenAndOddSubtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.lab.EvenAndOddSubtraction" />
+    <configuration name="NxNMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods.exercise.NxNMatrix" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.lab.*" />
+          <option name="PATTERN" value="Methods.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.lab.ReverseArrayOfStrings" />
+    <configuration name="PalindromeIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods.exercise.PalindromeIntegers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.lab.*" />
+          <option name="PATTERN" value="Methods.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureHunt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.exercise.TreasureHunt" />
+    <configuration name="TopNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Methods.exercise.TopNumber" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.exercise.*" />
+          <option name="PATTERN" value="Methods.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreasureHunt" />
-        <item itemvalue="Application.CondenseArrayToNumber" />
-        <item itemvalue="Application.EqualArrays" />
-        <item itemvalue="Application.EvenAndOddSubtraction" />
-        <item itemvalue="Application.ReverseArrayOfStrings" />
+        <item itemvalue="Application.ArrayManipulator" />
+        <item itemvalue="Application.TopNumber" />
+        <item itemvalue="Application.PalindromeIntegers" />
+        <item itemvalue="Application.FactorialDivision" />
+        <item itemvalue="Application.NxNMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653660363255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Arrays Lab and exercises">
+      <created>1654520703823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654520703823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +180,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Recover all files needed for Intellij to work proper" />
     <MESSAGE value="Add Data types and variables Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Data types and variables Lab" />
+    <MESSAGE value="Add Arrays Lab and exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Arrays Lab and exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,6 +190,11 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/Arrays/exercise/TreasureHunt.java</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/ArrayManipulator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
