@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Arrays Lab and exercises">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/AddAndSubtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/ArrayManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/CharactersInRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/FactorialDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/MiddleCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/NxNMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/PalindromeIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/PasswordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/SmallestOfThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/TopNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/VowelsCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/CalculateRectangleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/MathPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/lab/RepeatString.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Lists Lab">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/AnonymousThreat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/AppendArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/BombNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/CardsGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/ChangeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/HouseParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/ListOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/SoftUniCoursePlanning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -48,22 +46,33 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayManipulator">
-    <configuration name="ArrayManipulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.exercise.ArrayManipulator" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SoftUniCoursePlanning">
+    <configuration name="AnonymousThreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.exercise.AnonymousThreat" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Methods.exercise.*" />
+          <option name="PATTERN" value="Lists.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.exercise.FactorialDivision" />
+    <configuration name="AppendArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.exercise.AppendArrays" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Methods.exercise.*" />
+          <option name="PATTERN" value="Lists.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NxNMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.exercise.NxNMatrix" />
+    <configuration name="Pokemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.exercise.Pokemon" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Methods.exercise.*" />
+          <option name="PATTERN" value="Lists.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.exercise.PalindromeIntegers" />
+    <configuration name="SoftUniCoursePlanning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.exercise.SoftUniCoursePlanning" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Methods.exercise.*" />
+          <option name="PATTERN" value="Lists.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.exercise.TopNumber" />
+    <configuration name="TreasureHunt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.exercise.TreasureHunt" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Methods.exercise.*" />
+          <option name="PATTERN" value="Arrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayManipulator" />
-        <item itemvalue="Application.TopNumber" />
-        <item itemvalue="Application.PalindromeIntegers" />
-        <item itemvalue="Application.FactorialDivision" />
-        <item itemvalue="Application.NxNMatrix" />
+        <item itemvalue="Application.SoftUniCoursePlanning" />
+        <item itemvalue="Application.Pokemon" />
+        <item itemvalue="Application.AnonymousThreat" />
+        <item itemvalue="Application.TreasureHunt" />
+        <item itemvalue="Application.AppendArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +150,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653426957284</updated>
+      <workItem from="1655460982230" duration="946000" />
+      <workItem from="1655462961076" duration="146000" />
+      <workItem from="1655463137023" duration="58000" />
+      <workItem from="1655463224347" duration="1197000" />
+      <workItem from="1655465150456" duration="73000" />
+      <workItem from="1655482033408" duration="6466000" />
+      <workItem from="1655567553757" duration="4225000" />
+      <workItem from="1655572089048" duration="309000" />
+      <workItem from="1655628744190" duration="13309000" />
+      <workItem from="1655706554333" duration="10250000" />
+      <workItem from="1655722937035" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -163,8 +183,18 @@
       <option name="project" value="LOCAL" />
       <updated>1654520703823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Lists Lab">
+      <created>1655461240473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655461240473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -181,7 +211,8 @@
     <MESSAGE value="Recover all files needed for Intellij to work proper" />
     <MESSAGE value="Add Data types and variables Lab" />
     <MESSAGE value="Add Arrays Lab and exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Arrays Lab and exercises" />
+    <MESSAGE value="Add Lists Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lists Lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -195,6 +226,21 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/ArrayManipulator.java</url>
           <line>16</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/AnonymousThreat.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/Pokemon.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/SoftUniCoursePlanning.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
