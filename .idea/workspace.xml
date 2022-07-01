@@ -4,22 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Methods Lab and exercises">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/more/Messaging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Methods/exercise/ArrayManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ArrayModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/BlackFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/BonusScoringSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/GuineaPig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/MemoryGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/MovingTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/MuOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/SoftUniReception.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Treasure Hunt problem">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/BigFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/RandomizeWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Songs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Students2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/SumBigNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Ages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Ages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/PadawanEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/PadawanEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/PrintAndSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/PrintAndSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/RageExpenses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/RageExpenses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/StrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/StrongNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/TriangleOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/TriangleOfNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Vacation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/BackIn30Minutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/BackIn30Minutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/DivisibleBy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/EvenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/ForeignLanguages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/ForeignLanguages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MonthPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MonthPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MultiplicationTable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MultiplicationTable2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/Passed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/Passed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/PassedOrFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/PassedOrFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/StudentInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/StudentInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/SumOfOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/SumOfOddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/TheatrePromotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/TheatrePromotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/GamingStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/GamingStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/SortNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/SortNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +70,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -59,16 +82,21 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MemoryGame">
-    <configuration name="ArrayModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MidExams.ArrayModifier" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Students2">
+    <configuration name="BigFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.BigFactorial" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MidExams.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays.exercise.ArrayModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.exercise.ArrayModifier" />
+    <configuration name="Songs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Songs" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.exercise.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MidExams.MemoryGame" />
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MidExams.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MidExams.Numbers" />
+    <configuration name="Students2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students2" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MidExams.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftUniReception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MidExams.SoftUniReception" />
+    <configuration name="SumBigNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.SumBigNumbers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MidExams.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemoryGame" />
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.Arrays.exercise.ArrayModifier" />
-        <item itemvalue="Application.ArrayModifier" />
-        <item itemvalue="Application.SoftUniReception" />
+        <item itemvalue="Application.Students2" />
+        <item itemvalue="Application.Students" />
+        <item itemvalue="Application.Songs" />
+        <item itemvalue="Application.BigFactorial" />
+        <item itemvalue="Application.SumBigNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -146,9 +174,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653426957284</updated>
-      <workItem from="1655752299359" duration="21280000" />
-      <workItem from="1655879481973" duration="8129000" />
-      <workItem from="1655907500546" duration="3144000" />
+      <workItem from="1655460982230" duration="946000" />
+      <workItem from="1655462961076" duration="146000" />
+      <workItem from="1655463137023" duration="58000" />
+      <workItem from="1655463224347" duration="1197000" />
+      <workItem from="1655465150456" duration="73000" />
+      <workItem from="1655482033408" duration="6466000" />
+      <workItem from="1655567553757" duration="4225000" />
+      <workItem from="1655572089048" duration="309000" />
+      <workItem from="1655628744190" duration="13309000" />
+      <workItem from="1655706554333" duration="10250000" />
+      <workItem from="1655722937035" duration="2377000" />
+      <workItem from="1655736735179" duration="4225000" />
+      <workItem from="1656091220001" duration="605000" />
+      <workItem from="1656137478041" duration="5643000" />
+      <workItem from="1656655299086" duration="11517000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -171,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654520703823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Lists Lab">
+      <created>1655461240473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655461240473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Lists exercise">
+      <created>1655725212858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655725212858</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Treasure Hunt problem">
+      <created>1656143655058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656143655058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +253,10 @@
     <MESSAGE value="Recover all files needed for Intellij to work proper" />
     <MESSAGE value="Add Data types and variables Lab" />
     <MESSAGE value="Add Arrays Lab and exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Arrays Lab and exercises" />
+    <MESSAGE value="Add Lists Lab" />
+    <MESSAGE value="Add Lists exercise" />
+    <MESSAGE value="Add Treasure Hunt problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Treasure Hunt problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,19 +272,29 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/ShoppingList.java</url>
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/AnonymousThreat.java</url>
           <line>15</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/MovingTarget.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/Pokemon.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/MemoryGame.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/SoftUniCoursePlanning.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/TreasureHunt.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
