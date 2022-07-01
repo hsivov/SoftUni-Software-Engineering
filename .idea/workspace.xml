@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Treasure Hunt problem">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/BigFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/RandomizeWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Songs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/Students2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/lab/SumBigNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExams/ManOWar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Ages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Ages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/PadawanEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/PadawanEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/PrintAndSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/PrintAndSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/RageExpenses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/RageExpenses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/StrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/StrongNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/TriangleOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/TriangleOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/Vacation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/exercise/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/exercise/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/BackIn30Minutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/BackIn30Minutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/DivisibleBy3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/EvenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/ForeignLanguages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/ForeignLanguages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MonthPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MonthPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MultiplicationTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/MultiplicationTable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/MultiplicationTable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/Passed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/Passed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/PassedOrFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/PassedOrFailed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/StudentInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/StudentInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/SumOfOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/SumOfOddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/lab/TheatrePromotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/lab/TheatrePromotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/GamingStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/GamingStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/SortNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/SortNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/basicSyntaxConditionalStatementsLoops/more/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/BasicSyntaxConditionalStatementsLoops/more/test.js" afterDir="false" />
-    </list>
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Objects and Classes lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +151,7 @@
       <workItem from="1655736735179" duration="4225000" />
       <workItem from="1656091220001" duration="605000" />
       <workItem from="1656137478041" duration="5643000" />
-      <workItem from="1656655299086" duration="11517000" />
+      <workItem from="1656655299086" duration="11854000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -232,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656143655058</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Objects and Classes lab">
+      <created>1656676041249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656676041249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +226,8 @@
     <MESSAGE value="Add Lists Lab" />
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Treasure Hunt problem" />
+    <MESSAGE value="Add Objects and Classes lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
