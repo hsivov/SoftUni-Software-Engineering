@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Objects and Classes exercise">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/ComputerShop/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/ComputerShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/RawData/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/RawData/Main.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add 26 June Mid-Exam">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/Advert.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/Advert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Fundamentals-Java/ObjectsAndClasses/exercise/Article&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,14 +53,24 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\ObjectsAndClasses\exercise\Article" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="BigFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.BigFactorial" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CarSalesman.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CompanyRoster.Main" />
+    <configuration name="Songs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Songs" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.CompanyRoster.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.ComputerShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.ComputerShop.Main" />
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.ComputerShop.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.RawData.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.RawData.Main" />
+    <configuration name="Students2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students2" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.RawData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderByAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.exercise.OrderByAge" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.exercise.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.ComputerShop.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.RawData.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.CompanyRoster.Main" />
-        <item itemvalue="Application.OrderByAge" />
+        <item itemvalue="Application.Students2" />
+        <item itemvalue="Application.Students" />
+        <item itemvalue="Application.Songs" />
+        <item itemvalue="Application.BigFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -166,20 +156,7 @@
       <workItem from="1656091220001" duration="605000" />
       <workItem from="1656137478041" duration="5643000" />
       <workItem from="1656655299086" duration="11854000" />
-      <workItem from="1656678591362" duration="40000" />
-      <workItem from="1656701926825" duration="4697000" />
-      <workItem from="1656736895278" duration="3100000" />
-      <workItem from="1656740184976" duration="61000" />
-      <workItem from="1656745502290" duration="3231000" />
-      <workItem from="1656769454546" duration="4085000" />
-      <workItem from="1656780953456" duration="5289000" />
-      <workItem from="1656820983771" duration="42000" />
-      <workItem from="1656821687921" duration="270000" />
-      <workItem from="1656841694357" duration="844000" />
-      <workItem from="1656845056586" duration="1290000" />
-      <workItem from="1656858117871" duration="14538000" />
-      <workItem from="1656925053167" duration="3397000" />
-      <workItem from="1656935283438" duration="2214000" />
+      <workItem from="1657001536903" duration="2835000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -230,14 +207,7 @@
       <option name="project" value="LOCAL" />
       <updated>1656676041249</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add Objects and Classes exercise">
-      <created>1656786220874</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1656786220874</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,8 +232,7 @@
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
-    <MESSAGE value="Add Objects and Classes exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,14 +273,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="12" />
+          <line>36</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
