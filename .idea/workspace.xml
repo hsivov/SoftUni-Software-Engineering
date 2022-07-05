@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Objects and Classes lab">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/Advert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/AdvertisementMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Article/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Article/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Article2/Article2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Article2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/OpinionPoll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/OpinionPoll/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/OrderByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Students/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/Students/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/VehicleCatalogue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/VehicleCatalogue/VehicleCatalogue.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Objects and Classes exercise">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/ComputerShop/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/ComputerShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/RawData/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/RawData/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/Advert.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/exercise/AdvertisementMessage/Advert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +67,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderByAge">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.exercise.Students.Main" />
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CarSalesman.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.exercise.Students.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.CarSalesman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.exercise.AdvertisementMessage.AdvertisementMessage" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.exercise.AdvertisementMessage.AdvertisementMessage" />
+    <configuration name="ObjectsAndClasses.more.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CompanyRoster.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.exercise.AdvertisementMessage.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.CompanyRoster.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.exercise.Article2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.exercise.Article2.Main" />
+    <configuration name="ObjectsAndClasses.more.ComputerShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.ComputerShop.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.exercise.Article2.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.ComputerShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.exercise.VehicleCatalogue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.exercise.VehicleCatalogue.Main" />
+    <configuration name="ObjectsAndClasses.more.RawData.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.RawData.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.exercise.VehicleCatalogue.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.RawData.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderByAge" />
-        <item itemvalue="Application.ObjectsAndClasses.exercise.VehicleCatalogue.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.exercise.Article2.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.exercise.AdvertisementMessage.AdvertisementMessage" />
+        <item itemvalue="Application.ObjectsAndClasses.more.ComputerShop.Main" />
+        <item itemvalue="Application.ObjectsAndClasses.more.RawData.Main" />
+        <item itemvalue="Application.ObjectsAndClasses.more.CompanyRoster.Main" />
+        <item itemvalue="Application.OrderByAge" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,14 @@
       <workItem from="1656740184976" duration="61000" />
       <workItem from="1656745502290" duration="3231000" />
       <workItem from="1656769454546" duration="4085000" />
-      <workItem from="1656780953456" duration="4846000" />
+      <workItem from="1656780953456" duration="5289000" />
+      <workItem from="1656820983771" duration="42000" />
+      <workItem from="1656821687921" duration="270000" />
+      <workItem from="1656841694357" duration="844000" />
+      <workItem from="1656845056586" duration="1290000" />
+      <workItem from="1656858117871" duration="14538000" />
+      <workItem from="1656925053167" duration="3397000" />
+      <workItem from="1656935283438" duration="2214000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -227,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656676041249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Objects and Classes exercise">
+      <created>1656786220874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656786220874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +262,8 @@
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes lab" />
+    <MESSAGE value="Add Objects and Classes exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,6 +302,16 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/MidExams/TreasureHunt.java</url>
           <line>13</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

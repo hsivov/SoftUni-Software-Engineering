@@ -1,10 +1,10 @@
 package ObjectsAndClasses.exercise.AdvertisementMessage;
 
 public class Advert {
-        String laudatoryPhrase;
-        String event;
-        String author;
-        String city;
+        private String laudatoryPhrase;
+        private String event;
+        private String author;
+        private String city;
 
         public void setLaudatoryPhrase(String laudatoryPhrase) {
             this.laudatoryPhrase = laudatoryPhrase;
