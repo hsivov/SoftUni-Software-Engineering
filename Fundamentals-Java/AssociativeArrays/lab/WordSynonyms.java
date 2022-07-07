@@ -13,12 +13,11 @@ public class WordSynonyms {
             String word = scanner.nextLine();
             String synonym = scanner.nextLine();
 
-            if (!wordsMap.containsKey(word)){
+            if (!wordsMap.containsKey(word)) {
                 wordsMap.put(word, new ArrayList<>());
-                wordsMap.get(word).add(synonym);
-            } else {
-                wordsMap.get(word).add(synonym);
             }
+            wordsMap.get(word).add(synonym);
+
         }
         for (Map.Entry<String, List<String>> entry : wordsMap.entrySet()) {
             System.out.printf("%s - %s%n", entry.getKey(), String.join(", ", entry.getValue()));

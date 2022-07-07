@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="More Objects and Classes exercises">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/CountRealNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/OddOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Fundamentals-Java/ObjectsAndClasses/exercise/Article&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,24 +53,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\ObjectsAndClasses\exercise\Article" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddOccurrences">
-    <configuration name="CountRealNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.CountRealNumbers" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssociativeArrays.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordFilter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CarSalesman.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -85,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.TeamworkProjects.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.TeamworkProjects.Main" />
+    <configuration name="ObjectsAndClasses.more.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CompanyRoster.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.TeamworkProjects.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.CompanyRoster.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.OddOccurrences" />
+    <configuration name="ObjectsAndClasses.more.ComputerShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.ComputerShop.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.lab.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.ComputerShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +100,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSynonyms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.WordSynonyms" />
+    <configuration name="ObjectsAndClasses.more.RawData.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.RawData.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObjectsAndClasses.more.RawData.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.WordFilter" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OddOccurrences" />
-        <item itemvalue="Application.WordSynonyms" />
-        <item itemvalue="Application.CountRealNumbers" />
-        <item itemvalue="Application.ObjectsAndClasses.more.TeamworkProjects.Main" />
+        <item itemvalue="Application.WordFilter" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ObjectsAndClasses.more.ComputerShop.Main" />
+        <item itemvalue="Application.ObjectsAndClasses.more.RawData.Main" />
+        <item itemvalue="Application.ObjectsAndClasses.more.CompanyRoster.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,9 +159,21 @@
       <workItem from="1656091220001" duration="605000" />
       <workItem from="1656137478041" duration="5643000" />
       <workItem from="1656655299086" duration="11854000" />
-      <workItem from="1657001536903" duration="12119000" />
-      <workItem from="1657027076822" duration="18000" />
-      <workItem from="1657193453395" duration="5194000" />
+      <workItem from="1656678591362" duration="40000" />
+      <workItem from="1656701926825" duration="4697000" />
+      <workItem from="1656736895278" duration="3100000" />
+      <workItem from="1656740184976" duration="61000" />
+      <workItem from="1656745502290" duration="3231000" />
+      <workItem from="1656769454546" duration="4085000" />
+      <workItem from="1656780953456" duration="5289000" />
+      <workItem from="1656820983771" duration="42000" />
+      <workItem from="1656821687921" duration="270000" />
+      <workItem from="1656841694357" duration="844000" />
+      <workItem from="1656845056586" duration="1290000" />
+      <workItem from="1656858117871" duration="14538000" />
+      <workItem from="1656925053167" duration="3397000" />
+      <workItem from="1656935283438" duration="2214000" />
+      <workItem from="1657219886900" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -210,12 +224,12 @@
       <option name="project" value="LOCAL" />
       <updated>1656676041249</updated>
     </task>
-    <task id="LOCAL-00008" summary="More Objects and Classes exercises">
-      <created>1657004903893</created>
+    <task id="LOCAL-00008" summary="Add Objects and Classes exercise">
+      <created>1656786220874</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1657004903893</updated>
+      <updated>1656786220874</updated>
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -242,8 +256,8 @@
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
-    <MESSAGE value="More Objects and Classes exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="More Objects and Classes exercises" />
+    <MESSAGE value="Add Objects and Classes exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -284,9 +298,14 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="10" />
+          <line>14</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
