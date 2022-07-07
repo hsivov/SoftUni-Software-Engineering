@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add 26 June Mid-Exam">
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="More Objects and Classes exercises">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/CountRealNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/OddOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +58,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BigFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.BigFactorial" />
+  <component name="RunManager" selected="Application.OddOccurrences">
+    <configuration name="CountRealNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.CountRealNumbers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
+          <option name="PATTERN" value="AssociativeArrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Songs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Songs" />
+    <configuration name="ObjectsAndClasses.more.TeamworkProjects.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.TeamworkProjects.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
+          <option name="PATTERN" value="ObjectsAndClasses.more.TeamworkProjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students" />
+    <configuration name="OddOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.OddOccurrences" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
+          <option name="PATTERN" value="AssociativeArrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Students2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.lab.Students2" />
+    <configuration name="WordSynonyms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.WordSynonyms" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.lab.*" />
+          <option name="PATTERN" value="AssociativeArrays.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddOccurrences" />
+        <item itemvalue="Application.WordSynonyms" />
+        <item itemvalue="Application.CountRealNumbers" />
+        <item itemvalue="Application.ObjectsAndClasses.more.TeamworkProjects.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Students2" />
-        <item itemvalue="Application.Students" />
-        <item itemvalue="Application.Songs" />
-        <item itemvalue="Application.BigFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,9 @@
       <workItem from="1656091220001" duration="605000" />
       <workItem from="1656137478041" duration="5643000" />
       <workItem from="1656655299086" duration="11854000" />
-      <workItem from="1657001536903" duration="2835000" />
+      <workItem from="1657001536903" duration="12119000" />
+      <workItem from="1657027076822" duration="18000" />
+      <workItem from="1657193453395" duration="5194000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656676041249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="More Objects and Classes exercises">
+      <created>1657004903893</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657004903893</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +242,8 @@
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes lab" />
+    <MESSAGE value="More Objects and Classes exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Objects and Classes exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
