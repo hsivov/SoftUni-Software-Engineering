@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="More Objects and Classes exercises">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordFilter.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Word Filter">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/AMinerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/CompanyUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/CountCharsInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/ForceBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/LegendaryFarming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/SoftUniExamResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/SoftUniParking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/StudentAcademy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/lab/WordSynonyms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +68,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordFilter">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CarSalesman.Main" />
+  <component name="RunManager" selected="Application.SoftUniExamResults">
+    <configuration name="CompanyUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.CompanyUsers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.CarSalesman.*" />
+          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.CompanyRoster.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.CompanyRoster.Main" />
+    <configuration name="Courses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.Courses" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.CompanyRoster.*" />
+          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.ComputerShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.ComputerShop.Main" />
+    <configuration name="ForceBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.ForceBook" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.ComputerShop.*" />
+          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectsAndClasses.more.RawData.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses.more.RawData.Main" />
+    <configuration name="SoftUniExamResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.SoftUniExamResults" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses.more.RawData.*" />
+          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.lab.WordFilter" />
+    <configuration name="StudentAcademy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.StudentAcademy" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.lab.*" />
+          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordFilter" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.ComputerShop.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.RawData.Main" />
-        <item itemvalue="Application.ObjectsAndClasses.more.CompanyRoster.Main" />
+        <item itemvalue="Application.SoftUniExamResults" />
+        <item itemvalue="Application.ForceBook" />
+        <item itemvalue="Application.CompanyUsers" />
+        <item itemvalue="Application.StudentAcademy" />
+        <item itemvalue="Application.Courses" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +181,10 @@
       <workItem from="1656858117871" duration="14538000" />
       <workItem from="1656925053167" duration="3397000" />
       <workItem from="1656935283438" duration="2214000" />
-      <workItem from="1657219886900" duration="1693000" />
+      <workItem from="1657219886900" duration="1893000" />
+      <workItem from="1657272110568" duration="42000" />
+      <workItem from="1657346354823" duration="23429000" />
+      <workItem from="1657435815735" duration="8594000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -231,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656786220874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Word Filter">
+      <created>1657228900881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657228900881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +275,8 @@
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="Add Objects and Classes exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Objects and Classes exercise" />
+    <MESSAGE value="Add Word Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Word Filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,6 +325,16 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/AMinerTask.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/ForceBook.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
