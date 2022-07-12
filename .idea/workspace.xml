@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Word Filter">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/AMinerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/CompanyUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/CountCharsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/ForceBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/LegendaryFarming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/SoftUniExamResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/SoftUniParking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/StudentAcademy.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Maps, Lambda and Stream API - Exercise">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/DragonArmy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,26 +61,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SoftUniExamResults">
-    <configuration name="CompanyUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.CompanyUsers" />
+  <component name="RunManager" selected="Application.Judge">
+    <configuration name="DragonArmy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.DragonArmy" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Courses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.Courses" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
+          <option name="PATTERN" value="AssociativeArrays.more.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +88,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Judge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Judge" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ranking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Ranking" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoftUniExamResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.SoftUniExamResults" />
       <module name="SoftUni-Software-Engineering" />
@@ -121,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAcademy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.StudentAcademy" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Judge" />
+        <item itemvalue="Application.DragonArmy" />
+        <item itemvalue="Application.Ranking" />
         <item itemvalue="Application.SoftUniExamResults" />
         <item itemvalue="Application.ForceBook" />
-        <item itemvalue="Application.CompanyUsers" />
-        <item itemvalue="Application.StudentAcademy" />
-        <item itemvalue="Application.Courses" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +177,11 @@
       <workItem from="1657219886900" duration="1893000" />
       <workItem from="1657272110568" duration="42000" />
       <workItem from="1657346354823" duration="23429000" />
-      <workItem from="1657435815735" duration="8594000" />
+      <workItem from="1657435815735" duration="8873000" />
+      <workItem from="1657520502774" duration="15578000" />
+      <workItem from="1657567301057" duration="3183000" />
+      <workItem from="1657609146509" duration="9279000" />
+      <workItem from="1657632777326" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657228900881</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Maps, Lambda and Stream API - Exercise">
+      <created>1657455486389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657455486389</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +280,8 @@
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="Add Objects and Classes exercise" />
     <MESSAGE value="Add Word Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Word Filter" />
+    <MESSAGE value="Maps, Lambda and Stream API - Exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps, Lambda and Stream API - Exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
