@@ -60,17 +60,15 @@ public class Judge {
     }
 
     public static Map<String, Integer> sortByValue(Map<String, Integer> map) {
-        List<Map.Entry<String, Integer>> list = new LinkedList<>(map.entrySet());
-
-        // Sort the list
-        list.sort(Map.Entry.comparingByValue());
-        Collections.reverse(list);
-
-        // put data from sorted list to hashmap
+        // create new hashmap to store sorted data
         HashMap<String, Integer> temp = new LinkedHashMap<>();
-        for (Map.Entry<String, Integer> aa : list) {
-            temp.put(aa.getKey(), aa.getValue());
-        }
+
+        // Sort the map
+        map.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEach(entry -> temp.put(entry.getKey(), entry.getValue()));
+        //return sorted data
         return temp;
     }
 }

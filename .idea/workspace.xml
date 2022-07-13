@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Maps, Lambda and Stream API - Exercise">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/DragonArmy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="More Exercises: Associative Arrays, Lambda and Stream API">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +61,9 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Judge">
-    <configuration name="DragonArmy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.DragonArmy" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Demo" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForceBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.ForceBook" />
+    <configuration name="DragonArmy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.DragonArmy" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
+          <option name="PATTERN" value="AssociativeArrays.more.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Judge" />
-        <item itemvalue="Application.DragonArmy" />
         <item itemvalue="Application.Ranking" />
+        <item itemvalue="Application.DragonArmy" />
         <item itemvalue="Application.SoftUniExamResults" />
-        <item itemvalue="Application.ForceBook" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,10 @@
       <workItem from="1657520502774" duration="15578000" />
       <workItem from="1657567301057" duration="3183000" />
       <workItem from="1657609146509" duration="9279000" />
-      <workItem from="1657632777326" duration="4884000" />
+      <workItem from="1657632777326" duration="4952000" />
+      <workItem from="1657655638981" duration="5361000" />
+      <workItem from="1657684602072" duration="1491000" />
+      <workItem from="1657686248454" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -253,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657455486389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="More Exercises: Associative Arrays, Lambda and Stream API">
+      <created>1657637756861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657637756861</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +291,8 @@
     <MESSAGE value="Add Objects and Classes exercise" />
     <MESSAGE value="Add Word Filter" />
     <MESSAGE value="Maps, Lambda and Stream API - Exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maps, Lambda and Stream API - Exercise" />
+    <MESSAGE value="More Exercises: Associative Arrays, Lambda and Stream API" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Exercises: Associative Arrays, Lambda and Stream API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
