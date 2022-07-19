@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Lab Associative arrays">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/CharacterMultiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ExtractFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/LettersChangeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/MultiplyBigNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ReplaceRepeatingChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/StringExplosion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ValidUsernames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/DigitsLettersAndOther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/RepeatStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/ReverseStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/TextFilter.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Exercise: Text Processing">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/AsciiSumator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/ExtractPersonInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/TreasureFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +58,26 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LettersChangeNumbers">
-    <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.CaesarCipher" />
+  <component name="RunManager" selected="Application.TreasureFinder">
+    <configuration name="AsciiSumator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.AsciiSumator" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.Exercise.*" />
+          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractPersonInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.ExtractPersonInformation" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextProcessing.More.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,32 +87,6 @@
     </configuration>
     <configuration name="LettersChangeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.LettersChangeNumbers" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TextProcessing.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiplyBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.MultiplyBigNumber" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TextProcessing.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReplaceRepeatingChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.ReplaceRepeatingChars" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreasureFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.TreasureFinder" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreasureFinder" />
+        <item itemvalue="Application.AsciiSumator" />
+        <item itemvalue="Application.ExtractPersonInformation" />
         <item itemvalue="Application.LettersChangeNumbers" />
         <item itemvalue="Application.StringExplosion" />
-        <item itemvalue="Application.ReplaceRepeatingChars" />
-        <item itemvalue="Application.CaesarCipher" />
-        <item itemvalue="Application.MultiplyBigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +162,8 @@
       <workItem from="1657193453395" duration="5194000" />
       <workItem from="1657813961777" duration="3339000" />
       <workItem from="1657867986589" duration="2195000" />
-      <workItem from="1658127430363" duration="17427000" />
+      <workItem from="1658127430363" duration="22144000" />
+      <workItem from="1658221974629" duration="5552000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -230,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657004903893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Exercise: Text Processing">
+      <created>1658216177399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658216177399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +254,8 @@
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="More Objects and Classes exercises" />
+    <MESSAGE value="Add Exercise: Text Processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Exercise: Text Processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,9 +306,9 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/LettersChangeNumbers.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/TreasureFinder.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
