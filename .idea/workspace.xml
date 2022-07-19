@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="More Exercises: Associative Arrays, Lambda and Stream API">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Demo.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Lab Associative arrays">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/CharacterMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ExtractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/LettersChangeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/MultiplyBigNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ReplaceRepeatingChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/StringExplosion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/ValidUsernames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/DigitsLettersAndOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/RepeatStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/ReverseStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Lab/TextFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Judge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/more/Ranking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Fundamentals-Java/ObjectsAndClasses/exercise/Article&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Documents/GitHub/SoftUni-Software-Engineering&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,20 +64,17 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\ObjectsAndClasses\exercise\Article" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Demo" />
+  <component name="RunManager" selected="Application.LettersChangeNumbers">
+    <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.CaesarCipher" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="PATTERN" value="TextProcessing.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragonArmy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.DragonArmy" />
+    <configuration name="LettersChangeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.LettersChangeNumbers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="PATTERN" value="TextProcessing.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Judge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Judge" />
+    <configuration name="MultiplyBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.MultiplyBigNumber" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="PATTERN" value="TextProcessing.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ranking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.more.Ranking" />
+    <configuration name="ReplaceRepeatingChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.ReplaceRepeatingChars" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.more.*" />
+          <option name="PATTERN" value="TextProcessing.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftUniExamResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays.exercise.SoftUniExamResults" />
+    <configuration name="StringExplosion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.StringExplosion" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AssociativeArrays.exercise.*" />
+          <option name="PATTERN" value="TextProcessing.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Judge" />
-        <item itemvalue="Application.Ranking" />
-        <item itemvalue="Application.DragonArmy" />
-        <item itemvalue="Application.SoftUniExamResults" />
+        <item itemvalue="Application.LettersChangeNumbers" />
+        <item itemvalue="Application.StringExplosion" />
+        <item itemvalue="Application.ReplaceRepeatingChars" />
+        <item itemvalue="Application.CaesarCipher" />
+        <item itemvalue="Application.MultiplyBigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -160,31 +167,12 @@
       <workItem from="1656091220001" duration="605000" />
       <workItem from="1656137478041" duration="5643000" />
       <workItem from="1656655299086" duration="11854000" />
-      <workItem from="1656678591362" duration="40000" />
-      <workItem from="1656701926825" duration="4697000" />
-      <workItem from="1656736895278" duration="3100000" />
-      <workItem from="1656740184976" duration="61000" />
-      <workItem from="1656745502290" duration="3231000" />
-      <workItem from="1656769454546" duration="4085000" />
-      <workItem from="1656780953456" duration="5289000" />
-      <workItem from="1656820983771" duration="42000" />
-      <workItem from="1656821687921" duration="270000" />
-      <workItem from="1656841694357" duration="844000" />
-      <workItem from="1656845056586" duration="1290000" />
-      <workItem from="1656858117871" duration="14538000" />
-      <workItem from="1656925053167" duration="3397000" />
-      <workItem from="1656935283438" duration="2214000" />
-      <workItem from="1657219886900" duration="1893000" />
-      <workItem from="1657272110568" duration="42000" />
-      <workItem from="1657346354823" duration="23429000" />
-      <workItem from="1657435815735" duration="8873000" />
-      <workItem from="1657520502774" duration="15578000" />
-      <workItem from="1657567301057" duration="3183000" />
-      <workItem from="1657609146509" duration="9279000" />
-      <workItem from="1657632777326" duration="4952000" />
-      <workItem from="1657655638981" duration="5361000" />
-      <workItem from="1657684602072" duration="1491000" />
-      <workItem from="1657686248454" duration="11000" />
+      <workItem from="1657001536903" duration="12119000" />
+      <workItem from="1657027076822" duration="18000" />
+      <workItem from="1657193453395" duration="5194000" />
+      <workItem from="1657813961777" duration="3339000" />
+      <workItem from="1657867986589" duration="2195000" />
+      <workItem from="1658127430363" duration="17427000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -235,35 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656676041249</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add Objects and Classes exercise">
-      <created>1656786220874</created>
+    <task id="LOCAL-00008" summary="More Objects and Classes exercises">
+      <created>1657004903893</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1656786220874</updated>
+      <updated>1657004903893</updated>
     </task>
-    <task id="LOCAL-00009" summary="Add Word Filter">
-      <created>1657228900881</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1657228900881</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Maps, Lambda and Stream API - Exercise">
-      <created>1657455486389</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1657455486389</updated>
-    </task>
-    <task id="LOCAL-00011" summary="More Exercises: Associative Arrays, Lambda and Stream API">
-      <created>1657637756861</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1657637756861</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,11 +255,8 @@
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
-    <MESSAGE value="Add Objects and Classes exercise" />
-    <MESSAGE value="Add Word Filter" />
-    <MESSAGE value="Maps, Lambda and Stream API - Exercise" />
-    <MESSAGE value="More Exercises: Associative Arrays, Lambda and Stream API" />
-    <option name="LAST_COMMIT_MESSAGE" value="More Exercises: Associative Arrays, Lambda and Stream API" />
+    <MESSAGE value="More Objects and Classes exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Objects and Classes exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,24 +297,19 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CompanyRoster/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ObjectsAndClasses/more/CarSalesman/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="12" />
+          <line>36</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/AMinerTask.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/StringExplosion.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/AssociativeArrays/exercise/ForceBook.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/Exercise/LettersChangeNumbers.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
