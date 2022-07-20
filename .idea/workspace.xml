@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Exercise: Text Processing">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/AsciiSumator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/ExtractPersonInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/TreasureFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/MorseCodeTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreasureFinder">
+  <component name="RunManager" selected="Application.MorseCodeTranslator">
     <configuration name="AsciiSumator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextProcessing.More.AsciiSumator" />
       <module name="SoftUni-Software-Engineering" />
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExplosion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.StringExplosion" />
+    <configuration name="MorseCodeTranslator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.MorseCodeTranslator" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.Exercise.*" />
+          <option name="PATTERN" value="TextProcessing.More.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MorseCodeTranslator" />
         <item itemvalue="Application.TreasureFinder" />
         <item itemvalue="Application.AsciiSumator" />
         <item itemvalue="Application.ExtractPersonInformation" />
         <item itemvalue="Application.LettersChangeNumbers" />
-        <item itemvalue="Application.StringExplosion" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,8 @@
       <workItem from="1657813961777" duration="3339000" />
       <workItem from="1657867986589" duration="2195000" />
       <workItem from="1658127430363" duration="22144000" />
-      <workItem from="1658221974629" duration="5552000" />
+      <workItem from="1658221974629" duration="6125000" />
+      <workItem from="1658302795972" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658216177399</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Exercise: Text Processing">
+      <created>1658232157092</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658232157092</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,9 +312,9 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/TreasureFinder.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/MorseCodeTranslator.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
