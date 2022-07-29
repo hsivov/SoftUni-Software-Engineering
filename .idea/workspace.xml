@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Lab: Regular Expressions">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/MirrorWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/WorldTour.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Exercise: Regular Expressions">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/ThePianist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +56,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MorseCodeTranslator">
-    <configuration name="AsciiSumator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.AsciiSumator" />
+  <component name="RunManager" selected="Application.ThePianist">
+    <configuration name="NetherRealms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.NetherRealms" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractPersonInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.ExtractPersonInformation" />
+    <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.Race" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LettersChangeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.Exercise.LettersChangeNumbers" />
+    <configuration name="SoftUniBarIncome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.SoftUniBarIncome" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.Exercise.*" />
+          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorseCodeTranslator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.MorseCodeTranslator" />
+    <configuration name="StarEnigma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.StarEnigma" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreasureFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessing.More.TreasureFinder" />
+    <configuration name="ThePianist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammingFundamentalsFinalExam.ThePianist" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextProcessing.More.*" />
+          <option name="PATTERN" value="ProgrammingFundamentalsFinalExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MorseCodeTranslator" />
-        <item itemvalue="Application.TreasureFinder" />
-        <item itemvalue="Application.AsciiSumator" />
-        <item itemvalue="Application.ExtractPersonInformation" />
-        <item itemvalue="Application.LettersChangeNumbers" />
+        <item itemvalue="Application.ThePianist" />
+        <item itemvalue="Application.NetherRealms" />
+        <item itemvalue="Application.SoftUniBarIncome" />
+        <item itemvalue="Application.StarEnigma" />
+        <item itemvalue="Application.Race" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,10 @@
       <workItem from="1657867986589" duration="2195000" />
       <workItem from="1658127430363" duration="22144000" />
       <workItem from="1658221974629" duration="6125000" />
-      <workItem from="1658302795972" duration="2525000" />
+      <workItem from="1658302795972" duration="3480000" />
+      <workItem from="1658819573607" duration="16063000" />
+      <workItem from="1658908473281" duration="3517000" />
+      <workItem from="1659024776674" duration="5475000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658232157092</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Exercise: Text Processing">
+      <created>1658305759941</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658305759941</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,8 +271,7 @@
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
-    <MESSAGE value="Add Lab: Regular Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab: Regular Expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Exercise: Text Processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,8 +323,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Fundamentals-Java/TextProcessing/More/MorseCodeTranslator.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/RegularExpressions/Exercise/Furniture.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/RegularExpressions/Exercise/StarEnigma.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/ThePianist.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
