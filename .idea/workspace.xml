@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Exercise: Regular Expressions">
-      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/ThePianist.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Fundamentals Final Exam Preparation">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/FancyBarcodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/HeroesOfCodeAndLogicVII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/PasswordReset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,7 +58,33 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThePianist">
+  <component name="RunManager" selected="Application.HeroesOfCodeAndLogicVII">
+    <configuration name="FancyBarcodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammingFundamentalsFinalExam.FancyBarcodes" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProgrammingFundamentalsFinalExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroesOfCodeAndLogicVII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammingFundamentalsFinalExam.HeroesOfCodeAndLogicVII" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProgrammingFundamentalsFinalExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NetherRealms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.NetherRealms" />
       <module name="SoftUni-Software-Engineering" />
@@ -70,38 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.Race" />
+    <configuration name="PasswordReset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammingFundamentalsFinalExam.PasswordReset" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftUniBarIncome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.SoftUniBarIncome" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarEnigma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Exercise.StarEnigma" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RegularExpressions.Exercise.*" />
+          <option name="PATTERN" value="ProgrammingFundamentalsFinalExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeroesOfCodeAndLogicVII" />
+        <item itemvalue="Application.FancyBarcodes" />
+        <item itemvalue="Application.PasswordReset" />
         <item itemvalue="Application.ThePianist" />
         <item itemvalue="Application.NetherRealms" />
-        <item itemvalue="Application.SoftUniBarIncome" />
-        <item itemvalue="Application.StarEnigma" />
-        <item itemvalue="Application.Race" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +168,10 @@
       <workItem from="1658819573607" duration="16063000" />
       <workItem from="1658908473281" duration="3517000" />
       <workItem from="1659024776674" duration="5475000" />
+      <workItem from="1659094232209" duration="193000" />
+      <workItem from="1659094459027" duration="322000" />
+      <workItem from="1659095156805" duration="526000" />
+      <workItem from="1659110987487" duration="14001000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -244,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658305759941</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fundamentals Final Exam Preparation">
+      <created>1659093859989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659093859989</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +284,8 @@
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Exercise: Text Processing" />
+    <MESSAGE value="Fundamentals Final Exam Preparation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Exam Preparation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,9 +351,9 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/ThePianist.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/HeroesOfCodeAndLogicVII.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
