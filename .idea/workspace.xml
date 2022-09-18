@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Fundamentals Final Retake 15 August">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/BrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/BrowserHistoryUpgrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/HotPotato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/MatchingBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/MathPotato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/PrinterQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Lab/SimpleCalculator.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Fundamentals Final Exam Preparation">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/BalancedParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/BasicQueueOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/BasicStackOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/MaximumElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/ReverseNumbersWithAStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +50,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
@@ -65,13 +61,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BrowserHistoryUpgrade">
-    <configuration name="BrowserHistoryUpgrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.BrowserHistoryUpgrade" />
+  <component name="RunManager" selected="Application.BalancedParentheses">
+    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.BalancedParentheses" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.DecimalToBinary" />
+    <configuration name="BasicStackOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.BasicStackOperations" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotPotato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.HotPotato" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalRetake15Aug.Demo" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="FinalRetake15Aug.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathPotato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.MathPotato" />
+    <configuration name="MaximumElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.MaximumElement" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.PrinterQueue" />
+    <configuration name="ReverseNumbersWithAStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.ReverseNumbersWithAStack" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BrowserHistoryUpgrade" />
-        <item itemvalue="Application.MathPotato" />
-        <item itemvalue="Application.HotPotato" />
-        <item itemvalue="Application.PrinterQueue" />
-        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.BalancedParentheses" />
+        <item itemvalue="Application.MaximumElement" />
+        <item itemvalue="Application.BasicStackOperations" />
+        <item itemvalue="Application.ReverseNumbersWithAStack" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +183,9 @@
       <workItem from="1660121740657" duration="88000" />
       <workItem from="1660215569283" duration="1448000" />
       <workItem from="1660278980723" duration="116000" />
-      <workItem from="1660562570246" duration="12274000" />
-      <workItem from="1663053377494" duration="1972000" />
-      <workItem from="1663055542138" duration="82000" />
-      <workItem from="1663055637741" duration="38000" />
-      <workItem from="1663157956451" duration="1846000" />
-      <workItem from="1663160045962" duration="73000" />
-      <workItem from="1663167310637" duration="6854000" />
-      <workItem from="1663242067404" duration="8410000" />
+      <workItem from="1660562570246" duration="10618000" />
+      <workItem from="1663401865777" duration="4767000" />
+      <workItem from="1663427198548" duration="7136000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -294,14 +285,7 @@
       <option name="project" value="LOCAL" />
       <updated>1659945637321</updated>
     </task>
-    <task id="LOCAL-00015" summary="Fundamentals Final Retake 15 August">
-      <created>1660578216778</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1660578216778</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,8 +314,7 @@
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
-    <MESSAGE value="Fundamentals Final Retake 15 August" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Retake 15 August" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Exam 7 August" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
