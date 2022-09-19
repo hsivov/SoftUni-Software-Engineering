@@ -10,32 +10,36 @@ public class BalancedParentheses {
 
         String brackets = scanner.nextLine();
 
-        Deque<Character> stack = new ArrayDeque<>();
-        Deque<Character> queue = new ArrayDeque<>();
+        Deque<Character> openingBrackets = new ArrayDeque<>();
 
         boolean balanced = true;
 
         for (int i = 0; i < brackets.length(); i++) {
-            char bracket = brackets.charAt(i);
-            stack.push(bracket);
-            queue.offer(bracket);
+            char currentBracket = brackets.charAt(i);
+
+            if (currentBracket == '(' || currentBracket == '[' || currentBracket == '{') {
+                openingBrackets.push(currentBracket);
+            } else {
+                if (openingBrackets.isEmpty()) {
+                    balanced = false;
+                    break;
+                }
+
+                char lastOpeningBracket = openingBrackets.pop();
+                if (currentBracket == '}' && lastOpeningBracket != '{') {
+                    balanced = false;
+                    break;
+                } else if (currentBracket == ']' && lastOpeningBracket != '[') {
+                    balanced = false;
+                    break;
+                } else if (currentBracket == ')' && lastOpeningBracket != '(') {
+                    balanced = false;
+                    break;
+                }
+            }
         }
 
-        for (int i = 0; i < stack.size() / 2; i++) {
-            if (queue.peek() == '(' && stack.peek() != ')'){
-                balanced = false;
-                break;
-            } else if (queue.peek() == '[' && stack.peek() != ']') {
-                balanced = false;
-                break;
-            } else if (queue.peek() == '{' && stack.peek() != '}') {
-                balanced = false;
-                break;
-            }
-            stack.pop();
-            queue.poll();
-        }
-        if (balanced) {
+        if (balanced && openingBrackets.isEmpty()) {
             System.out.println("YES");
         } else {
             System.out.println("NO");
