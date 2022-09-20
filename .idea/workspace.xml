@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Java Advanced course">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/SimpleTextEditor.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add Stacks and Queues exercise">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/CompareMatrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/IntersectionOfTwoMatrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/MaximumSumOf2x2Submatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/PositionsOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/PrintDiagonalsOfSquareMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/SumMatrixElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/BalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/StacksAndQueues/Exercise/BalancedParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +62,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleTextEditor">
-    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.BalancedParentheses" />
+  <component name="RunManager" selected="Application.PrintDiagonalsOfSquareMatrix">
+    <configuration name="IntersectionOfTwoMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.IntersectionOfTwoMatrices" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrowserHistoryUpgrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.BrowserHistoryUpgrade" />
+    <configuration name="MaximumSumOf2x2Submatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.MaximumSumOf2x2Submatrix" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathPotato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Lab.MathPotato" />
+    <configuration name="PositionsOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.PositionsOf" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Lab.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.RecursiveFibonacci" />
+    <configuration name="PrintDiagonalsOfSquareMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.PrintDiagonalsOfSquareMatrix" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.SimpleTextEditor" />
+    <configuration name="SumMatrixElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.SumMatrixElements" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleTextEditor" />
-        <item itemvalue="Application.RecursiveFibonacci" />
-        <item itemvalue="Application.BalancedParentheses" />
-        <item itemvalue="Application.BrowserHistoryUpgrade" />
-        <item itemvalue="Application.MathPotato" />
+        <item itemvalue="Application.PrintDiagonalsOfSquareMatrix" />
+        <item itemvalue="Application.MaximumSumOf2x2Submatrix" />
+        <item itemvalue="Application.SumMatrixElements" />
+        <item itemvalue="Application.IntersectionOfTwoMatrices" />
+        <item itemvalue="Application.PositionsOf" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +192,8 @@
       <workItem from="1663160045962" duration="73000" />
       <workItem from="1663167310637" duration="6854000" />
       <workItem from="1663242067404" duration="8410000" />
+      <workItem from="1663580206562" duration="9263000" />
+      <workItem from="1663682887617" duration="4225000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -295,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660578216778</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Stacks and Queues exercise">
+      <created>1663580286264</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663580286264</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +337,8 @@
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
     <MESSAGE value="Fundamentals Final Retake 15 August" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Retake 15 August" />
+    <MESSAGE value="Add Stacks and Queues exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Stacks and Queues exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
