@@ -16,9 +16,9 @@ public class MatrixOfPalindromes {
 
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[row].length; col++) {
-                int offset = 97;
-                char firstAndLastLetters = (char) (row + offset);
-                char middleLetter = (char) (row + col + offset);
+
+                char firstAndLastLetters = (char) (row + 'a');
+                char middleLetter = (char) (row + col + 'a');
 
                 String element = "" + firstAndLastLetters + middleLetter + firstAndLastLetters;
 

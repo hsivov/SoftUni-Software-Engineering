@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Fundamentals Final Exam Preparation">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/FillTheMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixOfPalindromes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Lab/WrongMeasurements.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Multidimensional Arrays">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/DiagonalDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixShuffling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MaximalSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/StringMatrixRotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixOfPalindromes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixOfPalindromes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +49,10 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
@@ -58,22 +61,9 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixOfPalindromes">
-    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.BalancedParentheses" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FillTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.FillTheMatrix" />
+  <component name="RunManager" selected="Application.MatrixShuffling">
+    <configuration name="DiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.DiagonalDifference" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Exercise.MaximumElement" />
+    <configuration name="MatrixShuffling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.MatrixShuffling" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksAndQueues.Exercise.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrongMeasurements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Lab.WrongMeasurements" />
+    <configuration name="MaximalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.MaximalSum" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultidimensionalArrays.Lab.*" />
+          <option name="PATTERN" value="MultidimensionalArrays.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMatrixRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.StringMatrixRotation" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultidimensionalArrays.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixShuffling" />
+        <item itemvalue="Application.StringMatrixRotation" />
         <item itemvalue="Application.MatrixOfPalindromes" />
-        <item itemvalue="Application.FillTheMatrix" />
-        <item itemvalue="Application.WrongMeasurements" />
-        <item itemvalue="Application.BalancedParentheses" />
-        <item itemvalue="Application.MaximumElement" />
+        <item itemvalue="Application.MaximalSum" />
+        <item itemvalue="Application.DiagonalDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -180,9 +183,17 @@
       <workItem from="1660121740657" duration="88000" />
       <workItem from="1660215569283" duration="1448000" />
       <workItem from="1660278980723" duration="116000" />
-      <workItem from="1660562570246" duration="10618000" />
-      <workItem from="1663401865777" duration="4767000" />
-      <workItem from="1663427198548" duration="7136000" />
+      <workItem from="1660562570246" duration="12274000" />
+      <workItem from="1663053377494" duration="1972000" />
+      <workItem from="1663055542138" duration="82000" />
+      <workItem from="1663055637741" duration="38000" />
+      <workItem from="1663157956451" duration="1846000" />
+      <workItem from="1663160045962" duration="73000" />
+      <workItem from="1663167310637" duration="6854000" />
+      <workItem from="1663242067404" duration="8410000" />
+      <workItem from="1663580206562" duration="9263000" />
+      <workItem from="1663682887617" duration="4225000" />
+      <workItem from="1663833814560" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -282,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659945637321</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fundamentals Final Retake 15 August">
+      <created>1660578216778</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660578216778</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Stacks and Queues exercise">
+      <created>1663580286264</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663580286264</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +336,9 @@
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Exam 7 August" />
+    <MESSAGE value="Fundamentals Final Retake 15 August" />
+    <MESSAGE value="Add Stacks and Queues exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Stacks and Queues exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,11 +412,6 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/EmojiDetector.java</url>
           <line>27</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixOfPalindromes.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
