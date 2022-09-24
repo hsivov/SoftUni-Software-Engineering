@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Multidimensional Arrays exercise">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/CountRealNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/NumberGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/SoftUniParty.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sets and Maps advanced">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/AcademyGraduation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/AverageStudentsGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/CitiesByContinentAndCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/Largest3Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/ProductShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +60,9 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountRealNumbers">
-    <configuration name="CountRealNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.CountRealNumbers" />
+  <component name="RunManager" selected="Application.Largest3Numbers">
+    <configuration name="AcademyGraduation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.AcademyGraduation" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -73,21 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixOfPalindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays.Exercise.MatrixOfPalindromes" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultidimensionalArrays.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.NumberGame" />
+    <configuration name="AverageStudentsGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.AverageStudentsGrades" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.ParkingLot" />
+    <configuration name="CitiesByContinentAndCountry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.CitiesByContinentAndCountry" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +100,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftUniParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.SoftUniParty" />
+    <configuration name="Largest3Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.Largest3Numbers" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetsAndMapsAdvanced.Lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetsAndMapsAdvanced.Lab.ProductShop" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountRealNumbers" />
-        <item itemvalue="Application.NumberGame" />
-        <item itemvalue="Application.SoftUniParty" />
-        <item itemvalue="Application.ParkingLot" />
-        <item itemvalue="Application.MatrixOfPalindromes" />
+        <item itemvalue="Application.Largest3Numbers" />
+        <item itemvalue="Application.AcademyGraduation" />
+        <item itemvalue="Application.CitiesByContinentAndCountry" />
+        <item itemvalue="Application.ProductShop" />
+        <item itemvalue="Application.AverageStudentsGrades" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659945637321</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Sets and Maps advanced">
+      <created>1663941509247</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663941509247</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +320,8 @@
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fundamentals Final Exam 7 August" />
+    <MESSAGE value="Sets and Maps advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sets and Maps advanced" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,6 +400,11 @@
           <url>file://$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/MatrixOfPalindromes.java</url>
           <line>16</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Lab/AverageStudentsGrades.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
