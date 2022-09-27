@@ -1,4 +1,4 @@
-package StacksAndQueues.Exercise;
+package SetsAndMapsAdvanced.Exercise;
 
 import java.util.*;
 
