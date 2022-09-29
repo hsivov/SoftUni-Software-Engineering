@@ -4,35 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sets and Maps Advanced - exercises">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/AllCapitals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/CopyAPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/CountCharacterTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/CreateZipArchive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/inputLineNumbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/inputOne.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/inputTwo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/course.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/inputLineNumbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/inputOne.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/inputTwo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/list.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/GetFolderSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/LineNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/MergeTwoFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/SerializeArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/SerializeCustomObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/SumBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/SumLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/StreamsFilesAndDirectories/Exercises/WordCount.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Streams, Files and Directories">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/AddVAT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/CountUppercaseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/FilterByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/FindEvensOrOdds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/SortEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/SumNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,24 +39,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
@@ -90,13 +68,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeArrayList">
-    <configuration name="CopyAPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectories.Exercises.CopyAPicture" />
+  <component name="RunManager" selected="Application.FindEvensOrOdds">
+    <configuration name="AddVAT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.AddVAT" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectories.Exercises.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateZipArchive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectories.Exercises.CreateZipArchive" />
+    <configuration name="CountUppercaseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.CountUppercaseWords" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectories.Exercises.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectories.Exercises.MergeTwoFiles" />
+    <configuration name="FilterByAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.FilterByAge" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectories.Exercises.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectories.Exercises.SerializeArrayList" />
+    <configuration name="FindEvensOrOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.FindEvensOrOdds" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectories.Exercises.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeCustomObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamsFilesAndDirectories.Exercises.SerializeCustomObject" />
+    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.SumNumbers" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StreamsFilesAndDirectories.Exercises.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializeArrayList" />
-        <item itemvalue="Application.SerializeCustomObject" />
-        <item itemvalue="Application.CopyAPicture" />
-        <item itemvalue="Application.CreateZipArchive" />
-        <item itemvalue="Application.MergeTwoFiles" />
+        <item itemvalue="Application.FindEvensOrOdds" />
+        <item itemvalue="Application.FilterByAge" />
+        <item itemvalue="Application.AddVAT" />
+        <item itemvalue="Application.CountUppercaseWords" />
+        <item itemvalue="Application.SumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +201,8 @@
       <workItem from="1663580206562" duration="9263000" />
       <workItem from="1663682887617" duration="4225000" />
       <workItem from="1663833814560" duration="3627000" />
-      <workItem from="1664279223954" duration="17939000" />
+      <workItem from="1664279223954" duration="18954000" />
+      <workItem from="1664437264190" duration="14860000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -344,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664114921349</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Streams, Files and Directories">
+      <created>1664355114355</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355114355</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +362,8 @@
     <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sets and Maps Advanced - exercises" />
+    <MESSAGE value="Streams, Files and Directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams, Files and Directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
