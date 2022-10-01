@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Streams, Files and Directories">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/AddVAT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/CountUppercaseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/FilterByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/FindEvensOrOdds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/SortEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/SumNumbers.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Functional Programing">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/AppliedArithmetics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ConsumerPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/CustomComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/CustomMinFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/FindTheSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/KnightsOfHonor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ListOfPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/PredicateForNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/PredicateParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ReverseAndExclude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ThePartyReservationFilterModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Lab/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +74,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindEvensOrOdds">
-    <configuration name="AddVAT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.AddVAT" />
+  <component name="RunManager" selected="Application.PredicateParty">
+    <configuration name="CustomComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.CustomComparator" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountUppercaseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.CountUppercaseWords" />
+    <configuration name="FindTheSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.FindTheSmallestElement" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterByAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.FilterByAge" />
+    <configuration name="ListOfPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.ListOfPredicates" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindEvensOrOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.FindEvensOrOdds" />
+    <configuration name="PredicateParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.PredicateParty" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Lab.SumNumbers" />
+    <configuration name="ThePartyReservationFilterModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.ThePartyReservationFilterModule" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Lab.*" />
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindEvensOrOdds" />
-        <item itemvalue="Application.FilterByAge" />
-        <item itemvalue="Application.AddVAT" />
-        <item itemvalue="Application.CountUppercaseWords" />
-        <item itemvalue="Application.SumNumbers" />
+        <item itemvalue="Application.PredicateParty" />
+        <item itemvalue="Application.ThePartyReservationFilterModule" />
+        <item itemvalue="Application.ListOfPredicates" />
+        <item itemvalue="Application.CustomComparator" />
+        <item itemvalue="Application.FindTheSmallestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +208,9 @@
       <workItem from="1663682887617" duration="4225000" />
       <workItem from="1663833814560" duration="3627000" />
       <workItem from="1664279223954" duration="18954000" />
-      <workItem from="1664437264190" duration="14860000" />
+      <workItem from="1664437264190" duration="17472000" />
+      <workItem from="1664521189034" duration="14389000" />
+      <workItem from="1664609539359" duration="18218000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -330,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664355114355</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Functional Programing">
+      <created>1664486489615</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664486489615</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +378,8 @@
     <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Streams, Files and Directories" />
+    <MESSAGE value="Functional Programing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Programing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,6 +453,11 @@
           <url>file://$PROJECT_DIR$/Fundamentals-Java/ProgrammingFundamentalsFinalExam/EmojiDetector.java</url>
           <line>27</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ReverseAndExclude.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
