@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sets and Maps Advanced - exercises">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CarSalesman/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CarSalesman/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CatLady/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CatLady/Cymric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CatLady/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CatLady/Siamese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CatLady/StreetExtraordinaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CompanyRoster/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CompanyRoster/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/Google/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/Google/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/OpinionPoll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/OpinionPoll/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/PokemonTrainer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/PokemonTrainer/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/PokemonTrainer/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/RawData/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/RawData/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/SpeedRacing/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/SpeedRacing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/ReverseMatrixDiagonals.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Defining Classes Lab">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,78 +36,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Зара/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/DefiningClasses/Exercise",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\DefiningClasses\Exercise" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefiningClasses.Exercise.CatLady.Main">
-    <configuration name="DefiningClasses.Exercise.CatLady.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.CatLady.Main" />
+  <component name="RunManager" selected="Application.Workshop.Main">
+    <configuration name="DefiningClasses.Lab.BankAccount.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Lab.BankAccount.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.CatLady.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefiningClasses.Exercise.Google.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.Google.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.Google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefiningClasses.Exercise.PokemonTrainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.PokemonTrainer.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.Google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefiningClasses.Exercise.SpeedRacing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.SpeedRacing.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.SpeedRacing.*" />
+          <option name="PATTERN" value="DefiningClasses.Lab.BankAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +80,50 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.OpinionPoll.Main" />
+      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Lab.CarInfo.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.OpinionPoll.*" />
+          <option name="PATTERN" value="DefiningClasses.Lab.CarInfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.PredicateParty" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThePartyReservationFilterModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.ThePartyReservationFilterModule" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DefiningClasses.Exercise.CatLady.Main" />
-        <item itemvalue="Application.DefiningClasses.Exercise.SpeedRacing.Main" />
+        <item itemvalue="Application.Workshop.Main" />
+        <item itemvalue="Application.DefiningClasses.Lab.BankAccount.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DefiningClasses.Exercise.Google.Main" />
-        <item itemvalue="Application.DefiningClasses.Exercise.PokemonTrainer.Main" />
+        <item itemvalue="Application.PredicateParty" />
+        <item itemvalue="Application.ThePartyReservationFilterModule" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +198,14 @@
       <workItem from="1663580206562" duration="9263000" />
       <workItem from="1663682887617" duration="4225000" />
       <workItem from="1663833814560" duration="3627000" />
+      <workItem from="1664279223954" duration="18954000" />
+      <workItem from="1664437264190" duration="17472000" />
+      <workItem from="1664521189034" duration="14389000" />
+      <workItem from="1664609539359" duration="18506000" />
+      <workItem from="1664699221446" duration="25000" />
+      <workItem from="1664699920750" duration="11505000" />
+      <workItem from="1665175262419" duration="25000" />
+      <workItem from="1665237727199" duration="13099000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -326,7 +319,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663580286264</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Sets and Maps Advanced - exercises">
+      <created>1664114921349</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664114921349</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Streams, Files and Directories">
+      <created>1664355114355</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355114355</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Functional Programing">
+      <created>1664486489615</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664486489615</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Functional Programing">
+      <created>1664659697210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664659697210</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +378,10 @@
     <MESSAGE value="Fundamentals Final Exam 7 August" />
     <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Stacks and Queues exercise" />
+    <MESSAGE value="Sets and Maps Advanced - exercises" />
+    <MESSAGE value="Streams, Files and Directories" />
+    <MESSAGE value="Functional Programing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Programing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,9 +457,9 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Advanced-Java/DefiningClasses/Exercise/CompanyRoster/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ReverseAndExclude.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
