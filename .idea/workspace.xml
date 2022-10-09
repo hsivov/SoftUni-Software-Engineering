@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Defining Classes Lab">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Stack.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Workshop">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/LinkedListTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Workshop.Main">
+    <configuration name="DefiningClasses.Exercise.PokemonTrainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.PokemonTrainer.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DefiningClasses.Exercise.PokemonTrainer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DefiningClasses.Lab.BankAccount.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClasses.Lab.BankAccount.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -105,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThePartyReservationFilterModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Exercise.ThePartyReservationFilterModule" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FunctionalProgramming.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -134,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Workshop.Main" />
+        <item itemvalue="Application.DefiningClasses.Exercise.PokemonTrainer.Main" />
         <item itemvalue="Application.DefiningClasses.Lab.BankAccount.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PredicateParty" />
-        <item itemvalue="Application.ThePartyReservationFilterModule" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,10 @@
       <workItem from="1664699221446" duration="25000" />
       <workItem from="1664699920750" duration="11505000" />
       <workItem from="1665175262419" duration="25000" />
-      <workItem from="1665237727199" duration="13099000" />
+      <workItem from="1665237727199" duration="13711000" />
+      <workItem from="1665302809326" duration="84000" />
+      <workItem from="1665303026981" duration="50000" />
+      <workItem from="1665303453578" duration="15233000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -347,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664659697210</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Workshop">
+      <created>1665263407007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665263407007</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +393,8 @@
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
     <MESSAGE value="Functional Programing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Programing" />
+    <MESSAGE value="Workshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workshop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
