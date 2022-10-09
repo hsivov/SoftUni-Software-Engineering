@@ -2,18 +2,18 @@ package Workshop;
 
 import java.util.function.Consumer;
 
-public class SmartArray {
+public class SmartArray<T> {
 
     private static final int INITIAL_CAPACITY = 4;
-    private int[] data;
+    private Object[] data;
     private int size;
 
     SmartArray () {
         this.size = 0;
-        this.data = new int[INITIAL_CAPACITY];
+        this.data = new Object[INITIAL_CAPACITY];
     }
 
-    public void add(int element) {
+    public void add(T element) {
         if (size == data.length) {
             data = grow();
         }
@@ -21,14 +21,14 @@ public class SmartArray {
         data[size++] = element;
     }
 
-    public int get(int index) {
+    public T get(int index) {
         ensureIndex(index);
 
-        return data[index];
+        return (T) data[index];
     }
 
-    public int remove(int index) {
-        int removedElement = get(index);
+    public T remove(int index) {
+        T removedElement = get(index);
 
         for (int i = index; i < size - 1; i++) {
             data[i] = data[i + 1];
@@ -39,20 +39,20 @@ public class SmartArray {
         return removedElement;
     }
 
-    public boolean contains(int element) {
+    public boolean contains(T element) {
 
         for (int i = 0; i < size; i++) {
-            int next = data[i];
+            T next = get(i);
 
-            if (element == next){
+            if (element.equals(next)) {
                 return true;
             }
         }
         return false;
     }
 
-    public void add(int index, int element) {
-        int lastElement = data[size - 1];
+    public void add(int index, T element) {
+        T lastElement = get(size - 1);
 
         for (int i = size - 1; i > index; i--) {
             data[i] = data[i - 1];
@@ -62,24 +62,25 @@ public class SmartArray {
         add(lastElement);
     }
 
-    public void set(int index, int element) {
+    public void set(int index, T element) {
         ensureIndex(index);
         data[index] = element;
     }
 
-    public void forEach(Consumer<Integer> consumer) {
+    public void forEach(Consumer<T> consumer) {
         for (int i = 0; i < size; i++) {
-            consumer.accept(data[i]);
+            consumer.accept(get(i));
         }
     }
 
     public int size() {
         return size;
     }
-    private int[] grow() {
+
+    private Object[] grow() {
         int newLength = data.length * 2;
 
-        int[] newData = new int[newLength];
+        Object[] newData = new Object[newLength];
 
         System.arraycopy(data, 0, newData, 0, data.length);
         return newData;

@@ -1,31 +1,39 @@
 package Workshop;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
-        DoublyLinkedList list = new DoublyLinkedList();
+        SmartArray<String> list = new SmartArray<>();
 
-        list.addLast(1);
-        list.addLast(2);
-        list.addLast(3);
-        list.addLast(4);
-        list.addLast(10);
-        list.addLast(45);
-        list.addLast(-9);
-        list.addLast(0);
-        list.addLast(2);
-        list.addLast(6);
-        list.addLast(77);
-        list.addLast(7);
-        System.out.println("Removed: " + list.removeFirst());
+        list.add("Ford");
+        list.add("Opel");
+        list.add("Honda");
+        list.add("Lamborghini");
+        list.add("Ferrari");
+        list.add("Lada");
 
-        System.out.println(list.get(0));
-        System.out.println(list.get(4));
-        System.out.println(list.get(5));
-        System.out.println(list.get(10));
+        System.out.println(list.remove(5) + " is removed from the garage");
 
-        list.forEach(e -> System.out.print(e + " "));
+        list.set(1, "Mercedes");
+
+        list.add(2, "Toyota");
+
+        if (list.contains("Lamborghini")) {
+            list.forEach(System.out::println);
+        }
+        Stack<SmartArray<String>> stack = new Stack<>();
+
+        stack.push(list);
+        System.out.println(stack.size());
+
+        SmartArray<String> stringSmartArray = null;
+
+        if (!stack.isEmpty()) {
+            stringSmartArray = stack.pop();
+        }
+
+        if (stringSmartArray != null) {
+            System.out.println(stringSmartArray.get(stringSmartArray.size() - 1));
+        }
     }
 }
