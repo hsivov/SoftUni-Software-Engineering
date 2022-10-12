@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Defining Classes Exercise">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/Box/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/Box/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/CustomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/Sorter.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/Tuple/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/Tuple/Threeuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/Tuple/Tuple.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/ReverseMatrixDiagonals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/CustomList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.OpinionPoll.Main" />
+    <configuration name="Generics.Exercise.Tuple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Exercise.Tuple.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.OpinionPoll.*" />
+          <option name="PATTERN" value="Generics.Exercise.Tuple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Generics.Exercise.List.Main" />
+        <item itemvalue="Application.Generics.Exercise.Tuple.Main" />
         <item itemvalue="Application.Generics.Exercise.Main" />
         <item itemvalue="Application.DefiningClasses.Exercise.CatLady.Main" />
         <item itemvalue="Application.DefiningClasses.Exercise.SpeedRacing.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,8 @@
       <workItem from="1663580206562" duration="9263000" />
       <workItem from="1663682887617" duration="4225000" />
       <workItem from="1663833814560" duration="3627000" />
-      <workItem from="1665557301791" duration="11634000" />
+      <workItem from="1665557301791" duration="12078000" />
+      <workItem from="1665587241435" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663580286264</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Generics">
+      <created>1665583848016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665583848016</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +351,8 @@
     <MESSAGE value="Fundamentals Final Exam 7 August" />
     <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Stacks and Queues exercise" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
