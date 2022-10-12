@@ -2,10 +2,11 @@ package Generics.Exercise.List;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class CustomList <T extends Comparable<T>> {
+public class CustomList <T extends Comparable<T>> implements Iterable<T> {
 
     private final List<T> values;
 
@@ -48,11 +49,14 @@ public class CustomList <T extends Comparable<T>> {
         return values.stream()
                 .min(Comparable::compareTo).get();
     }
+    @Override
+    public Iterator<T> iterator() {
+        return values.listIterator();
+    }
 
-    public void forEach(Consumer<T> consumer) {
-        for (T value : values) {
-            consumer.accept(value);
-        }
+    @Override
+    public void forEach(Consumer<? super T> action) {
+        Iterable.super.forEach(action);
     }
 
     public int size() {
