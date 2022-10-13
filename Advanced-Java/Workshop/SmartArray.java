@@ -1,9 +1,23 @@
 package Workshop;
 
+import java.util.Iterator;
 import java.util.function.Consumer;
 
-public class SmartArray<T> {
+public class SmartArray<T> implements Iterable<T> {
 
+    public class SmartArrayIterator implements Iterator<T> {
+
+        int index = 0;
+        @Override
+        public boolean hasNext() {
+            return index < data.length;
+        }
+
+        @Override
+        public T next() {
+            return (T) data[index++];
+        }
+    }
     private static final int INITIAL_CAPACITY = 4;
     private Object[] data;
     private int size;
@@ -67,11 +81,6 @@ public class SmartArray<T> {
         data[index] = element;
     }
 
-    public void forEach(Consumer<T> consumer) {
-        for (int i = 0; i < size; i++) {
-            consumer.accept(get(i));
-        }
-    }
 
     public int size() {
         return size;
@@ -90,5 +99,15 @@ public class SmartArray<T> {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index " + index + " out of bounds for size " + size);
         }
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new SmartArrayIterator();
+    }
+
+    @Override
+    public void forEach(Consumer<? super T> action) {
+        Iterable.super.forEach(action);
     }
 }
