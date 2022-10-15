@@ -5,22 +5,23 @@ import java.util.function.Consumer;
 
 public class SmartArray<T> implements Iterable<T> {
 
-    public class SmartArrayIterator implements Iterator<T> {
+    private static final int INITIAL_CAPACITY = 4;
+    private Object[] data;
+    private int size;
 
+    public class SmartArrayIterator implements Iterator<T> {
         int index = 0;
         @Override
         public boolean hasNext() {
             return index < data.length;
         }
 
+        @SuppressWarnings("unchecked")
         @Override
         public T next() {
             return (T) data[index++];
         }
     }
-    private static final int INITIAL_CAPACITY = 4;
-    private Object[] data;
-    private int size;
 
     SmartArray () {
         this.size = 0;
@@ -35,6 +36,7 @@ public class SmartArray<T> implements Iterable<T> {
         data[size++] = element;
     }
 
+    @SuppressWarnings("unchecked")
     public T get(int index) {
         ensureIndex(index);
 
