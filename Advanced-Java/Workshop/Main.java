@@ -1,5 +1,10 @@
 package Workshop;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
+import static Workshop.SmartArray.sort;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,6 +24,7 @@ public class Main {
         list.add(2, "Toyota");
 
         if (list.contains("Lamborghini")) {
+            sort(list);
             list.forEach(System.out::println);
         }
         Stack<SmartArray<String>> stack = new Stack<>();
@@ -35,5 +41,15 @@ public class Main {
         if (stringSmartArray != null) {
             System.out.println(stringSmartArray.get(stringSmartArray.size() - 1));
         }
+
+        Stack<Integer> integerStack = new Stack<>();
+
+        Scanner scanner = new Scanner(System.in);
+
+        Arrays.stream(scanner.nextLine().split(" "))
+                .map(Integer::parseInt)
+                .forEach(integerStack::push);
+
+        integerStack.forEach(System.out::println);
     }
 }

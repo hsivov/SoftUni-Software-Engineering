@@ -1,12 +1,12 @@
 package Workshop;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.function.Consumer;
 
 /**
  * Custom implementation of LIFO data structure
  */
-public class Stack<T> {
+public class Stack<T> implements Iterable<T> {
 
     private static class Node<E> {
         private final E element;
@@ -54,13 +54,23 @@ public class Stack<T> {
         return size == 0;
     }
 
-    public void forEach(Consumer<T> consumer) {
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<>() {
 
-        Node<T> current = top;
+            Node<T> current = top;
 
-        while (current != null) {
-            consumer.accept(current.element);
-            current = current.prev;
-        }
+            @Override
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            @Override
+            public T next() {
+                T element = current.element;
+                current = current.prev;
+                return element;
+            }
+        };
     }
 }

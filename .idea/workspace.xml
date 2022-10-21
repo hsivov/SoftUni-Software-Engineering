@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Workshop">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/Crossfire.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exam preparation">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/ItsChocolateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/StickyFingers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Workout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/Bee2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/Quicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/RecursiveArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/RecursiveFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/BasicAlgorithms/RecursivePow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Generics/Exercise/List/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +56,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,17 +77,19 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Exams\JavaAdvancedExam_25June2022" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Exams\JavaAdvancedRetakeExam_19August2020\VetClinic" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generics.Exercise.List.Main">
-    <configuration name="DefiningClasses.Exercise.PokemonTrainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Exercise.PokemonTrainer.Main" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.BinarySearch" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Exercise.PokemonTrainer.*" />
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefiningClasses.Lab.BankAccount.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Lab.BankAccount.Main" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.MergeSort" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Lab.BankAccount.*" />
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics.Exercise.List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Exercise.List.Main" />
+    <configuration name="RecursiveArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveArraySum" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.Exercise.List.*" />
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClasses.Lab.CarInfo.Main" />
+    <configuration name="RecursiveFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveFactorial" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClasses.Lab.CarInfo.*" />
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
+    <configuration name="RecursivePow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursivePow" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.*" />
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Generics.Exercise.List.Main" />
-        <item itemvalue="Application.Workshop.Main" />
-        <item itemvalue="Application.DefiningClasses.Exercise.PokemonTrainer.Main" />
-        <item itemvalue="Application.DefiningClasses.Lab.BankAccount.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.RecursiveArraySum" />
+        <item itemvalue="Application.RecursiveFactorial" />
+        <item itemvalue="Application.RecursivePow" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +228,16 @@
       <workItem from="1665303026981" duration="50000" />
       <workItem from="1665303453578" duration="15890000" />
       <workItem from="1665345455323" duration="3364000" />
+      <workItem from="1665644285071" duration="41394000" />
+      <workItem from="1665803916484" duration="8993000" />
+      <workItem from="1665920970909" duration="2432000" />
+      <workItem from="1666072882821" duration="11300000" />
+      <workItem from="1666121778935" duration="1280000" />
+      <workItem from="1666166970363" duration="5322000" />
+      <workItem from="1666177354830" duration="485000" />
+      <workItem from="1666186994155" duration="9960000" />
+      <workItem from="1666247847639" duration="14315000" />
+      <workItem from="1666338655411" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -357,7 +386,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665263407007</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Generics">
+      <created>1665606052706</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665606052706</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Workshop with Generics">
+      <created>1665646230176</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665646230176</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Workshop with Generics">
+      <created>1665820245094</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665820245094</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Multidimensional Arrays exercise">
+      <created>1665921051967</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665921051967</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +449,10 @@
     <MESSAGE value="Streams, Files and Directories" />
     <MESSAGE value="Functional Programing" />
     <MESSAGE value="Workshop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workshop" />
+    <MESSAGE value="Generics" />
+    <MESSAGE value="Workshop with Generics" />
+    <MESSAGE value="Multidimensional Arrays exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multidimensional Arrays exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,6 +531,21 @@
           <url>file://$PROJECT_DIR$/Advanced-Java/FunctionalProgramming/Exercise/ReverseAndExclude.java</url>
           <line>22</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_18August2022/KAT.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/ItsChocolateTime.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,7 +13,7 @@ public class SmartArray<T> implements Iterable<T> {
         int index = 0;
         @Override
         public boolean hasNext() {
-            return index < data.length;
+            return index < getSize();
         }
 
         @SuppressWarnings("unchecked")
@@ -23,7 +23,7 @@ public class SmartArray<T> implements Iterable<T> {
         }
     }
 
-    SmartArray () {
+    SmartArray() {
         this.size = 0;
         this.data = new Object[INITIAL_CAPACITY];
     }
@@ -83,9 +83,12 @@ public class SmartArray<T> implements Iterable<T> {
         data[index] = element;
     }
 
+    public int getSize() {
+        return size;
+    }
 
     public int size() {
-        return size;
+        return getSize();
     }
 
     private Object[] grow() {
@@ -111,5 +114,18 @@ public class SmartArray<T> implements Iterable<T> {
     @Override
     public void forEach(Consumer<? super T> action) {
         Iterable.super.forEach(action);
+    }
+
+    public static <T extends Comparable<T>> void sort(SmartArray<T> tSmartArray) {
+        for (int i = 0; i < tSmartArray.getSize() - 1; i++) {
+            for (int j = 0; j < tSmartArray.getSize() - i - 1; j++) {
+
+                if (tSmartArray.get(j).compareTo(tSmartArray.get(j + 1)) > 0) {
+                    T temp = tSmartArray.get(j);
+                    tSmartArray.set(j, tSmartArray.get(j + 1));
+                    tSmartArray.set(j + 1, temp);
+                }
+            }
+        }
     }
 }
