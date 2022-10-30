@@ -48,7 +48,7 @@ public class Clinic {
         sb.append("The clinic has the following patients:")
                 .append(System.lineSeparator());
         for (Pet pet : data) {
-            sb.append(String.format("%s %s%n", pet.getName(), pet.getOwner()));
+            sb.append(pet);
         }
         return sb.toString();
     }
