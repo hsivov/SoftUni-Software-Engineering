@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Workshop Basic Algorithms">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/ItsChocolateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/StickyFingers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Workout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/Bee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/RegularExam_22Oct2022/EnergyDrinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/RegularExam_22Oct2022/RallyRacing.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exam preparation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,26 +66,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnergyDrinks">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.BinarySearch" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnergyDrinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exams.RegularExam_22Oct2022.EnergyDrinks" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exams.RegularExam_22Oct2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RallyRacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exams.RegularExam_22Oct2022.RallyRacing" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exams.RegularExam_22Oct2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecursiveArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveArraySum" />
       <module name="SoftUni-Software-Engineering" />
@@ -142,13 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveFactorial" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursivePow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursivePow" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnergyDrinks" />
-        <item itemvalue="Application.RallyRacing" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RecursiveArraySum" />
+        <item itemvalue="Application.RecursiveFactorial" />
+        <item itemvalue="Application.RecursivePow" />
       </list>
     </recent_temporary>
   </component>
@@ -230,8 +220,7 @@
       <workItem from="1666177354830" duration="485000" />
       <workItem from="1666186994155" duration="9960000" />
       <workItem from="1666247847639" duration="14315000" />
-      <workItem from="1666338655411" duration="5955000" />
-      <workItem from="1667055713197" duration="7386000" />
+      <workItem from="1666338655411" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -408,21 +397,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665921051967</updated>
     </task>
-    <task id="LOCAL-00026" summary="Workshop">
-      <created>1666344970042</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1666344970042</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Workshop Basic Algorithms">
-      <created>1666345100810</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1666345100810</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,12 +431,11 @@
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
     <MESSAGE value="Functional Programing" />
+    <MESSAGE value="Workshop" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Workshop with Generics" />
     <MESSAGE value="Multidimensional Arrays exercise" />
-    <MESSAGE value="Workshop" />
-    <MESSAGE value="Workshop Basic Algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workshop Basic Algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multidimensional Arrays exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
