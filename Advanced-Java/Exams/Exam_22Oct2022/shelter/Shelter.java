@@ -1,4 +1,4 @@
-package ExamPreparation.Exam_22Oct2022.shelter;
+package Exams.Exam_22Oct2022.shelter;
 
 import java.util.ArrayList;
 import java.util.Comparator;
