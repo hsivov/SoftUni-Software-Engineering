@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exam preparation">
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Shelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/RhombusOfStars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/PriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -66,13 +79,13 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.BinarySearch" />
+  <component name="RunManager" selected="Application.WorkingWithAbstraction.hotel.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam_22Oct2022.shelter.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="ExamPreparation.Exam_22Oct2022.shelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveArraySum" />
+    <configuration name="RhombusOfStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.RhombusOfStars" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="WorkingWithAbstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveFactorial" />
+    <configuration name="WorkingWithAbstraction.hotel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.hotel.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="WorkingWithAbstraction.hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursivePow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursivePow" />
+    <configuration name="WorkingWithAbstraction.rectangle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.rectangle.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="WorkingWithAbstraction.rectangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithAbstraction.hotel.Main" />
+        <item itemvalue="Application.WorkingWithAbstraction.rectangle.Main" />
+        <item itemvalue="Application.RhombusOfStars" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.RecursiveArraySum" />
-        <item itemvalue="Application.RecursiveFactorial" />
-        <item itemvalue="Application.RecursivePow" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665921051967</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Exam preparation">
+      <created>1667142756720</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667142756720</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +455,8 @@
     <MESSAGE value="Generics" />
     <MESSAGE value="Workshop with Generics" />
     <MESSAGE value="Multidimensional Arrays exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multidimensional Arrays exercise" />
+    <MESSAGE value="Exam preparation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam preparation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,17 +537,17 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_18August2022/KAT.java</url>
+          <url>file://$PROJECT_DIR$/Advanced-Java/ExamPreparation/JavaAdvancedRetakeExam_18August2022/KAT.java</url>
           <line>22</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/ItsChocolateTime.java</url>
+          <url>file://$PROJECT_DIR$/Advanced-Java/ExamPreparation/JavaAdvancedExam_25June2022/ItsChocolateTime.java</url>
           <line>19</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java</url>
+          <url>file://$PROJECT_DIR$/Advanced-Java/ExamPreparation/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java</url>
           <line>34</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>

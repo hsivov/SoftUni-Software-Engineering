@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals-Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Programming-Basics-Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced-Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-OOP" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
