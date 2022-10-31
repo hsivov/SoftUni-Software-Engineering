@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exam preparation">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/ExamPreparation/Exam_22Oct2022/shelter/Shelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/RhombusOfStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/hotel/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/rectangle/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" afterDir="false" />
-    </list>
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Working with Abstraction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -417,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667142756720</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Regular Exam 22-Oct-2022">
+      <created>1667230343436</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230343436</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Working with Abstraction">
+      <created>1667230436044</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230436044</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +456,9 @@
     <MESSAGE value="Workshop with Generics" />
     <MESSAGE value="Multidimensional Arrays exercise" />
     <MESSAGE value="Exam preparation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam preparation" />
+    <MESSAGE value="Regular Exam 22-Oct-2022" />
+    <MESSAGE value="Working with Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
