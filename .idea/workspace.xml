@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Workshop Basic Algorithms">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/ItsChocolateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/StickyFingers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedExam_25June2022/workout/Workout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_17Dec2019/PresentDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/Bee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/RegularExam_22Oct2022/EnergyDrinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/Exams/RegularExam_22Oct2022/RallyRacing.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Regular Exam 22-Oct-2022">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/animalFarm/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/animalFarm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/box/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/box/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/BakingTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Topping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Exams/JavaAdvancedRetakeExam_19August2020/VetClinic/Clinic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -76,13 +79,39 @@
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnergyDrinks">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.BinarySearch" />
+  <component name="RunManager" selected="Application.Encapsulation.pizza.Main">
+    <configuration name="Encapsulation.animalFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.animalFarm.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="Encapsulation.animalFarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Encapsulation.pizza.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.pizza.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Encapsulation.pizza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Encapsulation.shoping.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.shoping.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Encapsulation.shoping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,38 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.MergeSort" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.box.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RallyRacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exams.RegularExam_22Oct2022.RallyRacing" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exams.RegularExam_22Oct2022.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.BasicAlgorithms.RecursiveArraySum" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Workshop.BasicAlgorithms.*" />
+          <option name="PATTERN" value="Encapsulation.box.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Encapsulation.pizza.Main" />
+        <item itemvalue="Application.Encapsulation.shoping.Main" />
+        <item itemvalue="Application.Encapsulation.animalFarm.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EnergyDrinks" />
-        <item itemvalue="Application.RallyRacing" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.RecursiveArraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666345100810</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Exam preparation">
+      <created>1667289545976</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667289545976</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Regular Exam 22-Oct-2022">
+      <created>1667289597615</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667289597615</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +478,9 @@
     <MESSAGE value="Multidimensional Arrays exercise" />
     <MESSAGE value="Workshop" />
     <MESSAGE value="Workshop Basic Algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workshop Basic Algorithms" />
+    <MESSAGE value="Exam preparation" />
+    <MESSAGE value="Regular Exam 22-Oct-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regular Exam 22-Oct-2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
