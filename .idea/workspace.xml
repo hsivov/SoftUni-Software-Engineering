@@ -4,19 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Regular Exam 22-Oct-2022">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/animalFarm/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/animalFarm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/box/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/box/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/BakingTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/pizza/Topping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Encapsulation/shoping/Product.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Encapsulation">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Kitten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/animals/Tomcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/BladeKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/DarkKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/DarkWizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/MuseElf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/SoulMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/hero/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/CrossMotorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/FamilyCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/RaceMotorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/needForSpeed/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/person/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/person/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/ColdBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Dessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/HotBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/MainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Soup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/restaurant/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Gorilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Lizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/zoo/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +101,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,13 +111,14 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Inheritance" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Exams\JavaAdvancedExam_25June2022" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Exams\JavaAdvancedRetakeExam_19August2020\VetClinic" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\basicSyntaxConditionalStatementsLoops\more" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Encapsulation.pizza.Main">
+  <component name="RunManager" selected="Application.Inheritance.animals.Main">
     <configuration name="Encapsulation.animalFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.animalFarm.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -119,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnergyDrinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exams.RegularExam_22Oct2022.EnergyDrinks" />
+    <configuration name="Inheritance.animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.animals.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exams.RegularExam_22Oct2022.*" />
+          <option name="PATTERN" value="Inheritance.animals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.box.Main" />
+    <configuration name="Inheritance.person.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.person.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Encapsulation.box.*" />
+          <option name="PATTERN" value="Inheritance.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.animals.Main" />
+        <item itemvalue="Application.Inheritance.person.Main" />
         <item itemvalue="Application.Encapsulation.pizza.Main" />
         <item itemvalue="Application.Encapsulation.shoping.Main" />
         <item itemvalue="Application.Encapsulation.animalFarm.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EnergyDrinks" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +274,9 @@
       <workItem from="1666247847639" duration="14315000" />
       <workItem from="1666338655411" duration="5955000" />
       <workItem from="1667055713197" duration="7386000" />
+      <workItem from="1667453910210" duration="879000" />
+      <workItem from="1667454804378" duration="2483000" />
+      <workItem from="1667549000779" duration="10062000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -439,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667289597615</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Encapsulation">
+      <created>1667453987771</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667453987771</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +529,8 @@
     <MESSAGE value="Workshop Basic Algorithms" />
     <MESSAGE value="Exam preparation" />
     <MESSAGE value="Regular Exam 22-Oct-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regular Exam 22-Oct-2022" />
+    <MESSAGE value="Encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
