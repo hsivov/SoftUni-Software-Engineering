@@ -4,15 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Working with Abstraction">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/HDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/RAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/VideoCard.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Inheritance">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/BasePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Bulgarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Chinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/European.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Browsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +48,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +69,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -69,20 +94,20 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\hello" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\ferrari" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\carShop" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\border" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\jediGalaxy" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\greedyTimes" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\trafficLights" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\cardSuit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Inheritance.computer.Main">
-    <configuration name="Inheritance.computer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.computer.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InterfacesAndAbstraction.Telephony.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Telephony.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.computer.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.Telephony.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyTimes.Main" />
+      <option name="MAIN_CLASS_NAME" value="person.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedyTimes.*" />
+          <option name="PATTERN" value="person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.greedyTimes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.greedyTimes.Main" />
+    <configuration name="carShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="carShop.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.greedyTimes.*" />
+          <option name="PATTERN" value="carShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.jediGalaxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.jediGalaxy.Main" />
+    <configuration name="ferrari.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ferrari.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.jediGalaxy.*" />
+          <option name="PATTERN" value="ferrari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trafficLights.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trafficLights.Main" />
+    <configuration name="hello.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trafficLights.*" />
+          <option name="PATTERN" value="hello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Inheritance.computer.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.greedyTimes.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.jediGalaxy.Main" />
-        <item itemvalue="Application.trafficLights.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.Telephony.Main" />
+        <item itemvalue="Application.ferrari.Main" />
+        <item itemvalue="Application.hello.Main" />
+        <item itemvalue="Application.carShop.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +263,8 @@
       <workItem from="1667561224295" duration="146000" />
       <workItem from="1667571698602" duration="38844000" />
       <workItem from="1667674806487" duration="27000" />
-      <workItem from="1667726126740" duration="4188000" />
+      <workItem from="1667726126740" duration="15518000" />
+      <workItem from="1667760162049" duration="8542000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -464,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667674735602</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Inheritance">
+      <created>1667730473136</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667730473136</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,9 +538,9 @@
     <MESSAGE value="Exam preparation" />
     <MESSAGE value="Regular Exam 22-Oct-2022" />
     <MESSAGE value="Encapsulation" />
-    <MESSAGE value="Inheritance" />
     <MESSAGE value="Working with Abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Abstraction" />
+    <MESSAGE value="Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
