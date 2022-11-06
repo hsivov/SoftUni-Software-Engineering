@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Inheritance">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/cardSuit/CardRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/cardSuit/CardSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/cardSuit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/trafficLights/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/trafficLights/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/trafficLights/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/greedyTimes/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/greedyTimes/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/greedyTimes/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/greedyTimes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/jediGalaxy/EvilPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/jediGalaxy/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/jediGalaxy/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/jediGalaxy/Jedi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/jediGalaxy/Main.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Working with Abstraction">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/HDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/RAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Inheritance/computer/VideoCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,14 +69,27 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\jediGalaxy" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\greedyTimes" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\trafficLights" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\cardSuit" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Inheritance" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Inheritance.computer.Main">
+    <configuration name="Inheritance.computer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.computer.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.computer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedyTimes.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -123,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.trafficLights.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.trafficLights.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.trafficLights.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="trafficLights.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trafficLights.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -151,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.computer.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.greedyTimes.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.jediGalaxy.Main" />
         <item itemvalue="Application.trafficLights.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.trafficLights.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +236,9 @@
       <workItem from="1667454804378" duration="2483000" />
       <workItem from="1667549000779" duration="10469000" />
       <workItem from="1667561224295" duration="146000" />
-      <workItem from="1667571698602" duration="38243000" />
+      <workItem from="1667571698602" duration="38844000" />
+      <workItem from="1667674806487" duration="27000" />
+      <workItem from="1667726126740" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -462,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667560807295</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Working with Abstraction">
+      <created>1667674735602</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667674735602</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Recover all files needed for Intellij to work proper" />
     <MESSAGE value="Add Data types and variables Lab" />
     <MESSAGE value="Add Arrays Lab and exercises" />
     <MESSAGE value="Add Lists Lab" />
@@ -505,7 +506,8 @@
     <MESSAGE value="Regular Exam 22-Oct-2022" />
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
+    <MESSAGE value="Working with Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with Abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,7 +603,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java-OOP/greedyTimes/Main.java</url>
+          <url>file://$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/greedyTimes/Main.java</url>
           <line>22</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
