@@ -4,38 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Inheritance">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/border/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/CarImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Rentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/carShop/Sellable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Ferrari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/ferrari/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/BasePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Bulgarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Chinese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/European.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/hello/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Browsable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Callable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/Telephony/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Birthable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/person/Robot.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Interfaces and Abstraction">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddRemovable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddRemoveCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Addable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/MyListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Commando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/CommandoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Corps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/EngineerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/LieutenantGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/LieutenantGeneralImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/MissionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Private.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/PrivateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/RepairImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SoldierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpecialisedSoldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpecialisedSoldierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Rebel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +52,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,26 +92,29 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="InterfacesAndAbstraction.militaryElite" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\food" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\collection" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\Telephony" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\person" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\hello" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\ferrari" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\carShop" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\border" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\WorkingWithAbstraction\jediGalaxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="InterfacesAndAbstraction.Telephony.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Telephony.Main" />
+  <component name="RunManager" selected="Application.food.Main">
+    <configuration name="InterfacesAndAbstraction.collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.collection.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.Telephony.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="person.Main" />
+    <configuration name="InterfacesAndAbstraction.food.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.food.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="person.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="carShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="carShop.Main" />
+    <configuration name="InterfacesAndAbstraction.militaryElite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.militaryElite.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="carShop.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.militaryElite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ferrari.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ferrari.Main" />
+    <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ferrari.*" />
+          <option name="PATTERN" value="Workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.Main" />
+    <configuration name="food.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="food.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.*" />
+          <option name="PATTERN" value="food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.Telephony.Main" />
-        <item itemvalue="Application.ferrari.Main" />
-        <item itemvalue="Application.hello.Main" />
-        <item itemvalue="Application.carShop.Main" />
+        <item itemvalue="Application.food.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.food.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.militaryElite.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.collection.Main" />
+        <item itemvalue="Application.Workshop.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +271,12 @@
       <workItem from="1667571698602" duration="38844000" />
       <workItem from="1667674806487" duration="27000" />
       <workItem from="1667726126740" duration="15518000" />
-      <workItem from="1667760162049" duration="8542000" />
+      <workItem from="1667760162049" duration="9103000" />
+      <workItem from="1667810216489" duration="20000" />
+      <workItem from="1667833516506" duration="606000" />
+      <workItem from="1667855108414" duration="14000" />
+      <workItem from="1667909664320" duration="32908000" />
+      <workItem from="1668009004181" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -497,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667730473136</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Interfaces and Abstraction">
+      <created>1667771341713</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667771341713</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Data types and variables Lab" />
     <MESSAGE value="Add Arrays Lab and exercises" />
     <MESSAGE value="Add Lists Lab" />
     <MESSAGE value="Add Lists exercise" />
@@ -540,7 +558,8 @@
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Working with Abstraction" />
     <MESSAGE value="Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
+    <MESSAGE value="Interfaces and Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces and Abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,6 +658,11 @@
           <url>file://$PROJECT_DIR$/Java-OOP/WorkingWithAbstraction/greedyTimes/Main.java</url>
           <line>22</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
