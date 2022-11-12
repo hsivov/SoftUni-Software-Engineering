@@ -5,41 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Interfaces and Abstraction">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddRemovable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/AddRemoveCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Addable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/collection/MyListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Commando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/CommandoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Corps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/EngineerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/LieutenantGeneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/LieutenantGeneralImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Mission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/MissionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Private.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/PrivateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Repair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/RepairImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Soldier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SoldierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpecialisedSoldier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpecialisedSoldierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/SpyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Birthable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/food/Rebel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/calculator/DivisionOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/calculator/Extensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/calculator/MemoryReadOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/calculator/MemorySaveOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehiclesExtended/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehiclesExtended/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehiclesExtended/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehiclesExtended/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/vehiclesExtended/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Felime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/wildFarm/Zebra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/CommandImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/CommandInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/CutImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/Initialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/PasteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/TextTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/Polymorphism/word/ToUpperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +50,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +77,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Java-OOP/Polymorphism/VehiclesExtended&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,28 +91,31 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Polymorphism.calculator" />
+      <recent name="Polymorphism.word" />
       <recent name="InterfacesAndAbstraction.militaryElite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\VehiclesExtended" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\food" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\collection" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\Telephony" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\person" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\hello" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\word" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\WildFarm" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\VehiclesExtended" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Vehicles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.food.Main">
-    <configuration name="InterfacesAndAbstraction.collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.collection.Main" />
+  <component name="RunManager" selected="Application.Polymorphism.calculator.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.collection.*" />
+          <option name="PATTERN" value="word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacesAndAbstraction.food.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.food.Main" />
+    <configuration name="Polymorphism.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.calculator.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.food.*" />
+          <option name="PATTERN" value="Polymorphism.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacesAndAbstraction.militaryElite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.militaryElite.Main" />
+    <configuration name="Polymorphism.wildFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.wildFarm.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.militaryElite.*" />
+          <option name="PATTERN" value="Polymorphism.wildFarm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
+    <configuration name="Polymorphism.word.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.word.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.*" />
+          <option name="PATTERN" value="Polymorphism.word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="food.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="food.Main" />
+    <configuration name="WildFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WildFarm.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="food.*" />
+          <option name="PATTERN" value="WildFarm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.food.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.food.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.militaryElite.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.collection.Main" />
-        <item itemvalue="Application.Workshop.Main" />
+        <item itemvalue="Application.Polymorphism.calculator.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Polymorphism.word.Main" />
+        <item itemvalue="Application.WildFarm.Main" />
+        <item itemvalue="Application.Polymorphism.wildFarm.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +277,11 @@
       <workItem from="1667833516506" duration="606000" />
       <workItem from="1667855108414" duration="14000" />
       <workItem from="1667909664320" duration="32908000" />
-      <workItem from="1668009004181" duration="1502000" />
+      <workItem from="1668009004181" duration="2032000" />
+      <workItem from="1668093807668" duration="49000" />
+      <workItem from="1668094068144" duration="175000" />
+      <workItem from="1668197069369" duration="9930000" />
+      <workItem from="1668243982649" duration="26704000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -516,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667771341713</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Interfaces and Abstraction">
+      <created>1668010984428</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668010984428</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,6 +675,21 @@
           <url>file://$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-OOP/Polymorphism/word/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-OOP/Polymorphism/calculator/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
