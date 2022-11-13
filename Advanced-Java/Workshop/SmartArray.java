@@ -55,6 +55,12 @@ public class SmartArray<T> implements Iterable<T> {
         return removedElement;
     }
 
+    public void remove(T element) {
+        if (indexOf(element) != -1) {
+            remove(indexOf(element));
+        }
+    }
+
     public boolean contains(T element) {
 
         for (int i = 0; i < size; i++) {
@@ -65,6 +71,16 @@ public class SmartArray<T> implements Iterable<T> {
             }
         }
         return false;
+    }
+
+    public int indexOf(T element) {
+        for (int i = 0; i < size; i++) {
+
+            if (contains(element)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void add(int index, T element) {
