@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Polymorphism">
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add additional functionalities to my custom ArrayList">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/CalorieCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/WeightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/output/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/output/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Lemonade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Chips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Java/Workshop/SmartArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +82,14 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\calculator" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\word" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\WildFarm" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\VehiclesExtended" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Workshop.Main">
+  <component name="RunManager" selected="Application.solid.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="word.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -118,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WildFarm.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WildFarm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
       <module name="SoftUni-Software-Engineering" />
@@ -144,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="solid.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.solid.Main" />
         <item itemvalue="Application.Workshop.Main" />
         <item itemvalue="Application.Polymorphism.calculator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Polymorphism.word.Main" />
-        <item itemvalue="Application.WildFarm.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +263,10 @@
       <workItem from="1668197069369" duration="9930000" />
       <workItem from="1668243982649" duration="27305000" />
       <workItem from="1668302571051" duration="353000" />
-      <workItem from="1668318446545" duration="2649000" />
+      <workItem from="1668318446545" duration="3408000" />
+      <workItem from="1668328754489" duration="195000" />
+      <workItem from="1668445234675" duration="278000" />
+      <workItem from="1668585192638" duration="6198000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -506,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668289622892</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add additional functionalities to my custom ArrayList">
+      <created>1668325264213</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668325264213</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Lists Lab" />
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
@@ -549,7 +569,8 @@
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Interfaces and Abstraction" />
     <MESSAGE value="Polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism" />
+    <MESSAGE value="Add additional functionalities to my custom ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add additional functionalities to my custom ArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
