@@ -4,20 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Add additional functionalities to my custom ArrayList">
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/CalorieCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/WeightCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/output/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/output/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/drink/Lemonade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Chips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/solid/products/food/Food.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Regular Exam 22-Oct-2022">
+      <change afterPath="$PROJECT_DIR$/Java-OOP/ReflectionAndAnnotation/blackBoxInteger/BlackBoxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/ReflectionAndAnnotation/blackBoxInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/ReflectionAndAnnotation/harvestingFields/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/ReflectionAndAnnotation/harvestingFields/RichSoilLand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/annotations/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/CommandInterpreterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/FightCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/ReportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/commands/RetireCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/interfaces/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/Gunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/Horseman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/Pikeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-OOP/barracksWars/models/units/Swordsman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +73,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Java-OOP/Polymorphism/VehiclesExtended&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/IdeaProjects/SoftUni-Software-Engineering/Advanced-Java/StreamsFilesAndDirectories/Exercises/Exercises Resources/Exercises Resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,31 +87,28 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="Polymorphism.calculator" />
-      <recent name="Polymorphism.word" />
       <recent name="InterfacesAndAbstraction.militaryElite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\VehiclesExtended" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Streams_FilesAndDirectories\Exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\calculator" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\word" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\Polymorphism\WildFarm" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ReflectionAndAnnotation\blackBoxInteger" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ReflectionAndAnnotation\harvestingFields" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ReflectionAndAnnotation" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\food" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\InterfacesAndAbstraction\collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.solid.Main">
+  <component name="RunManager" selected="Application.barracksWars.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="word.Main" />
+      <option name="MAIN_CLASS_NAME" value="ReflectionAndAnnotation.harvestingFields.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="word.*" />
+          <option name="PATTERN" value="ReflectionAndAnnotation.harvestingFields.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.calculator.Main" />
+    <configuration name="ReflectionAndAnnotation.barracksWars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionAndAnnotation.barracksWars.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.calculator.*" />
+          <option name="PATTERN" value="ReflectionAndAnnotation.barracksWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism.word.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.word.Main" />
+    <configuration name="ReflectionAndAnnotation.blackBoxInteger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionAndAnnotation.blackBoxInteger.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.word.*" />
+          <option name="PATTERN" value="ReflectionAndAnnotation.blackBoxInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Workshop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Workshop.Main" />
+    <configuration name="barracksWars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="barracksWars.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Workshop.*" />
+          <option name="PATTERN" value="barracksWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solid.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.Main" />
+    <configuration name="food.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="food.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.output.*" />
+          <option name="PATTERN" value="food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.solid.Main" />
-        <item itemvalue="Application.Workshop.Main" />
-        <item itemvalue="Application.Polymorphism.calculator.Main" />
+        <item itemvalue="Application.barracksWars.Main" />
+        <item itemvalue="Application.ReflectionAndAnnotation.barracksWars.Main" />
+        <item itemvalue="Application.ReflectionAndAnnotation.blackBoxInteger.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Polymorphism.word.Main" />
+        <item itemvalue="Application.food.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -257,16 +270,10 @@
       <workItem from="1667833516506" duration="606000" />
       <workItem from="1667855108414" duration="14000" />
       <workItem from="1667909664320" duration="32908000" />
-      <workItem from="1668009004181" duration="2032000" />
-      <workItem from="1668093807668" duration="49000" />
-      <workItem from="1668094068144" duration="175000" />
-      <workItem from="1668197069369" duration="9930000" />
-      <workItem from="1668243982649" duration="27305000" />
-      <workItem from="1668302571051" duration="353000" />
-      <workItem from="1668318446545" duration="3408000" />
-      <workItem from="1668328754489" duration="195000" />
-      <workItem from="1668445234675" duration="278000" />
-      <workItem from="1668585192638" duration="6198000" />
+      <workItem from="1668009004181" duration="1502000" />
+      <workItem from="1668867268156" duration="4674000" />
+      <workItem from="1668886603849" duration="8461000" />
+      <workItem from="1668931662768" duration="2127000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -506,28 +513,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667771341713</updated>
     </task>
-    <task id="LOCAL-00035" summary="Interfaces and Abstraction">
-      <created>1668010984428</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1668010984428</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Polymorphism">
-      <created>1668289622892</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1668289622892</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Add additional functionalities to my custom ArrayList">
-      <created>1668325264213</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1668325264213</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,6 +531,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Arrays Lab and exercises" />
+    <MESSAGE value="Add Lists Lab" />
     <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
@@ -568,9 +556,7 @@
     <MESSAGE value="Working with Abstraction" />
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Interfaces and Abstraction" />
-    <MESSAGE value="Polymorphism" />
-    <MESSAGE value="Add additional functionalities to my custom ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional functionalities to my custom ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces and Abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,16 +660,6 @@
           <url>file://$PROJECT_DIR$/Java-OOP/InterfacesAndAbstraction/militaryElite/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java-OOP/Polymorphism/vehicles/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java-OOP/Polymorphism/word/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
