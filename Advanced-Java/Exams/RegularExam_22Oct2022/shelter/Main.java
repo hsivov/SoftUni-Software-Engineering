@@ -1,4 +1,4 @@
-package Exams.Exam_22Oct2022.shelter;
+package Exams.RegularExam_22Oct2022.shelter;
 
 public class Main {
     public static void main(String[] args) {
