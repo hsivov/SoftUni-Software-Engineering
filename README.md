@@ -1,5 +1,5 @@
 # SoftUni-Software-Engineering
-SoftUni software developer with Java curriculum
+Software developer with Java curriculum
 
 <h2>Certificates</h2>
 
