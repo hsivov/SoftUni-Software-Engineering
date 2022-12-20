@@ -1,4 +1,7 @@
 # SoftUni-Software-Engineering
+
+![softuni logo](https://bg.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Logo_Software_University_(SoftUni)_-_blue.png)
+
 Software developer with Java curriculum
 
 <h2>Certificates</h2>
