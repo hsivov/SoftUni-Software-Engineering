@@ -1,6 +1,8 @@
-# SoftUni-Software-Engineering <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Software_University_%28SoftUni%29_-_blue.png" alt="softuni logo" width="200" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Software_University_%28SoftUni%29_-_blue.png" alt="softuni logo" width="200" height="200">
 
-Software developer with Java curriculum
+# SoftUni-Software-Engineering 
+
+Software development with Java curriculum
 
 <h2>Certificates</h2>
 
