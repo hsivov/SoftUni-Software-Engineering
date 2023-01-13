@@ -2,7 +2,7 @@
 
 # SoftUni-Software-Engineering 
 
-Software development with Java curriculum
+Java Web Developer Curriculum
 
 <h2>Certificates</h2>
 
