@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Retake 19 Dec 2022">
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/MultidimensionalArrays/Exercise/CrossfireList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Java/SetsAndMapsAdvanced/Exercise/SerbianUnleashed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/ExamPrep/onlineShop/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/ExamPrep/onlineShop/models/products/computers/DesktopComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/ExamPrep/onlineShop/models/products/computers/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/guns/BaseGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/guns/Pistol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/guns/Rifle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/neighbourhood/GangNeighbourhood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/players/BasePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/players/CivilPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/models/players/MainPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-OOP/viceCity/repositories/interfaces/GunRepository.java" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Preparation for retake exam">
+      <change afterPath="$PROJECT_DIR$/Unit-Testing/src/test/java/blueOrigin/SpaceshipTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fundamentals-Java/MidExam26June/PhoneShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExam26June/PhoneShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit-Testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit-Testing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit-Testing/src/test/java/cats/HouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit-Testing/src/test/java/cats/HouseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +83,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\test\java" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\main\java" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\onlineShop" />
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\Exams\Retake_14Dec2022\christmas" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ExamPrep\christmasRaces" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ExamPrep\catHouse" />
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ExamPrep\football" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,11 +98,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="viceCity.Main" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.Main" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="viceCity.*" />
+          <option name="PATTERN" value="aquarium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,64 +110,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerManagerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceshipTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="computers.*" />
+          <option name="PATTERN" value="blueOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="computers" />
-      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerManagerTests.testAddComputerShouldThrowWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceshipTests.testRemoveAstronaut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="computers.*" />
+          <option name="PATTERN" value="blueOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="computers" />
-      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
-      <option name="METHOD_NAME" value="testAddComputerShouldThrowWhenNull" />
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testRemoveAstronaut" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerManagerTests.testGetComputersByManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceshipTests.testSetEmptyNameShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="computers.*" />
+          <option name="PATTERN" value="blueOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="computers" />
-      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
-      <option name="METHOD_NAME" value="testGetComputersByManufacturer" />
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testSetEmptyNameShouldThrow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerManagerTests.testRemoveComputerShouldThrowWhenNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceshipTests.testSetIllegalCapacityShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="computers.*" />
+          <option name="PATTERN" value="blueOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="computers" />
-      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
-      <option name="METHOD_NAME" value="testRemoveComputerShouldThrowWhenNotExist" />
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testSetIllegalCapacityShouldThrow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ComputerManagerTests" />
-        <item itemvalue="JUnit.ComputerManagerTests.testAddComputerShouldThrowWhenNull" />
-        <item itemvalue="JUnit.ComputerManagerTests.testGetComputersByManufacturer" />
-        <item itemvalue="JUnit.ComputerManagerTests.testRemoveComputerShouldThrowWhenNotExist" />
+        <item itemvalue="JUnit.SpaceshipTests" />
+        <item itemvalue="JUnit.SpaceshipTests.testSetEmptyNameShouldThrow" />
+        <item itemvalue="JUnit.SpaceshipTests.testSetIllegalCapacityShouldThrow" />
+        <item itemvalue="JUnit.SpaceshipTests.testRemoveAstronaut" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +301,9 @@
       <workItem from="1681220737130" duration="6176000" />
       <workItem from="1681284739415" duration="13445000" />
       <workItem from="1681305563985" duration="538000" />
-      <workItem from="1681310305864" duration="5237000" />
+      <workItem from="1681310305864" duration="10667000" />
+      <workItem from="1681360643231" duration="980000" />
+      <workItem from="1681668248615" duration="9203000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -577,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671486865354</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Preparation for retake exam">
+      <created>1681323123852</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681323123852</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
@@ -620,7 +613,8 @@
     <MESSAGE value="Interfaces and Abstraction" />
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Retake 19 Dec 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retake 19 Dec 2022" />
+    <MESSAGE value="Preparation for retake exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparation for retake exam" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,6 +762,9 @@
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testRemoveElement.ic" NAME="DatabaseTest.testRemoveElement Coverage Results" MODIFIED="1669541373691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$SpaceshipTests.ic" NAME="SpaceshipTests Coverage Results" MODIFIED="1681329865605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>blueOrigin.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByIdShouldReturnUser.ic" NAME="DatabaseTest.testFindByIdShouldReturnUser Coverage Results" MODIFIED="1669542830572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
@@ -863,6 +860,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest_testRemoveShouldRemoveHeroFromRepository.ic" NAME="HeroRepositoryTest.testRemoveShouldRemoveHeroFromRepository Coverage Results" MODIFIED="1671177876157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>heroRepository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$SpaceshipTests_testAddAstronautShouldAdd.ic" NAME="SpaceshipTests.testAddAstronautShouldAdd Coverage Results" MODIFIED="1681325230767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>blueOrigin.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddNullShouldThrow.ic" NAME="DatabaseTest.testAddNullShouldThrow Coverage Results" MODIFIED="1669539820205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
