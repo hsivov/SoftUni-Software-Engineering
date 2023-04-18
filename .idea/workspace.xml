@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Preparation for retake exam">
-      <change afterPath="$PROJECT_DIR$/Unit-Testing/src/test/java/blueOrigin/SpaceshipTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fundamentals-Java/MidExam26June/PhoneShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals-Java/MidExam26June/PhoneShop.java" afterDir="false" />
     </list>
@@ -96,78 +95,81 @@
       <recent name="magicGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aquarium.Main" />
-      <module name="SoftUni-Software-Engineering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aquarium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpaceshipTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CarShopTests">
+    <configuration name="CarShopTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="PATTERN" value="carShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="blueOrigin" />
-      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceshipTests.testRemoveAstronaut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarShopTests.testAddNullCarShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="PATTERN" value="carShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="blueOrigin" />
-      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
-      <option name="METHOD_NAME" value="testRemoveAstronaut" />
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="METHOD_NAME" value="testAddNullCarShouldThrow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceshipTests.testSetEmptyNameShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarShopTests.testFindAllCarByModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="PATTERN" value="carShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="blueOrigin" />
-      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
-      <option name="METHOD_NAME" value="testSetEmptyNameShouldThrow" />
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="METHOD_NAME" value="testFindAllCarByModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceshipTests.testSetIllegalCapacityShouldThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarShopTests.testGetTheMostLuxuryCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="PATTERN" value="carShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="blueOrigin" />
-      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
-      <option name="METHOD_NAME" value="testSetIllegalCapacityShouldThrow" />
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="METHOD_NAME" value="testGetTheMostLuxuryCar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarShopTests.testRemoveCarShouldRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="carShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="METHOD_NAME" value="testRemoveCarShouldRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SpaceshipTests" />
-        <item itemvalue="JUnit.SpaceshipTests.testSetEmptyNameShouldThrow" />
-        <item itemvalue="JUnit.SpaceshipTests.testSetIllegalCapacityShouldThrow" />
-        <item itemvalue="JUnit.SpaceshipTests.testRemoveAstronaut" />
+        <item itemvalue="JUnit.CarShopTests" />
+        <item itemvalue="JUnit.CarShopTests.testFindAllCarByModel" />
+        <item itemvalue="JUnit.CarShopTests.testGetTheMostLuxuryCar" />
+        <item itemvalue="JUnit.CarShopTests.testRemoveCarShouldRemove" />
+        <item itemvalue="JUnit.CarShopTests.testAddNullCarShouldThrow" />
       </list>
     </recent_temporary>
   </component>
@@ -304,6 +306,8 @@
       <workItem from="1681310305864" duration="10667000" />
       <workItem from="1681360643231" duration="980000" />
       <workItem from="1681668248615" duration="9203000" />
+      <workItem from="1681735929015" duration="1282000" />
+      <workItem from="1681807396688" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -571,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681323123852</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Preparation for retake exam">
+      <created>1681736095878</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681736095878</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,6 +767,9 @@
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1669558616296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p04_BubbleSortTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests.ic" NAME="CarShopTests Coverage Results" MODIFIED="1681808729598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>carShop.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$MagicianTest.ic" NAME="MagicianTest Coverage Results" MODIFIED="1671445033297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>magicGame.*</FILTER>
     </SUITE>
@@ -836,6 +850,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest.ic" NAME="HouseTest Coverage Results" MODIFIED="1670402430294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cats.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests_testGetCountShouldReturnCarsCount.ic" NAME="CarShopTests.testGetCountShouldReturnCarsCount Coverage Results" MODIFIED="1681807769239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>carShop.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1669542877499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
