@@ -89,9 +89,7 @@ public class ControllerImpl implements Controller{
             }
         }
 
-        String output = vehicle.reached() ?
-                "done" :
-                "not done";
+        String output = vehicle.reached() ? "done" : "not done";
 
         return String.format(ConstantMessages.VEHICLE_DONE, vehicleName, output) + String.format(ConstantMessages.COUNT_BROKEN_INSTRUMENTS, brokenToolsCount);
     }
