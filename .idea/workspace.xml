@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Java OOP Retake Exam 18 April 2023">
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/00.create-database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/01.create-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/02.alter-minions-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/03.insert-records-in-both-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/04.truncate-table-minions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/05.drop-all-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/06.create-table-people.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/07.create-table-users.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/08.change-primary-key.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/09.set-default-value-of-a-field.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/10.set-unique-field.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/11.movies-database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/12.car-rental-database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/13.basic-insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/14.basic-select-all-fields.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/15.basic-select-all-fields-and-order.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/16.basic-select-some-fields.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/01.Data Definition and Data Types/Exercise/17.increase-employees-salary.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Data definition and data types exercise">
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/01.find-all-information-about-departments.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/03.find-salary-of-each-employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/04.find-full-name-of-each-employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/05.find-email-address-of-each-employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/all-mountain-peeks.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/basic-crud-all-queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/geography_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/soft_uni_database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,11 +96,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\02.Basic-CRUD\Exercise" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\test\java" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\main\java" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\test\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -314,7 +305,7 @@
       <workItem from="1683959870300" duration="3185000" />
       <workItem from="1683978108260" duration="1429000" />
       <workItem from="1684062145550" duration="84000" />
-      <workItem from="1684126281459" duration="7523000" />
+      <workItem from="1684126281459" duration="18233000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -582,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681848401427</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Data definition and data types exercise">
+      <created>1684162379689</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1684162379689</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
@@ -625,7 +622,8 @@
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Retake 19 Dec 2022" />
     <MESSAGE value="Java OOP Retake Exam 18 April 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java OOP Retake Exam 18 April 2023" />
+    <MESSAGE value="Data definition and data types exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data definition and data types exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
