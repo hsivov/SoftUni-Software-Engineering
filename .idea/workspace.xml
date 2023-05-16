@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Data definition and data types exercise">
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/01.find-all-information-about-departments.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/03.find-salary-of-each-employee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/04.find-full-name-of-each-employee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/05.find-email-address-of-each-employee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/all-mountain-peeks.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/basic-crud-all-queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/geography_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/soft_uni_database.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Basic CRUD exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/all-mountain-peeks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/all-mountain-peeks.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/basic-crud-all-queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/basic-crud-all-queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/02.Basic-CRUD/Exercise/diablo.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +298,7 @@
       <workItem from="1683959870300" duration="3185000" />
       <workItem from="1683978108260" duration="1429000" />
       <workItem from="1684062145550" duration="84000" />
-      <workItem from="1684126281459" duration="18233000" />
+      <workItem from="1684126281459" duration="21593000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -580,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684162379689</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Basic CRUD exercise">
+      <created>1684218302301</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1684218302301</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
@@ -623,7 +622,8 @@
     <MESSAGE value="Retake 19 Dec 2022" />
     <MESSAGE value="Java OOP Retake Exam 18 April 2023" />
     <MESSAGE value="Data definition and data types exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data definition and data types exercise" />
+    <MESSAGE value="Basic CRUD exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic CRUD exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

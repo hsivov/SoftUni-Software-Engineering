@@ -1,2 +1,2 @@
 SELECT name FROM characters
-ORDER BY name DESC;
+ORDER BY name;

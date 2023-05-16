@@ -40,7 +40,7 @@ ORDER BY employee_id;
 # 09
 SELECT CONCAT_WS(' ', first_name, middle_name, last_name) AS 'Full Name'
 FROM employees
-WHERE salary IN (25000, 14000, 14000, 23600);
+WHERE salary IN (25000, 14000, 12500, 23600);
 
 # 10
 SELECT first_name, last_name

@@ -1,6 +1,7 @@
 # 23
 SELECT peak_name
-FROM peaks;
+FROM peaks
+ORDER BY peak_name;
 
 # 22
 SELECT country_name, population
@@ -11,6 +12,7 @@ ORDER BY population DESC,
 LIMIT 30;
 
 # 23
-SELECT country_name, continent_code, if(currency_code = 'EUR', 'Euro', 'Not Euro') AS Currency
+SELECT country_name, country_code, if(currency_code = 'EUR', 'Euro', 'Not Euro') AS Currency
 FROM countries
+
 ORDER BY country_name;
