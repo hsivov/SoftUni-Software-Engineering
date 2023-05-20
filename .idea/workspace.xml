@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Basic CRUD exercise">
-      <change afterPath="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Lab/departments-info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Lab/restaurant.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Data aggregation">
+      <change afterPath="$PROJECT_DIR$/Java-DB/03.Built-in Functions/Exercise/built-in-functions-exercise.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java-DB/03.Built-in Functions/Lab/01.find-book-titles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/03.Built-in Functions/Lab/01.find-book-titles.sql" afterDir="false" />
     </list>
@@ -241,7 +240,9 @@
       <workItem from="1684126281459" duration="21593000" />
       <workItem from="1684306717860" duration="116000" />
       <workItem from="1684412542841" duration="3166000" />
-      <workItem from="1684508229888" duration="6095000" />
+      <workItem from="1684508229888" duration="7080000" />
+      <workItem from="1684565713673" duration="2050000" />
+      <workItem from="1684583222343" duration="5006000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -523,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684218302301</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Data aggregation">
+      <created>1684517134995</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684517134995</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
@@ -566,7 +573,8 @@
     <MESSAGE value="Java OOP Retake Exam 18 April 2023" />
     <MESSAGE value="Data definition and data types exercise" />
     <MESSAGE value="Basic CRUD exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic CRUD exercise" />
+    <MESSAGE value="Data aggregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data aggregation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
