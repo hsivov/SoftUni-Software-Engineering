@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Built-in functions">
+      <change afterPath="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Exercise/data-aggregation-exercise.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Exercise/gringotts-database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Exercise/soft_uni.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DB/03.Built-in Functions/Exercise/built-in-functions-exercise.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/03.Built-in Functions/Exercise/built-in-functions-exercise.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,11 +89,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\03.Built-in Functions\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Lab" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\02.Basic-CRUD\Exercise" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\test\java" />
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -244,7 +246,9 @@
       <workItem from="1684583222343" duration="5524000" />
       <workItem from="1684599749038" duration="811000" />
       <workItem from="1684668972655" duration="1267000" />
-      <workItem from="1684691706834" duration="2118000" />
+      <workItem from="1684691706834" duration="2439000" />
+      <workItem from="1684767903978" duration="9174000" />
+      <workItem from="1684834756271" duration="3587000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -540,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684593848882</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Built-in functions">
+      <created>1684693999359</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684693999360</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
