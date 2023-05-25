@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="List exercise">
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Table relations lab">
       <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/HorseRacing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/05.Table Relations/Lab/camp_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/05.Table Relations/Lab/table-relations-lab.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-DB/05.Table Relations/Lab/table-relations-lab.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/05.Table Relations/Lab/table-relations-lab.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +303,7 @@
       <workItem from="1681305563985" duration="538000" />
       <workItem from="1681310305864" duration="5237000" />
       <workItem from="1681797542357" duration="10356000" />
-      <workItem from="1684995598340" duration="4934000" />
+      <workItem from="1684995598340" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -566,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671486865354</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Table relations lab">
+      <created>1685021993242</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1685021993242</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Lists exercise" />
     <MESSAGE value="Add Treasure Hunt problem" />
     <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
@@ -609,7 +613,8 @@
     <MESSAGE value="Interfaces and Abstraction" />
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Retake 19 Dec 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retake 19 Dec 2022" />
+    <MESSAGE value="Table relations lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table relations lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -35,6 +35,12 @@ SELECT driver_id,
 FROM vehicles
          JOIN campers ON driver_id = campers.id;
 
+# 03
+SELECT starting_point,
+       end_point,
+       CONCAT(first_name, ' ', last_name) AS 'leader_name'
+FROM routes JOIN campers c ON c.id = routes.leader_id;
+
 # 04
 DROP TABLE peaks;
 DROP TABLE mountains;
