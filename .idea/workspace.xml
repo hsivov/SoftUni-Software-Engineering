@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Built-in functions">
-      <change afterPath="$PROJECT_DIR$/Java-DB/05.Table Relations/Exercise/table-relation-exercise.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Table relations exercise">
+      <change afterPath="$PROJECT_DIR$/Java-DB/06.Subqueries and Joins/Lab/soft_uni_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/06.Subqueries and Joins/Lab/subqueries-and-joins-lab.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +88,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Lab" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\03.Built-in Functions\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Lab" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\02.Basic-CRUD\Exercise" />
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Unit-Testing\src\test\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -249,7 +250,10 @@
       <workItem from="1684834756271" duration="3587000" />
       <workItem from="1685036560521" duration="1442000" />
       <workItem from="1685092879624" duration="4953000" />
-      <workItem from="1685121371703" duration="1956000" />
+      <workItem from="1685121371703" duration="2189000" />
+      <workItem from="1685183976309" duration="2504000" />
+      <workItem from="1685274098557" duration="479000" />
+      <workItem from="1685276883085" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -552,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684693999360</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Table relations exercise">
+      <created>1685123478495</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1685123478495</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
     <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
@@ -595,7 +605,8 @@
     <MESSAGE value="Basic CRUD exercise" />
     <MESSAGE value="Data aggregation" />
     <MESSAGE value="Built-in functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built-in functions" />
+    <MESSAGE value="Table relations exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table relations exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
