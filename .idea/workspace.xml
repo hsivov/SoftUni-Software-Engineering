@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Table relations exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DB/06.Subqueries and Joins/Exercise/subqueries-and-joins-exercise.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/06.Subqueries and Joins/Exercise/subqueries-and-joins-exercise.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sub-queries and joins exercise">
+      <change afterPath="$PROJECT_DIR$/Java-DB/src/mysql-todo.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +253,7 @@
       <workItem from="1685274098557" duration="479000" />
       <workItem from="1685276883085" duration="2605000" />
       <workItem from="1685515321510" duration="23000" />
+      <workItem from="1685519922678" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -563,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685123478495</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Sub-queries and joins exercise">
+      <created>1685525460200</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1685525460200</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fundamentals Final Exam 7 August" />
     <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
@@ -606,7 +612,8 @@
     <MESSAGE value="Data aggregation" />
     <MESSAGE value="Built-in functions" />
     <MESSAGE value="Table relations exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Table relations exercise" />
+    <MESSAGE value="Sub-queries and joins exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sub-queries and joins exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
