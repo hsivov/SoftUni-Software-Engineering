@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sub-queries and joins exercise">
-      <change afterPath="$PROJECT_DIR$/Java-DB/src/mysql-todo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Lab/database_programmability_and_transactions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +255,9 @@
       <workItem from="1685276883085" duration="2605000" />
       <workItem from="1685515321510" duration="23000" />
       <workItem from="1685519922678" duration="6710000" />
+      <workItem from="1685616885105" duration="5415000" />
+      <workItem from="1685639876997" duration="967000" />
+      <workItem from="1685716625314" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -570,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685525460200</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Sub-queries and joins exercise">
+      <created>1685622221848</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1685622221848</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
