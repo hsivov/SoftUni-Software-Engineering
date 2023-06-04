@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sub-queries and joins exercise">
-      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Lab/database_programmability_and_transactions.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Database programmability and transactions lab">
+      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/bank_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/soft_uni_database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +89,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\07.Database Programmability and Transactions\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Lab" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\03.Built-in Functions\Exercise" />
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Lab" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\02.Basic-CRUD\Exercise" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -257,7 +259,11 @@
       <workItem from="1685519922678" duration="6710000" />
       <workItem from="1685616885105" duration="5415000" />
       <workItem from="1685639876997" duration="967000" />
-      <workItem from="1685716625314" duration="6026000" />
+      <workItem from="1685716625314" duration="6203000" />
+      <workItem from="1685773394332" duration="2616000" />
+      <workItem from="1685781731624" duration="6713000" />
+      <workItem from="1685793047238" duration="3716000" />
+      <workItem from="1685877971642" duration="3669000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -581,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685622221848</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Database programmability and transactions lab">
+      <created>1685723013940</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685723013940</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fundamentals Final Retake 15 August" />
     <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
@@ -624,7 +636,8 @@
     <MESSAGE value="Built-in functions" />
     <MESSAGE value="Table relations exercise" />
     <MESSAGE value="Sub-queries and joins exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sub-queries and joins exercise" />
+    <MESSAGE value="Database programmability and transactions lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database programmability and transactions lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
