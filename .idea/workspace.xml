@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Database programmability and transactions lab">
-      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/bank_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/soft_uni_database.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exercises: Database Programmability and&#10;Transactions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +261,8 @@
       <workItem from="1685773394332" duration="2616000" />
       <workItem from="1685781731624" duration="6713000" />
       <workItem from="1685793047238" duration="3716000" />
-      <workItem from="1685877971642" duration="3669000" />
+      <workItem from="1685877971642" duration="4144000" />
+      <workItem from="1685896990187" duration="4804000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -594,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685723013940</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Exercises: Database Programmability and&#10;Transactions">
+      <created>1685889029001</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1685889029001</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
     <MESSAGE value="Functional Programing" />
@@ -637,7 +642,8 @@
     <MESSAGE value="Table relations exercise" />
     <MESSAGE value="Sub-queries and joins exercise" />
     <MESSAGE value="Database programmability and transactions lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database programmability and transactions lab" />
+    <MESSAGE value="Exercises: Database Programmability and&#10;Transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises: Database Programmability and&#10;Transactions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -214,3 +214,84 @@ CALL usp_withdraw_money(1, 10);
 SELECT *
 FROM accounts
 WHERE id = 1;
+
+# 14. Money Transfer
+DELIMITER $$
+CREATE PROCEDURE usp_transfer_money(from_account_id INT, to_account_id INT, amount DECIMAL(19, 4))
+BEGIN
+    IF amount > 0
+        AND from_account_id != to_account_id
+        AND (SELECT id FROM accounts WHERE id = from_account_id) IS NOT NULL
+        AND (SELECT id FROM accounts WHERE id = to_account_id) IS NOT NULL
+        AND (SELECT balance FROM accounts WHERE id = from_account_id) >= amount THEN
+
+        START TRANSACTION;
+
+        UPDATE accounts
+        SET balance = balance - amount
+        WHERE id = from_account_id;
+
+        UPDATE accounts
+        SET balance = balance + amount
+        WHERE id = to_account_id;
+
+    END IF;
+END $$
+
+DELIMITER ;
+;
+CALL usp_transfer_money(2, 1, 20);
+
+SELECT id, balance
+FROM accounts
+WHERE id IN (1, 2);
+
+# 15. Log Accounts Trigger
+# Create another table – logs(log_id, account_id, old_sum, new_sum). Add a trigger to the accounts
+# table that enters a new entry into the logs table every time the sum on an account changes.
+CREATE TABLE logs
+(
+    log_id     INT PRIMARY KEY AUTO_INCREMENT,
+    account_id INT,
+    old_sum    DECIMAL(19, 4),
+    new_sum    DECIMAL(19, 4)
+);
+
+CREATE TRIGGER accounts_after_update
+    AFTER UPDATE
+    ON accounts
+    FOR EACH ROW
+
+BEGIN
+    INSERT INTO logs(account_id, old_sum, new_sum)
+    VALUES (OLD.id, OLD.balance, NEW.balance);
+END;
+
+# 16. Emails Trigger
+# Create another table – notification_emails(id, recipient, subject, body). Add a trigger to logs table
+# to create new email whenever new record is inserted in logs table. The following data is required to be filled for
+# each email:
+# • recipient – account_id
+# • subject – "Balance change for account: {account_id}"
+# • body - "On {date (current date)} your balance was changed from {old} to {new}."
+CREATE TABLE notification_emails
+(
+    id        INT PRIMARY KEY AUTO_INCREMENT,
+    recipient INT,
+    subject   VARCHAR(100),
+    body      TEXT
+);
+
+CREATE TRIGGER tr_notification_email
+    AFTER INSERT
+    ON logs
+    FOR EACH ROW
+
+BEGIN
+    INSERT INTO notification_emails(recipient, subject, body)
+    VALUES (
+            NEW.account_id,
+            CONCAT('Balance change for account: ', NEW.account_id),
+            CONCAT_WS(' ', 'On', DATE_FORMAT(now(), '%b %d %Y at %r'), 'your balance was changed from', NEW.old_sum, 'to', NEW.new_sum, '.')
+           );
+END;
