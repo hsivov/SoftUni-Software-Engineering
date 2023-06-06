@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exercises: Database Programmability and&#10;Transactions">
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Sub-queries and joins exercise">
+      <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/HorseRacing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam-15-October-2022/01. Table Design_Data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam-15-October-2022/restaurant.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DB/07.Database Programmability and Transactions/Exercise/database _programmability_and_transactions.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,9 @@
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
       &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
 }</component>
@@ -87,11 +92,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\07.Database Programmability and Transactions\Exercise" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Lab" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Exercise" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\03.Built-in Functions\Exercise" />
-      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-DB\04.Data Aggregation\Lab" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam-15-October-2022" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Exercise" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\05.Table Relations\Lab" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Fundamentals-Java\Lists\exercise" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\03.Built-in Functions\Lab" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -100,16 +105,86 @@
       <recent name="magicGame" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="departments-info.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Java-DB/04.Data Aggregation/Lab/departments-info.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="7dabdda8-c724-4e2b-8a00-6664a07b5028" namespace="schema/&quot;restaurant&quot;" />
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.CarShopTests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="viceCity.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viceCity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vehicleShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vehicleShop.Main" />
+      <module name="SoftUni-Software-Engineering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicleShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarShopTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="carShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarShopTests.testGetCarsShouldReturnAllCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="carShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="carShop" />
+      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
+      <option name="METHOD_NAME" value="testGetCarsShouldReturnAllCars" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerManagerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="computers" />
+      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.departments-info.sql" />
+        <item itemvalue="JUnit.CarShopTests" />
+        <item itemvalue="JUnit.CarShopTests.testGetCarsShouldReturnAllCars" />
+        <item itemvalue="Application.vehicleShop.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ComputerManagerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -233,36 +308,7 @@
       <workItem from="1681305563985" duration="538000" />
       <workItem from="1681310305864" duration="5237000" />
       <workItem from="1681797542357" duration="10356000" />
-      <workItem from="1683959870300" duration="3185000" />
-      <workItem from="1683978108260" duration="1429000" />
-      <workItem from="1684062145550" duration="84000" />
-      <workItem from="1684126281459" duration="21593000" />
-      <workItem from="1684306717860" duration="116000" />
-      <workItem from="1684412542841" duration="3166000" />
-      <workItem from="1684508229888" duration="7080000" />
-      <workItem from="1684565713673" duration="2050000" />
-      <workItem from="1684583222343" duration="5524000" />
-      <workItem from="1684599749038" duration="811000" />
-      <workItem from="1684668972655" duration="1267000" />
-      <workItem from="1684691706834" duration="2439000" />
-      <workItem from="1684767903978" duration="9174000" />
-      <workItem from="1684834756271" duration="3587000" />
-      <workItem from="1685036560521" duration="1442000" />
-      <workItem from="1685092879624" duration="4953000" />
-      <workItem from="1685121371703" duration="2189000" />
-      <workItem from="1685183976309" duration="2504000" />
-      <workItem from="1685274098557" duration="479000" />
-      <workItem from="1685276883085" duration="2605000" />
-      <workItem from="1685515321510" duration="23000" />
-      <workItem from="1685519922678" duration="6710000" />
-      <workItem from="1685616885105" duration="5415000" />
-      <workItem from="1685639876997" duration="967000" />
-      <workItem from="1685716625314" duration="6203000" />
-      <workItem from="1685773394332" duration="2616000" />
-      <workItem from="1685781731624" duration="6713000" />
-      <workItem from="1685793047238" duration="3716000" />
-      <workItem from="1685877971642" duration="4144000" />
-      <workItem from="1685896990187" duration="4804000" />
+      <workItem from="1684995598340" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -523,84 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671486865354</updated>
     </task>
-    <task id="LOCAL-00038" summary="Java OOP Retake Exam 18 April 2023">
-      <created>1681848401427</created>
+    <task id="LOCAL-00038" summary="Table relations lab">
+      <created>1685021993242</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1681848401427</updated>
+      <updated>1685021993242</updated>
     </task>
-    <task id="LOCAL-00039" summary="Data definition and data types exercise">
-      <created>1684162379689</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1684162379689</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Basic CRUD exercise">
-      <created>1684218302301</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1684218302301</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Data aggregation">
-      <created>1684517134995</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1684517134995</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Built-in functions">
-      <created>1684593848882</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1684593848882</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Built-in functions">
-      <created>1684693999359</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1684693999360</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Table relations exercise">
-      <created>1685123478495</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1685123478495</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Sub-queries and joins exercise">
-      <created>1685525460200</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1685525460200</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Sub-queries and joins exercise">
-      <created>1685622221848</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1685622221848</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Database programmability and transactions lab">
-      <created>1685723013940</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1685723013940</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Exercises: Database Programmability and&#10;Transactions">
-      <created>1685889029001</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1685889029001</updated>
-    </task>
-    <option name="localTasksCounter" value="49" />
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,6 +594,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Treasure Hunt problem" />
+    <MESSAGE value="Add Objects and Classes lab" />
+    <MESSAGE value="More Objects and Classes exercises" />
+    <MESSAGE value="Add Exercise: Text Processing" />
+    <MESSAGE value="Fundamentals Final Exam Preparation" />
+    <MESSAGE value="Fundamentals Final Exam 7 August" />
+    <MESSAGE value="Fundamentals Final Retake 15 August" />
+    <MESSAGE value="Add Stacks and Queues exercise" />
     <MESSAGE value="Sets and Maps Advanced - exercises" />
     <MESSAGE value="Streams, Files and Directories" />
     <MESSAGE value="Functional Programing" />
@@ -634,16 +618,8 @@
     <MESSAGE value="Interfaces and Abstraction" />
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Retake 19 Dec 2022" />
-    <MESSAGE value="Java OOP Retake Exam 18 April 2023" />
-    <MESSAGE value="Data definition and data types exercise" />
-    <MESSAGE value="Basic CRUD exercise" />
-    <MESSAGE value="Data aggregation" />
-    <MESSAGE value="Built-in functions" />
-    <MESSAGE value="Table relations exercise" />
-    <MESSAGE value="Sub-queries and joins exercise" />
-    <MESSAGE value="Database programmability and transactions lab" />
-    <MESSAGE value="Exercises: Database Programmability and&#10;Transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercises: Database Programmability and&#10;Transactions" />
+    <MESSAGE value="Table relations lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table relations lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,137 +752,128 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1669623706474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p05_CustomLinkedList.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testAddComputerShouldThrowWhenExist.ic" NAME="ComputerManagerTests.testAddComputerShouldThrowWhenExist Coverage Results" MODIFIED="1681225823093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1669558616296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p04_BubbleSortTest.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests.ic" NAME="CarShopTests Coverage Results" MODIFIED="1681808729598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>carShop.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$MagicianTest.ic" NAME="MagicianTest Coverage Results" MODIFIED="1671445033297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>magicGame.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testRemoveElement.ic" NAME="DatabaseTest.testRemoveElement Coverage Results" MODIFIED="1669541373691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p02_ExtendedDatabase.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$SpaceshipTests.ic" NAME="SpaceshipTests Coverage Results" MODIFIED="1681329865605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>blueOrigin.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByIdShouldReturnUser.ic" NAME="DatabaseTest.testFindByIdShouldReturnUser Coverage Results" MODIFIED="1669542830572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p02_ExtendedDatabase.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testRemoveComputerShouldRemove.ic" NAME="ComputerManagerTests.testRemoveComputerShouldRemove Coverage Results" MODIFIED="1681226358644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest_testContainsShouldReturnTrue.ic" NAME="CustomLinkedListTest.testContainsShouldReturnTrue Coverage Results" MODIFIED="1669623336522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p05_CustomLinkedList.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest_testContainsShouldReturnFalse.ic" NAME="CustomLinkedListTest.testContainsShouldReturnFalse Coverage Results" MODIFIED="1669623346565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p05_CustomLinkedList.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest_testRemoveThrowWhenNameIsNull.ic" NAME="HeroRepositoryTest.testRemoveThrowWhenNameIsNull Coverage Results" MODIFIED="1671177820464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>heroRepository.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testAddCatShouldAdd.ic" NAME="HouseTest.testAddCatShouldAdd Coverage Results" MODIFIED="1670401615923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cats.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testConstructorShouldCreate.ic" NAME="HouseTest.testConstructorShouldCreate Coverage Results" MODIFIED="1670400565103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cats.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testCtrThrowsWhenMoreThan16Elements.ic" NAME="DatabaseTest.testCtrThrowsWhenMoreThan16Elements Coverage Results" MODIFIED="1669449091732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p01_Database.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests_testGetCarsShouldReturnAllCars.ic" NAME="CarShopTests.testGetCarsShouldReturnAllCars Coverage Results" MODIFIED="1681807109231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>carShop.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$GarageTest.ic" NAME="GarageTest Coverage Results" MODIFIED="1670525114247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>garage.*</FILTER>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1669560875977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p06_TirePressureMonitoringSystem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$FootballTeamTest.ic" NAME="FootballTeamTest Coverage Results" MODIFIED="1670045985012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>football.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1669560875977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p06_TirePressureMonitoringSystem.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByUsernameThrowWhenUserNotPresent.ic" NAME="DatabaseTest.testFindByUsernameThrowWhenUserNotPresent Coverage Results" MODIFIED="1669542198099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p02_ExtendedDatabase.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ExcavationTest.ic" NAME="ExcavationTest Coverage Results" MODIFIED="1670479793257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>archeologicalExcavations.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testGetComputersByManufacturer.ic" NAME="ComputerManagerTests.testGetComputersByManufacturer Coverage Results" MODIFIED="1681227236606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests.ic" NAME="ComputerManagerTests Coverage Results" MODIFIED="1681227631195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testConstructor.ic" NAME="DatabaseTest.testConstructor Coverage Results" MODIFIED="1669539576525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p02_ExtendedDatabase.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest.ic" NAME="HeroRepositoryTest Coverage Results" MODIFIED="1671180290955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>heroRepository.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddElement.ic" NAME="DatabaseTest.testAddElement Coverage Results" MODIFIED="1669889687613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p01_Database.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ListIteratorTest_testPrintShouldThrowWhenIteratorEmpty.ic" NAME="ListIteratorTest.testPrintShouldThrowWhenIteratorEmpty Coverage Results" MODIFIED="1669555840241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p03_IteratorTest.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testAddCatShouldThrowWhenHouseIsFull.ic" NAME="HouseTest.testAddCatShouldThrowWhenHouseIsFull Coverage Results" MODIFIED="1670401770060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cats.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddPersonToDatabase.ic" NAME="DatabaseTest.testAddPersonToDatabase Coverage Results" MODIFIED="1669539568990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testAddComputerShouldThrowWhenNull.ic" NAME="ComputerManagerTests.testAddComputerShouldThrowWhenNull Coverage Results" MODIFIED="1681227575769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testGetComputersShouldReturnAllComputers.ic" NAME="ComputerManagerTests.testGetComputersShouldReturnAllComputers Coverage Results" MODIFIED="1681223330208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>computers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest.ic" NAME="HouseTest Coverage Results" MODIFIED="1670402430294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testCtrThrowsWhenMoreThan16Elements.ic" NAME="DatabaseTest.testCtrThrowsWhenMoreThan16Elements Coverage Results" MODIFIED="1669449091732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p01_Database.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testAddCatShouldAdd.ic" NAME="HouseTest.testAddCatShouldAdd Coverage Results" MODIFIED="1670401615923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cats.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests_testGetCountShouldReturnCarsCount.ic" NAME="CarShopTests.testGetCountShouldReturnCarsCount Coverage Results" MODIFIED="1681807769239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>carShop.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1669542877499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testRemoveElement.ic" NAME="DatabaseTest.testRemoveElement Coverage Results" MODIFIED="1669541373691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testGetComputersShouldGetAllComputers.ic" NAME="ComputerManagerTests.testGetComputersShouldGetAllComputers Coverage Results" MODIFIED="1681222544535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>computers.*</FILTER>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests_testGetCarsShouldReturnAllCars.ic" NAME="CarShopTests.testGetCarsShouldReturnAllCars Coverage Results" MODIFIED="1681807109231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>carShop.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$p01_Database_in_Unit_Testing.ic" NAME="p01_Database in Unit-Testing Coverage Results" MODIFIED="1669889752403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddNullShouldThrow.ic" NAME="DatabaseTest.testAddNullShouldThrow Coverage Results" MODIFIED="1669539820205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByIdShouldReturnUser.ic" NAME="DatabaseTest.testFindByIdShouldReturnUser Coverage Results" MODIFIED="1669542830572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddElement.ic" NAME="DatabaseTest.testAddElement Coverage Results" MODIFIED="1669889687613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p01_Database.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testRemoveComputerShouldThrowWhenNotExist.ic" NAME="ComputerManagerTests.testRemoveComputerShouldThrowWhenNotExist Coverage Results" MODIFIED="1681226909948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>computers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByUsernameThrowWhenNullParameter.ic" NAME="DatabaseTest.testFindByUsernameThrowWhenNullParameter Coverage Results" MODIFIED="1669542253617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest.ic" NAME="HouseTest Coverage Results" MODIFIED="1670402430294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cats.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest.ic" NAME="HeroRepositoryTest Coverage Results" MODIFIED="1671180290955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>heroRepository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testConstructor.ic" NAME="DatabaseTest.testConstructor Coverage Results" MODIFIED="1669539576525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testRemoveShouldThrowWhenEmptyDB.ic" NAME="DatabaseTest.testRemoveShouldThrowWhenEmptyDB Coverage Results" MODIFIED="1669541358681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1669623706474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p05_CustomLinkedList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByUsernameThrowWhenUserNotPresent.ic" NAME="DatabaseTest.testFindByUsernameThrowWhenUserNotPresent Coverage Results" MODIFIED="1669542198099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1669542877499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest_testRemoveThrowWhenNameIsNull.ic" NAME="HeroRepositoryTest.testRemoveThrowWhenNameIsNull Coverage Results" MODIFIED="1671177820464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>heroRepository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CarShopTests.ic" NAME="CarShopTests Coverage Results" MODIFIED="1681809297180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>carShop.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testAddCatShouldThrowWhenHouseIsFull.ic" NAME="HouseTest.testAddCatShouldThrowWhenHouseIsFull Coverage Results" MODIFIED="1670401770060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cats.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1669558616296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p04_BubbleSortTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$p01_Database_in_Unit_Testing.ic" NAME="p01_Database in Unit-Testing Coverage Results" MODIFIED="1669889752403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p01_Database.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testAddComputerShouldThrowWhenExist.ic" NAME="ComputerManagerTests.testAddComputerShouldThrowWhenExist Coverage Results" MODIFIED="1681225823093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1669555944737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p03_IteratorTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testRemoveCatShouldRemove.ic" NAME="HouseTest.testRemoveCatShouldRemove Coverage Results" MODIFIED="1670401954196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cats.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testGetComputersByManufacturer.ic" NAME="ComputerManagerTests.testGetComputersByManufacturer Coverage Results" MODIFIED="1681227236606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testGetComputersShouldGetAllComputers.ic" NAME="ComputerManagerTests.testGetComputersShouldGetAllComputers Coverage Results" MODIFIED="1681222544535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest_testContainsShouldReturnFalse.ic" NAME="CustomLinkedListTest.testContainsShouldReturnFalse Coverage Results" MODIFIED="1669623346565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p05_CustomLinkedList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ListIteratorTest_testPrintShouldThrowWhenIteratorEmpty.ic" NAME="ListIteratorTest.testPrintShouldThrowWhenIteratorEmpty Coverage Results" MODIFIED="1669555840241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p03_IteratorTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$GarageTest.ic" NAME="GarageTest Coverage Results" MODIFIED="1670525114247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>garage.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testAddComputerShouldThrowWhenNull.ic" NAME="ComputerManagerTests.testAddComputerShouldThrowWhenNull Coverage Results" MODIFIED="1681227575769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$CustomLinkedListTest_testContainsShouldReturnTrue.ic" NAME="CustomLinkedListTest.testContainsShouldReturnTrue Coverage Results" MODIFIED="1669623336522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p05_CustomLinkedList.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HeroRepositoryTest_testRemoveShouldRemoveHeroFromRepository.ic" NAME="HeroRepositoryTest.testRemoveShouldRemoveHeroFromRepository Coverage Results" MODIFIED="1671177876157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>heroRepository.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$SpaceshipTests_testAddAstronautShouldAdd.ic" NAME="SpaceshipTests.testAddAstronautShouldAdd Coverage Results" MODIFIED="1681325230767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>blueOrigin.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testAddNullShouldThrow.ic" NAME="DatabaseTest.testAddNullShouldThrow Coverage Results" MODIFIED="1669539820205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testRemoveShouldThrowWhenEmptyDB.ic" NAME="DatabaseTest.testRemoveShouldThrowWhenEmptyDB Coverage Results" MODIFIED="1669541358681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1669555944737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p03_IteratorTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests.ic" NAME="ComputerManagerTests Coverage Results" MODIFIED="1681227631195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$DatabaseTest_testFindByUsernameThrowWhenNullParameter.ic" NAME="DatabaseTest.testFindByUsernameThrowWhenNullParameter Coverage Results" MODIFIED="1669542253617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$ComputerManagerTests_testRemoveComputerShouldRemove.ic" NAME="ComputerManagerTests.testRemoveComputerShouldRemove Coverage Results" MODIFIED="1681226358644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$MagicianTest.ic" NAME="MagicianTest Coverage Results" MODIFIED="1671445033297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>magicGame.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftUni_Software_Engineering$HouseTest_testConstructorShouldCreate.ic" NAME="HouseTest.testConstructorShouldCreate Coverage Results" MODIFIED="1670400565103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cats.*</FILTER>
     </SUITE>
   </component>
 </project>
