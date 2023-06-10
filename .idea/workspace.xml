@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Exam prep">
       <change afterPath="$PROJECT_DIR$/Fundamentals-Java/Lists/exercise/HorseRacing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam_06-Aug-2021/01. Table Design_Data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam_06-Aug-2021/sgb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam_13-02-2022/01. Table Design_Data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-DB/Exam prep/Exam_13-02-2022/online_store.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,11 +92,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Advanced-Java\StreamsFilesAndDirectories\Exercises\Exercises Resources\Exercises Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam_06-Aug-2021" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam_13-02-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam_10-04-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam-15-October-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Exercise" />
+      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\05.Table Relations\Lab" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -310,9 +310,7 @@
       <workItem from="1681797542357" duration="10356000" />
       <workItem from="1684995598340" duration="5347000" />
       <workItem from="1686122621498" duration="11043000" />
-      <workItem from="1686209164760" duration="6115000" />
-      <workItem from="1686237436418" duration="7779000" />
-      <workItem from="1686254741983" duration="7043000" />
+      <workItem from="1686209164760" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -594,14 +592,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686141357745</updated>
     </task>
-    <task id="LOCAL-00041" summary="Exam prep">
-      <created>1686215133735</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1686215133735</updated>
-    </task>
-    <option name="localTasksCounter" value="42" />
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
