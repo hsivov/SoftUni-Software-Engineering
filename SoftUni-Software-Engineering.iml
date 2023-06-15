@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Programming-Basics-Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced-Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java-OOP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring_Data" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mysql-connector-j-8.0.33" level="project" />
   </component>
 </module>
