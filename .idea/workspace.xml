@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="Regular exam 10 June 2023">
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/lab/diablo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/lab/ormIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/lab/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="DB Apps Intro Lab">
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/AddMinion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/ChangeTownNamesCasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/GetMinionNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/GetVillainsNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/IncreaseAgeStoredProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/IncreaseMinionsAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/PrintAllMinionNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/RemoveVillain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/minions_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni-Software-Engineering.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,40 +54,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Hristo/Downloads/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.General",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Downloads/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.General&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="InterfacesAndAbstraction.militaryElite" />
@@ -94,11 +100,11 @@
       <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Java-OOP\ExamPrep\fairyShop\repositories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hristo\IdeaProjects\SoftUni-Software-Engineering\Spring_Data\dbAppsIntroduction\exercise" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam_13-02-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam_10-04-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\Exam prep\Exam-15-October-2022" />
       <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\06.Subqueries and Joins\Exercise" />
-      <recent name="C:\Users\Зара\IdeaProjects\SoftUni-Software-Engineering\Java-DB\05.Table Relations\Lab" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -107,13 +113,13 @@
       <recent name="magicGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.diablo">
-    <configuration name="diablo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.lab.diablo" />
+  <component name="RunManager" selected="Application.IncreaseAgeStoredProcedure">
+    <configuration name="ChangeTownNamesCasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.exercise.ChangeTownNamesCasing" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dbAppsIntroduction.lab.*" />
+          <option name="PATTERN" value="dbAppsIntroduction.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ormIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.lab.ormIntro" />
+    <configuration name="IncreaseAgeStoredProcedure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.exercise.IncreaseAgeStoredProcedure" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dbAppsIntroduction.lab.*" />
+          <option name="PATTERN" value="dbAppsIntroduction.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vehicleShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vehicleShop.Main" />
+    <configuration name="IncreaseMinionsAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.exercise.IncreaseMinionsAge" />
       <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicleShop.*" />
+          <option name="PATTERN" value="dbAppsIntroduction.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,44 +153,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarShopTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit-Testing" />
+    <configuration name="PrintAllMinionNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.exercise.PrintAllMinionNames" />
+      <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="carShop.*" />
+          <option name="PATTERN" value="dbAppsIntroduction.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="carShop" />
-      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarShopTests.testGetCarsShouldReturnAllCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit-Testing" />
+    <configuration name="RemoveVillain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dbAppsIntroduction.exercise.RemoveVillain" />
+      <module name="SoftUni-Software-Engineering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="carShop.*" />
+          <option name="PATTERN" value="dbAppsIntroduction.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="carShop" />
-      <option name="MAIN_CLASS_NAME" value="carShop.CarShopTests" />
-      <option name="METHOD_NAME" value="testGetCarsShouldReturnAllCars" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.diablo" />
-        <item itemvalue="Application.ormIntro" />
-        <item itemvalue="JUnit.CarShopTests" />
-        <item itemvalue="JUnit.CarShopTests.testGetCarsShouldReturnAllCars" />
-        <item itemvalue="Application.vehicleShop.Main" />
+        <item itemvalue="Application.IncreaseAgeStoredProcedure" />
+        <item itemvalue="Application.IncreaseMinionsAge" />
+        <item itemvalue="Application.ChangeTownNamesCasing" />
+        <item itemvalue="Application.PrintAllMinionNames" />
+        <item itemvalue="Application.RemoveVillain" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +313,10 @@
       <workItem from="1686122621498" duration="11043000" />
       <workItem from="1686209164760" duration="5630000" />
       <workItem from="1686396208640" duration="158000" />
-      <workItem from="1686810612623" duration="5902000" />
+      <workItem from="1686810612623" duration="6381000" />
+      <workItem from="1686848809454" duration="694000" />
+      <workItem from="1686905671496" duration="11930000" />
+      <workItem from="1686978644899" duration="12096000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -601,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686391788867</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="DB Apps Intro Lab">
+      <created>1686818717847</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686818717847</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Objects and Classes lab" />
     <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
@@ -644,7 +654,8 @@
     <MESSAGE value="Table relations lab" />
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Regular exam 10 June 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regular exam 10 June 2023" />
+    <MESSAGE value="DB Apps Intro Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB Apps Intro Lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,6 +774,11 @@
           <url>file://$PROJECT_DIR$/Java-OOP/ExamPrep/onlineShop/core/EngineImpl.java</url>
           <line>51</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/PrintAllMinionNames.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
