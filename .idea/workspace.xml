@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="DB Apps Intro Lab">
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/AddMinion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/ChangeTownNamesCasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/GetMinionNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/GetVillainsNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/IncreaseAgeStoredProcedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/IncreaseMinionsAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/PrintAllMinionNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/RemoveVillain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/minions_db.sql" afterDir="false" />
+    <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="DB Apps Introduction exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,40 +43,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hristo/Downloads/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.General&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Hristo/Downloads/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="InterfacesAndAbstraction.militaryElite" />
@@ -316,7 +305,10 @@
       <workItem from="1686810612623" duration="6381000" />
       <workItem from="1686848809454" duration="694000" />
       <workItem from="1686905671496" duration="11930000" />
-      <workItem from="1686978644899" duration="12096000" />
+      <workItem from="1686978644899" duration="12768000" />
+      <workItem from="1687099716911" duration="2956000" />
+      <workItem from="1687187468316" duration="698000" />
+      <workItem from="1687282740083" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>
@@ -612,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686818717847</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="DB Apps Introduction exercise">
+      <created>1687015194413</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1687015194413</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More Objects and Classes exercises" />
     <MESSAGE value="Add Exercise: Text Processing" />
     <MESSAGE value="Fundamentals Final Exam Preparation" />
     <MESSAGE value="Fundamentals Final Exam 7 August" />
@@ -655,7 +653,8 @@
     <MESSAGE value="Exam prep" />
     <MESSAGE value="Regular exam 10 June 2023" />
     <MESSAGE value="DB Apps Intro Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB Apps Intro Lab" />
+    <MESSAGE value="DB Apps Introduction exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB Apps Introduction exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,11 +773,6 @@
           <url>file://$PROJECT_DIR$/Java-OOP/ExamPrep/onlineShop/core/EngineImpl.java</url>
           <line>51</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spring_Data/dbAppsIntroduction/exercise/PrintAllMinionNames.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
