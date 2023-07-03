@@ -62,6 +62,7 @@ public class WizardDeposit extends BaseEntity{
         this.age = age;
     }
 
+    @Column(name = "magic_wand_creator", length = 100)
     public String getMagicWandCreator() {
         return magicWandCreator;
     }
@@ -70,6 +71,7 @@ public class WizardDeposit extends BaseEntity{
         this.magicWandCreator = magicWandCreator;
     }
 
+    @Column(name = "magic_wand_size")
     public Short getMagicWandSize() {
         return magicWandSize;
     }
@@ -78,6 +80,7 @@ public class WizardDeposit extends BaseEntity{
         this.magicWandSize = magicWandSize;
     }
 
+    @Column(name = "deposit_group", length = 20)
     public String getDepositGroup() {
         return depositGroup;
     }
@@ -86,6 +89,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositGroup = depositGroup;
     }
 
+    @Column(name = "deposit_start_date")
     public LocalDateTime getDepositStartDate() {
         return depositStartDate;
     }
@@ -94,6 +98,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositStartDate = depositStartDate;
     }
 
+    @Column(name = "deposit_amount", precision = 10, scale = 3)
     public BigDecimal getDepositAmount() {
         return depositAmount;
     }
@@ -102,6 +107,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositAmount = depositAmount;
     }
 
+    @Column(name = "deposit_interest")
     public Float getDepositInterest() {
         return depositInterest;
     }
@@ -110,6 +116,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositInterest = depositInterest;
     }
 
+    @Column(name = "deposit_charge")
     public Float getDepositCharge() {
         return depositCharge;
     }
@@ -118,6 +125,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositCharge = depositCharge;
     }
 
+    @Column(name = "deposit_expiration_date")
     public LocalDateTime getDepositExpirationDate() {
         return depositExpirationDate;
     }
@@ -126,6 +134,7 @@ public class WizardDeposit extends BaseEntity{
         this.depositExpirationDate = depositExpirationDate;
     }
 
+    @Column(name = "is_deposit_expired")
     public Boolean getDepositExpired() {
         return isDepositExpired;
     }

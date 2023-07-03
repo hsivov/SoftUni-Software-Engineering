@@ -12,7 +12,7 @@
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
             <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="4VaG$a64z*Kb"/>
+            <property name="hibernate.connection.password" value="1aD3^4WZ5F"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
