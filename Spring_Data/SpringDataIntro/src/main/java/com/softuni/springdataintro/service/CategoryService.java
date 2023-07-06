@@ -1,6 +1,6 @@
-package com.softuni.springdataintro.services;
+package com.softuni.springdataintro.service;
 
-import com.softuni.springdataintro.entities.Category;
+import com.softuni.springdataintro.entity.Category;
 
 import java.io.IOException;
 

@@ -1,10 +1,10 @@
-package com.softuni.springdataintro.services.impl;
+package com.softuni.springdataintro.service.impl;
 
-import com.softuni.springdataintro.entities.*;
-import com.softuni.springdataintro.repositories.BookRepository;
-import com.softuni.springdataintro.services.AuthorService;
-import com.softuni.springdataintro.services.BookService;
-import com.softuni.springdataintro.services.CategoryService;
+import com.softuni.springdataintro.entity.*;
+import com.softuni.springdataintro.repository.BookRepository;
+import com.softuni.springdataintro.service.AuthorService;
+import com.softuni.springdataintro.service.BookService;
+import com.softuni.springdataintro.service.CategoryService;
 import com.softuni.springdataintro.utils.FileUtil;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.softuni.springdataintro.constants.GlobalConstants.BOOKS_FILE_PATH;
+import static com.softuni.springdataintro.constant.GlobalConstants.BOOKS_FILE_PATH;
 
 @Service
 @Transactional
@@ -101,6 +101,80 @@ public class BookServiceImpl implements BookService {
                         book.getCopies()))
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public List<Book> getBookTitlesByAgeRestriction(AgeRestriction ageRestriction) {
+        return bookRepository.findBookByAgeRestriction(ageRestriction);
+    }
+
+    @Override
+    public List<String> getGoldenBooksTitlesWithCopiesLessThan5000() {
+        return bookRepository
+                .findBooksByEditionTypeAndCopiesLessThan(EditionType.GOLD, 5000)
+                .stream()
+                .map(Book::getTitle)
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<String> getBooksByPriceLowerThan5AndHigherThan40() {
+        return bookRepository.findBooksByPriceLessThanOrPriceGreaterThan(
+                BigDecimal.valueOf(5),
+                BigDecimal.valueOf(40)
+        )
+                .stream()
+                .map(book -> String.format("%s - $%.2f", book.getTitle(), book.getPrice()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Book> getBooksReleasedNotInYear(int year) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/M/yyyy");
+        LocalDate startDate = LocalDate.parse("01/01/" + year, formatter);
+        LocalDate endDate = LocalDate.parse("31/12/" + year, formatter);
+
+        return bookRepository.findBooksByReleaseDateBeforeOrReleaseDateAfter(startDate, endDate);
+    }
+
+    @Override
+    public List<Book> getAllBooksReleasedBeforeDate(String date) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        LocalDate releaseDate = LocalDate.parse(date, formatter);
+
+        return bookRepository.findAllByReleaseDateBefore(releaseDate);
+    }
+
+    @Override
+    public List<String> getBookTitlesContainingGivenString(String term) {
+        return bookRepository
+                .findBooksByTitleContainingIgnoreCase(term)
+                .stream()
+                .map(book -> String.format("%s", book.getTitle()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<String> getAllBookTitlesByAuthorLastNameStartsWith(String startStr) {
+        return bookRepository
+                .findAllByAuthor_LastNameStartsWith(startStr)
+                .stream()
+                .map(book -> String.format("%s (%s %s)",
+                        book.getTitle(),
+                        book.getAuthor().getFirstName(),
+                        book.getAuthor().getLastName()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public int findCountOfBooksWithTitleLongerThan(int titleLength) {
+        return bookRepository.countOfBooksWithTitleLengthLongerThan(titleLength);
+    }
+
+    @Override
+    public Book getBookByTitle(String title) {
+        return bookRepository.findBookByTitle(title);
+    }
+
 
     private Set<Category> getRandomCategories() {
         Set<Category> result = new HashSet<>();

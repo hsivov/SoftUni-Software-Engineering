@@ -1,4 +1,4 @@
-package com.softuni.springdataintro.entities;
+package com.softuni.springdataintro.entity;
 
 import jakarta.persistence.*;
 

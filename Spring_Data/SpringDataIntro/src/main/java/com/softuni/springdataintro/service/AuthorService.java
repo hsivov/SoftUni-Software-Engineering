@@ -1,6 +1,6 @@
-package com.softuni.springdataintro.services;
+package com.softuni.springdataintro.service;
 
-import com.softuni.springdataintro.entities.Author;
+import com.softuni.springdataintro.entity.Author;
 
 import java.io.IOException;
 import java.util.List;
@@ -13,4 +13,8 @@ public interface AuthorService {
     Author findAuthorById(Long id);
 
     List<String> getAllAuthorsByTheirBooksCount();
+
+    List<String> getAuthorsWithFirstNameEnding(String term);
+
+    List<String> getAllAuthorsAndTheirCopies();
 }

@@ -1,6 +1,7 @@
 package bg.softuni.springAdvanced;
 
 import bg.softuni.springAdvanced.entities.Ingredient;
+import bg.softuni.springAdvanced.entities.Shampoo;
 import bg.softuni.springAdvanced.services.IngredientService;
 import bg.softuni.springAdvanced.services.ShampooService;
 import org.springframework.boot.CommandLineRunner;
@@ -40,8 +41,12 @@ public class Runner implements CommandLineRunner {
 
 //        int count = shampooService.findCheaperThanCount(BigDecimal.valueOf(8.50));
 
+//        System.out.println(count);
+
+//        List<Shampoo> result = shampooService.findAllShampoosWithIngredients(List.of("Berry", "Mineral-Collagen"));
+//
 //        result.forEach(System.out::println);
 
-//        System.out.println(count);
+        ingredientService.deleteIngredient("Apple");
     }
 }

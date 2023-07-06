@@ -23,4 +23,9 @@ public class IngredientServiceImpl implements IngredientService {
     public List<Ingredient> findByNameWithin(List<String> names) {
         return ingredientRepository.findByNameInOrderByPriceAsc(names);
     }
+
+    @Override
+    public void deleteIngredient(String name) {
+        ingredientRepository.deleteIngredientByName(name);
+    }
 }

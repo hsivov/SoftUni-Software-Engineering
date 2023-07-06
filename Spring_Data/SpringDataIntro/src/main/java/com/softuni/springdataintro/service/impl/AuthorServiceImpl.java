@@ -1,17 +1,19 @@
-package com.softuni.springdataintro.services.impl;
+package com.softuni.springdataintro.service.impl;
 
-import com.softuni.springdataintro.entities.Author;
-import com.softuni.springdataintro.repositories.AuthorRepository;
-import com.softuni.springdataintro.services.AuthorService;
+import com.softuni.springdataintro.entity.Author;
+import com.softuni.springdataintro.entity.Book;
+import com.softuni.springdataintro.repository.AuthorRepository;
+import com.softuni.springdataintro.service.AuthorService;
 import com.softuni.springdataintro.utils.FileUtil;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.softuni.springdataintro.constants.GlobalConstants.AUTHOR_FILE_PATH;
+import static com.softuni.springdataintro.constant.GlobalConstants.AUTHOR_FILE_PATH;
 
 @Service
 public class AuthorServiceImpl implements AuthorService {
@@ -52,7 +54,6 @@ public class AuthorServiceImpl implements AuthorService {
 
     @Override
     public List<String> getAllAuthorsByTheirBooksCount() {
-        System.out.println();
         return authorRepository
                 .findAllByBooksSizeDESC()
                 .stream()
@@ -60,6 +61,30 @@ public class AuthorServiceImpl implements AuthorService {
                         author.getFirstName(),
                         author.getLastName(),
                         author.getBooks().size()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<String> getAuthorsWithFirstNameEnding(String term) {
+        return authorRepository
+                .findAuthorsByFirstNameEndingWith(term)
+                .stream()
+                .map(author ->  String.format("%s %s", author.getFirstName(), author.getLastName()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<String> getAllAuthorsAndTheirCopies() {
+        return authorRepository.findAll()
+                .stream()
+                .map(author -> String.format("%s %s - %d",
+                        author.getFirstName(),
+                        author.getLastName(),
+                        author.getBooks()
+                                .stream()
+                                .map(Book::getCopies)
+                                .reduce(Integer::sum)
+                                .orElse(0)))
                 .collect(Collectors.toList());
     }
 }

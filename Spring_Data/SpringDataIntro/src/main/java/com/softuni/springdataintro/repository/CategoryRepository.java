@@ -1,6 +1,6 @@
-package com.softuni.springdataintro.repositories;
+package com.softuni.springdataintro.repository;
 
-import com.softuni.springdataintro.entities.Category;
+import com.softuni.springdataintro.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

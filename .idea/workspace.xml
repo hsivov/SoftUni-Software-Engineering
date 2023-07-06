@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4881fb1-021e-4232-9cb4-72cf888230cd" name="Changes" comment="DB Apps Introduction exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Data/SpringDataIntro/src/main/java/com/softuni/springdataintro/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Data/SpringDataIntro/src/main/java/com/softuni/springdataintro/controllers/AppController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,6 +311,7 @@
       <workItem from="1687282740083" duration="957000" />
       <workItem from="1687953048533" duration="70000" />
       <workItem from="1688193987886" duration="185000" />
+      <workItem from="1688538514520" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Recover all files needed for Intellij to work proper">
       <created>1653427525850</created>

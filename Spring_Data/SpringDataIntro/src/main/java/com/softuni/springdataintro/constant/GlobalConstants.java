@@ -1,4 +1,4 @@
-package com.softuni.springdataintro.constants;
+package com.softuni.springdataintro.constant;
 
 public class GlobalConstants {
     public static final String AUTHOR_FILE_PATH = "src/main/resources/files/authors.txt";

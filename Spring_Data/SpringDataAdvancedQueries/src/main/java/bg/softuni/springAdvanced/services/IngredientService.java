@@ -8,4 +8,6 @@ public interface IngredientService {
     List<Ingredient> findByName(String name);
 
     List<Ingredient> findByNameWithin(List<String> names);
+
+    void deleteIngredient(String name);
 }

@@ -1,8 +1,8 @@
-package com.softuni.springdataintro.services.impl;
+package com.softuni.springdataintro.service.impl;
 
-import com.softuni.springdataintro.entities.Category;
-import com.softuni.springdataintro.repositories.CategoryRepository;
-import com.softuni.springdataintro.services.CategoryService;
+import com.softuni.springdataintro.entity.Category;
+import com.softuni.springdataintro.repository.CategoryRepository;
+import com.softuni.springdataintro.service.CategoryService;
 import com.softuni.springdataintro.utils.FileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static com.softuni.springdataintro.constants.GlobalConstants.CATEGORIES_FILE_PATH;
+import static com.softuni.springdataintro.constant.GlobalConstants.CATEGORIES_FILE_PATH;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {
