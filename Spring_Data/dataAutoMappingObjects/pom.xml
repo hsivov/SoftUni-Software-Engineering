@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>bg.softuni</groupId>
-    <artifactId>dto</artifactId>
+    <artifactId>data-auto-mapping-objects</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dto</name>
-    <description>dto</description>
+    <name>dataAutoMappingObjects</name>
+    <description>Data Transfer Objects</description>
     <properties>
         <java.version>17</java.version>
     </properties>
