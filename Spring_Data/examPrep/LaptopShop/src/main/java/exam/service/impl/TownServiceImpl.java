@@ -62,4 +62,9 @@ public class TownServiceImpl implements TownService {
 
         return stringBuilder.toString();
     }
+
+    @Override
+    public Town getTownByName(String townName) {
+        return townRepository.findByName(townName);
+    }
 }
