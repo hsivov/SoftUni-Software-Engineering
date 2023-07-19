@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Optional;
 
 @Service
@@ -56,7 +55,7 @@ public class PartsServiceImpl implements PartsService {
                         isValid = false;
                     }
 
-                    sb.append(isValid ? String.format(Locale.US, "Successfully imported part %s - %.2f",
+                    sb.append(isValid ? String.format("Successfully imported part %s - %s",
                             partSeedDto.getPartName(),
                             partSeedDto.getPrice())
                             : "Invalid part")
@@ -68,5 +67,10 @@ public class PartsServiceImpl implements PartsService {
                 .forEach(partsRepository::save);
 
         return sb.toString();
+    }
+
+    @Override
+    public Part getPartById(Long partId) {
+        return partsRepository.findById(partId).orElse(null);
     }
 }

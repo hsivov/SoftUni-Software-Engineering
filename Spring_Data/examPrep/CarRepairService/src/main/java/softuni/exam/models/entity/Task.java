@@ -7,11 +7,6 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "tasks")
 public class Task extends BaseEntity{
-    //•	price – accepts a very big positive number.
-    //•	date – a date and time of registering the task in the "yyyy-MM-dd HH:mm:ss" format.
-    //•	Constraint: The task table has a relation with the parts table.
-    //•	Constraint: The task table has a relation with the mechanics table.
-    //•	Constraint: The task table has a relation with the cars table.
 
     @Column(nullable = false)
     private BigDecimal price;

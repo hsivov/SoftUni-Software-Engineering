@@ -1,17 +1,26 @@
-package softuni.exam.models.entity;
+package softuni.exam.models.dto;
 
-import javax.persistence.*;
+import com.google.gson.annotations.Expose;
 
-@Entity
-@Table(name = "mechanics")
-public class Mechanic extends BaseEntity{
-    @Column(unique = true, nullable = false)
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Size;
+
+public class MechanicSeedDto {
+
+    @Expose
+    @Size(min = 2)
     private String firstName;
-    @Column(nullable = false)
+
+    @Expose
+    @Size(min = 2)
     private String lastName;
-    @Column(unique = true,nullable = false)
+
+    @Expose
+    @Email
     private String email;
-    @Column(unique = true)
+
+    @Expose
+    @Size(min = 2)
     private String phone;
 
     public String getFirstName() {
