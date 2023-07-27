@@ -3,7 +3,9 @@ package exam.softuni.instagraphlite.service.impl;
 import com.google.gson.Gson;
 import exam.softuni.instagraphlite.models.dto.UserSeedDto;
 import exam.softuni.instagraphlite.models.entity.Picture;
+import exam.softuni.instagraphlite.models.entity.Post;
 import exam.softuni.instagraphlite.models.entity.User;
+import exam.softuni.instagraphlite.repository.PostRepository;
 import exam.softuni.instagraphlite.repository.UserRepository;
 import exam.softuni.instagraphlite.service.PictureService;
 import exam.softuni.instagraphlite.util.ValidationUtil;
@@ -15,6 +17,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -23,13 +26,15 @@ public class UserServiceImpl implements UserService {
     private static final String USER_FILE_PATH = "src/main/resources/files/users.json";
 
     private final UserRepository userRepository;
+    private final PostRepository postRepository;
     private final ModelMapper modelMapper;
     private final Gson gson;
     private final ValidationUtil validationUtil;
     private final PictureService pictureService;
 
-    public UserServiceImpl(UserRepository userRepository, ModelMapper modelMapper, Gson gson, ValidationUtil validationUtil, PictureService pictureService) {
+    public UserServiceImpl(UserRepository userRepository, PostRepository postRepository, ModelMapper modelMapper, Gson gson, ValidationUtil validationUtil, PictureService pictureService) {
         this.userRepository = userRepository;
+        this.postRepository = postRepository;
         this.modelMapper = modelMapper;
         this.gson = gson;
         this.validationUtil = validationUtil;
@@ -90,7 +95,19 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String exportUsersWithTheirPosts() {
+        StringBuilder output = new StringBuilder();
+        List<User> users = userRepository.allUsersWithTheirPostsOrderedByCountOfPostsDesc();
+        for (User user : users) {
+            List<Post> posts = postRepository.getPostByUserOrderByPicture_Size(user);
+            output.append("User: ").append(user.getUsername()).append(System.lineSeparator());
+            output.append("Post count: ").append(posts.size()).append(System.lineSeparator());
+            posts.forEach(post -> {
+                output.append("==Post Details:").append(System.lineSeparator());
+                output.append("----Caption: ").append(post.getCaption()).append(System.lineSeparator());
+                output.append(String.format("----Picture Size: %s%n", post.getPicture().getSize()));
+            });
+        }
 
-        return null;
+        return output.toString();
     }
 }

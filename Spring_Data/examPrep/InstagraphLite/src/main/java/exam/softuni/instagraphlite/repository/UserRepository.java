@@ -5,8 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
@@ -15,7 +15,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     Optional<User> findFirstByUsername(String username);
 
-    @Query("SELECT COUNT(u) FROM User u " +
-            "JOIN Post p")
-    Set<User> allUsersWithTheirPostsOrderedByCountOfPostsDesc();
+    @Query(value = "SELECT u from User u " +
+            "ORDER BY (SELECT COUNT(*) FROM Post p WHERE p.user.id = u.id) DESC ")
+    List<User> allUsersWithTheirPostsOrderedByCountOfPostsDesc();
 }

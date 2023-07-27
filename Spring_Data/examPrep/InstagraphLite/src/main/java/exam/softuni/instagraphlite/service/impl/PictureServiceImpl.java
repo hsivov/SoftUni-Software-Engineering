@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -77,6 +78,15 @@ public class PictureServiceImpl implements PictureService {
 
     @Override
     public String exportPictures() {
-        return null;
+        StringBuilder output = new StringBuilder();
+
+        List<Picture> pictures = pictureRepository.findAllBySizeGreaterThanOrderBySize(30000.0);
+
+        pictures.forEach(picture -> {
+            output.append(String.format("%.2f - %s", picture.getSize(), picture.getPath()))
+                    .append(System.lineSeparator());
+        });
+
+        return output.toString();
     }
 }
