@@ -16,6 +16,7 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Optional;
+import java.util.Set;
 
 @Service
 public class StarServiceImpl implements StarService {
@@ -82,6 +83,22 @@ public class StarServiceImpl implements StarService {
 
     @Override
     public String exportStars() {
-        return null;
+        StringBuilder sb = new StringBuilder();
+
+        Set<Star> stars = starRepository.findAllByStarTypeAndAstronomerNull();
+
+        stars.forEach(star -> {
+            sb
+                    .append(String.format("Star: %s\n" +
+                            "   *Distance: %s light years\n" +
+                            "   **Description: %s\n" +
+                            "   ***Constellation: %s",
+                            star.getName(),
+                            star.getLightYears(),
+                            star.getDescription(),
+                            star.getConstellation().getName()))
+                    .append(System.lineSeparator());
+        });
+        return sb.toString();
     }
 }

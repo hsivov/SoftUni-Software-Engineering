@@ -15,6 +15,7 @@ import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Locale;
 import java.util.Optional;
 
 @Service
@@ -63,10 +64,10 @@ public class AstronomerServiceImpl implements AstronomerService {
                         isValid = false;
                     }
                     sb
-                            .append(isValid ? String.format("Successfully imported astronomer %s %s - %.2f",
+                            .append(isValid ? String.format(Locale.US, "Successfully imported astronomer %s %s - %.2f",
                                     astronomerSeedDto.getFirstName(),
                                     astronomerSeedDto.getLastName(),
-                                    astronomerSeedDto.getSalary())
+                                    astronomerSeedDto.getAverageObservationHours())
                                     : "Invalid astronomer")
                             .append(System.lineSeparator());
 
