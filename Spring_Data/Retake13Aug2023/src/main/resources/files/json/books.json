@@ -1,0 +1,114 @@
+[
+  {
+    "author": "F. Scott Fitzgerald",
+    "available": true,
+    "description": "A classic novel set in the roaring 20s",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "The Great Gatsby",
+    "rating": 9.1
+  },
+  {
+    "author": "F. Scott Fitzgerald",
+    "available": true,
+    "description": "Romantic bolevard literature",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "Fo",
+    "rating": 9.1
+  },
+  {
+    "author": "Harper Lee",
+    "available": true,
+    "description": "A powerful story addressing racial injustice",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "To Kill a Mockingbird",
+    "rating": 5.6
+  },
+  {
+    "author": "Toni Morrison",
+    "available": true,
+    "description": "Tells the story of a dysfunctional family of formerly enslaved people whose Cincinnati home is haunted by a malevolent spirit.",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "Beloved",
+    "rating": -3.1
+  },
+  {
+    "author": "Douglas Adams",
+    "available": true,
+    "description": "The Hitchhiker's Guide to the Galaxy is a comedy science fiction franchise created by Douglas Adams.",
+    "genre": "SCIENCE_FICTION",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "rating": 4.2
+  },
+  {
+    "author": "Don Williams",
+    "available": true,
+    "description": "Some kind of copy of a famous book",
+    "genre": "SCIENCE_FICTION",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "rating": 3.2
+  },
+  {
+    "author": "George Orwell",
+    "available": false,
+    "description": "A dystopian novel about totalitarianism",
+    "genre": "SCIENCE_FICTION",
+    "title": "1984",
+    "rating": 8.7
+  },
+  {
+    "author": "Joseph Heller",
+    "available": true,
+    "description": "Often cited as one of the most significant novels of the twentieth century, it uses a distinctive non-chronological third-person omniscient narration, describing events from the points of view of different characters.",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "Catch-22",
+    "rating": 9.7
+  },
+  {
+    "author": "J.R.R. Tolkien",
+    "available": true,
+    "description": "A fantasy adventure about a hobbit's journey",
+    "genre": "FANTASY",
+    "title": "The Hobbit",
+    "rating": 4.3
+  },
+  {
+    "author": "J.D. Salinger",
+    "available": true,
+    "description": "A coming-of-age novel about teenage angst",
+    "genre": "CLASSIC_LITERATURE",
+    "title": "The Catcher in the Rye",
+    "rating": 5.1
+  },
+  {
+    "author": "J.K. Rowling",
+    "available": true,
+    "description": "The first book in the Harry Potter series",
+    "genre": "FANTASY",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "rating": 6.1
+  },
+  {
+    "author": "J.R.R. Tolkien",
+    "available": false,
+    "description": "An epic fantasy trilogy",
+    "genre": "SCIENCE_FICTION",
+    "title": "The Lord of the Rings",
+    "rating": 5.2
+  },
+  {
+    "author": "Aldous Huxley",
+    "available": true,
+    "description": "A dystopian novel envisioning a future society",
+    "genre": "SCIENCE_FICTION",
+    "title": "Brave New World",
+    "rating": 4.7
+  },
+  {
+    "author": "C.S. Lewis",
+    "available": true,
+    "description": "A series of fantasy novels about Narnia",
+    "genre": "FANTASY",
+    "title": "The Chronicles of Narnia",
+    "rating": 5.6
+  }
+]

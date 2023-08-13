@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<borrowing_records>
+    <borrowing_record>
+        <borrow_date>2020-01-13</borrow_date>
+        <return_date>2022-09-11</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>Handle with care, fragile book.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-01-13</borrow_date>
+        <return_date>2022-09-11</return_date>
+        <book>
+            <title>The Lord of the RingsX</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>Extended borrowing period approved by librarian.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-01-13</borrow_date>
+        <return_date>2022-09-11</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>272</id>
+        </member>
+        <remarks>Member provided student ID for verification.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-06-01</borrow_date>
+        <return_date>2023-01-07</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>14</id>
+        </member>
+        <remarks>Returned with minor damage, to be repaired.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-03-09</borrow_date>
+        <return_date>2023-06-18</return_date>
+        <book>
+            <title>Pride and Prejudice</title>
+        </book>
+        <member>
+            <id>29</id>
+        </member>
+        <remarks>Special discount applied for senior citizen member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-09-29</borrow_date>
+        <return_date>2023-04-10</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Book in great condition, due back 14 days from borrow date. Contact if extensions needed. Be careful.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-09-05</borrow_date>
+        <return_date>2022-11-28</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>12</id>
+        </member>
+        <remarks>Member provided student ID for verification.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-10-14</borrow_date>
+        <return_date>2023-02-17</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>8</id>
+        </member>
+        <remarks>Member requested book renewal, granted for one week.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-01-13</borrow_date>
+        <return_date>2023-04-13</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Not returned, follow up with member required.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-10-03</borrow_date>
+        <return_date>2022-09-17</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Out of stock, reservation placed for next available copy.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-16</borrow_date>
+        <return_date>2022-09-28</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>5</id>
+        </member>
+        <remarks>Member mentioned lost library card, identity verified.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-12-16</borrow_date>
+        <return_date>2023-03-13</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>2</id>
+        </member>
+        <remarks>Book reserved, notify member when available.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-12-20</borrow_date>
+        <return_date>2023-06-19</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Special request for a specific edition of the book.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-03-11</borrow_date>
+        <return_date>2023-06-02</return_date>
+        <book>
+            <title>1984</title>
+        </book>
+        <member>
+            <id>9</id>
+        </member>
+        <remarks>Returned in excellent condition, no issues</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-09-15</borrow_date>
+        <return_date>2022-12-11</return_date>
+        <book>
+            <title>1984</title>
+        </book>
+        <member>
+            <id>18</id>
+        </member>
+        <remarks>Member requested book recommendation, provided suggestion.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-08-09</borrow_date>
+        <return_date>2022-10-29</return_date>
+        <book>
+            <title>1984</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Overdue notice sent, please follow up with member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-05-19</borrow_date>
+        <return_date>2023-01-19</return_date>
+        <book>
+            <title>1984</title>
+        </book>
+        <member>
+            <id>6</id>
+        </member>
+        <remarks>Temporary membership granted for a visiting guest.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-16</borrow_date>
+        <return_date>2023-03-11</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>10</id>
+        </member>
+        <remarks>Member reported missing page, book exchanged for replacement.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-09-26</borrow_date>
+        <return_date>2022-12-04</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>10</id>
+        </member>
+        <remarks>Inter-library loan initiated for unavailable book.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-09-27</borrow_date>
+        <return_date>2022-11-28</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>20</id>
+        </member>
+        <remarks>Borrower forgot to return personal bookmark.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-08-28</borrow_date>
+        <return_date>2022-10-13</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>3</id>
+        </member>
+        <remarks>Returned with minor damage, to be repaired.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-06-14</borrow_date>
+        <return_date>2022-10-06</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>2</id>
+        </member>
+        <remarks>Returned with a thank-you note from the member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-08-15</borrow_date>
+        <return_date>2022-11-21</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Member provided student ID for verification.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-11-10</borrow_date>
+        <return_date>2022-08-19</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>"Special discount applied for senior citizen member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-08-03</borrow_date>
+        <return_date>2023-03-19</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>28</id>
+        </member>
+        <remarks>Temporary membership granted for a visiting guest.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-12-13</borrow_date>
+        <return_date>2023-07-29</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>22</id>
+        </member>
+        <remarks>Borrower forgot to return personal bookmark.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-01-26</borrow_date>
+        <return_date>2023-03-18</return_date>
+        <book>
+            <title>The Hobbit</title>
+        </book>
+        <member>
+            <id>21</id>
+        </member>
+        <remarks>Extended borrowing period approved by librarian.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-06-02</borrow_date>
+        <return_date>2023-05-19</return_date>
+        <book>
+            <title>Brave New World</title>
+        </book>
+        <member>
+            <id>9</id>
+        </member>
+        <remarks>Special request for a specific edition of the book.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-11-08</borrow_date>
+        <return_date>2023-03-20</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>18</id>
+        </member>
+        <remarks>Returned in excellent condition, no issues</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-02-11</borrow_date>
+        <return_date>2023-07-19</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>28</id>
+        </member>
+        <remarks>Book reserved, notify member when available.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-30</borrow_date>
+        <return_date>2022-09-02</return_date>
+        <book>
+            <title>Brave New World</title>
+        </book>
+        <member>
+            <id>11</id>
+        </member>
+        <remarks>Late return, fine applied as per library policy.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-28</borrow_date>
+        <return_date>2022-11-10</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>6</id>
+        </member>
+        <remarks>Member requested book recommendation, provided suggestion.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-05-27</borrow_date>
+        <return_date>2022-08-11</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>6</id>
+        </member>
+        <remarks>Member requested book renewal, granted for one week.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-02-22</borrow_date>
+        <return_date>2023-01-18</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>5</id>
+        </member>
+        <remarks>Member mentioned lost library card, identity verified.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-09-16</borrow_date>
+        <return_date>2023-03-14</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>13</id>
+        </member>
+        <remarks>Out of stock, reservation placed for next available copy.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-10-08</borrow_date>
+        <return_date>2023-04-17</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>21</id>
+        </member>
+        <remarks>Not returned, follow up with member required.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-06-16</borrow_date>
+        <return_date>2022-08-14</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Returned with minor damage, to be repaired.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-11-24</borrow_date>
+        <return_date>2023-01-25</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>Overdue notice sent, please follow up with member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-03-28</borrow_date>
+        <return_date>2023-01-11</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>2</id>
+        </member>
+        <remarks>Inter-library loan initiated for unavailable book.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-24</borrow_date>
+        <return_date>2022-08-16</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>28</id>
+        </member>
+        <remarks>Member reported missing page, book exchanged for replacement.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-04</borrow_date>
+        <return_date>2023-06-26</return_date>
+        <book>
+            <title>To Kill a Mockingbird</title>
+        </book>
+        <member>
+            <id>18</id>
+        </member>
+        <remarks>Temporary membership granted for a visiting guest.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-06-22</borrow_date>
+        <return_date>2022-11-19</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>24</id>
+        </member>
+        <remarks>"Special discount applied for senior citizen member.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-01-12</borrow_date>
+        <return_date>2023-04-17</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>Member requested book recommendation, provided suggestion.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-08-29</borrow_date>
+        <return_date>2022-08-16</return_date>
+        <book>
+            <title>The Chronicles of Narnia</title>
+        </book>
+        <member>
+            <id>5</id>
+        </member>
+        <remarks>Book reserved, notify member when available.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-06-05</borrow_date>
+        <return_date>2023-03-06</return_date>
+        <book>
+            <title>The Hitchhiker's Guide to the Galaxy</title>
+        </book>
+        <member>
+            <id>1</id>
+        </member>
+        <remarks>Member requested book renewal, granted for one week.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-08-24</borrow_date>
+        <return_date>2023-06-23</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>27</id>
+        </member>
+        <remarks>Not returned, follow up with member required.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-07-10</borrow_date>
+        <return_date>2023-07-18</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>14</id>
+        </member>
+        <remarks>Extended borrowing period approved by librarian.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-12-06</borrow_date>
+        <return_date>2023-06-26</return_date>
+        <book>
+            <title>The Great Gatsby</title>
+        </book>
+        <member>
+            <id>6</id>
+        </member>
+        <remarks>Member mentioned lost library card, identity verified.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-11-04</borrow_date>
+        <return_date>2023-06-02</return_date>
+        <book>
+            <title>1984</title>
+        </book>
+        <member>
+            <id>19</id>
+        </member>
+        <remarks>Returned with minor damage, to be repaired.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2021-02-24</borrow_date>
+        <return_date>2022-08-30</return_date>
+        <book>
+            <title>The Catcher in the Rye</title>
+        </book>
+        <member>
+            <id>4</id>
+        </member>
+        <remarks>Extended borrowing period approved by librarian.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2019-09-10</borrow_date>
+        <return_date>2023-01-07</return_date>
+        <book>
+            <title>The Lord of the Rings</title>
+        </book>
+        <member>
+            <id>1</id>
+        </member>
+        <remarks>Member provided student ID for verification.</remarks>
+    </borrowing_record>
+    <borrowing_record>
+        <borrow_date>2020-07-05</borrow_date>
+        <return_date>2023-03-27</return_date>
+        <book>
+            <title>Harry Potter and the Sorcerer's Stone</title>
+        </book>
+        <member>
+            <id>25</id>
+        </member>
+        <remarks>Late return, fine applied as per library policy.</remarks>
+    </borrowing_record>
+</borrowing_records>

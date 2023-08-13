@@ -1,0 +1,188 @@
+[
+  {
+    "address": "123 Main St",
+    "firstName": "John",
+    "lastName": "Doe",
+    "phoneNumber": "555-1111"
+  },
+  {
+    "address": "13 Main St",
+    "firstName": "Joah",
+    "lastName": "Doevill",
+    "phoneNumber": "555-1111"
+  },
+  {
+    "address": "23 Einsteinufer str",
+    "firstName": null,
+    "lastName": "Schmidt",
+    "phoneNumber": "525-22"
+  },
+  {
+    "address": "456 Elm St",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "phoneNumber": "555-2222"
+  },
+  {
+    "address": null,
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "phoneNumber": "555-3333"
+  },
+  {
+    "address": "321 Maple Rd",
+    "firstName": "Emily",
+    "lastName": "Williams",
+    "phoneNumber": "5555-4444-2213-594810"
+  },
+  {
+    "address": "555 Pine Blvd",
+    "firstName": "David",
+    "lastName": "Brown",
+    "phoneNumber": "555-5555"
+  },
+  {
+    "address": "777 Cedar Ln",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "phoneNumber": "555-6666"
+  },
+  {
+    "address": "888 Birch Dr",
+    "firstName": "Matthew",
+    "lastName": "Miller",
+    "phoneNumber": "555-7777"
+  },
+  {
+    "address": "999 Walnut St",
+    "firstName": "Jennifer",
+    "lastName": "Taylor",
+    "phoneNumber": "555-8888"
+  },
+  {
+    "address": "111 Willow Ave",
+    "firstName": "Daniel",
+    "lastName": "Anderson",
+    "phoneNumber": "555-9999"
+  },
+  {
+    "address": "222 Redwood Rd",
+    "firstName": "Jessica",
+    "lastName": "Thomas",
+    "phoneNumber": "555-1010"
+  },
+  {
+    "address": "333 Spruce Ct",
+    "firstName": "Christopher",
+    "lastName": "Lee",
+    "phoneNumber": "555-1112"
+  },
+  {
+    "address": "444 Birch Ln",
+    "firstName": "Laura",
+    "lastName": "Garcia",
+    "phoneNumber": "555-1213"
+  },
+  {
+    "address": "555 Oak Blvd",
+    "firstName": "James",
+    "lastName": "Martinez",
+    "phoneNumber": "555-1314"
+  },
+  {
+    "address": "666 Elm Rd",
+    "firstName": "Amanda",
+    "lastName": "Robinson",
+    "phoneNumber": "555-1415"
+  },
+  {
+    "address": "777 Cedar Ave",
+    "firstName": "Robert",
+    "lastName": "Clark",
+    "phoneNumber": "555-1516"
+  },
+  {
+    "address": "888 Pine Ct",
+    "firstName": "Melissa",
+    "lastName": "Lewis",
+    "phoneNumber": "555-1617"
+  },
+  {
+    "address": "999 Maple Ln",
+    "firstName": "William",
+    "lastName": "Hill",
+    "phoneNumber": "555-1718"
+  },
+  {
+    "address": "111 Birch Dr",
+    "firstName": "Michelle",
+    "lastName": "Lopez",
+    "phoneNumber": "555-1819"
+  },
+  {
+    "address": "222 Elm St",
+    "firstName": "Elizabeth",
+    "lastName": "Green",
+    "phoneNumber": "555-1920"
+  },
+  {
+    "address": "333 Oak Ave",
+    "firstName": "Andrew",
+    "lastName": "Adams",
+    "phoneNumber": "555-2021"
+  },
+  {
+    "address": "Hauptstraße 1",
+    "firstName": "Oliver",
+    "lastName": "Schmidt",
+    "phoneNumber": "555-3030"
+  },
+  {
+    "address": "Bahnhofstraße 15",
+    "firstName": "Sophie",
+    "lastName": "Müller",
+    "phoneNumber": "555-4040"
+  },
+  {
+    "address": "Kirchplatz 8",
+    "firstName": "Lukas",
+    "lastName": "Fischer",
+    "phoneNumber": "555-5050"
+  },
+  {
+    "address": "Dorfstraße 25",
+    "firstName": "Hannah",
+    "lastName": "Weber",
+    "phoneNumber": "555-6060"
+  },
+  {
+    "address": "Schulweg 10",
+    "firstName": "Finn",
+    "lastName": "Koch",
+    "phoneNumber": "555-7070"
+  },
+  {
+    "address": "Bergstraße 5",
+    "firstName": "Emma",
+    "lastName": "Lehmann",
+    "phoneNumber": "555-8080"
+  },
+  {
+    "address": "Mühlenweg 3",
+    "firstName": "Noah",
+    "lastName": "Huber",
+    "phoneNumber": "555-9090"
+  },
+  {
+    "address": "Rosenweg 12",
+    "firstName": "Mia",
+    "lastName": "Schneider",
+    "phoneNumber": "555-0101"
+  },
+  {
+    "address": "Wiesenstraße 18",
+    "firstName": "Elias",
+    "lastName": "Wolf",
+    "phoneNumber": "555-1212"
+  }
+]
