@@ -1,0 +1,45 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron index-jumbo d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex border-left border-bottom w-50 ">
+                    <h1 class="myBackgroundColor ">Library Management System</h1>
+                </div>
+                <div class="col-md-12 d-flex mt-1">
+                    <h4>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dive into the fascinating realm of books, readers, and the organized world of
+                        libraries that have shaped our understanding of literature and information. Expand your
+                        knowledge of library resources, discover hidden connections between various genres, and embark
+                        on a journey through the vast sea of books and records.
+                        <br/>
+<!--                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With our user-friendly application, you can effortlessly browse through the-->
+<!--                        extensive catalog, find the perfect book for your interests, and check its availability. The-->
+<!--                        system also enables library members to manage their borrowing history, renew books, and receive-->
+<!--                        timely notifications on due dates, ensuring a stress-free reading experience.-->
+<!--                        <br/>-->
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embrace the joy of reading with just a few clicks. The "Library Management System"
+                        empowers you to delve into the world of literature, connect with fellow book enthusiasts, and
+                        indulge in the pleasure of exploring new literary horizons. Join us on this exciting journey
+                        through the pages of knowledge, and let the Library Management System enrich your reading
+                        adventures like never before.
+                    </h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <th:block th:if="${areImported == true}">
+                        <p><a class="btn btn-primary export-button text-white"
+                              th:href="@{/export/borrowing-records}">Export Library Members</a></p>
+                    </th:block>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <th:block th:if="${areImported == false}">
+                            <p class="bg-dark rounded p-2">Тo see the next task, first import all JSON and XML
+                                files.</p>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>
