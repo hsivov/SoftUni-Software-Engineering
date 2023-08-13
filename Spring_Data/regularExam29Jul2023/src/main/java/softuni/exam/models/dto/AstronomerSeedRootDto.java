@@ -11,7 +11,7 @@ import java.util.List;
 public class AstronomerSeedRootDto {
 
     @XmlElement(name = "astronomer")
-    List<AstronomerSeedDto> astronomers;
+    private List<AstronomerSeedDto> astronomers;
 
     public List<AstronomerSeedDto> getAstronomers() {
         return astronomers;

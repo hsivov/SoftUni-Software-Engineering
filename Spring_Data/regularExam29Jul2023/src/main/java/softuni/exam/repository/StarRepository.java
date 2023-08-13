@@ -15,9 +15,9 @@ public interface StarRepository extends JpaRepository<Star, Long> {
 
     Optional<Star> findById(Long starId);
 
-    @Query(value = "SELECT * FROM stars s " +
-            "LEFT JOIN astronomers a ON s.id = a.observing_star_id " +
-            "WHERE s.star_type = 'RED_GIANT' AND a.id IS NULL " +
-            "ORDER BY s.light_years ", nativeQuery = true)
+    @Query(value = "SELECT s FROM Star s " +
+            "LEFT JOIN Astronomer a ON s.id = a.observingStar.id " +
+            "WHERE s.starType = 'RED_GIANT' AND a.id IS NULL " +
+            "ORDER BY s.lightYears ")
     Set<Star> findAllByStarTypeAndAstronomerNull();
 }

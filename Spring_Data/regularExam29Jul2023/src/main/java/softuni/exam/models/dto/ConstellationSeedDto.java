@@ -6,9 +6,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class ConstellationSeedDto {
-    //•	name – accepts char sequence (between 3 to 20 inclusive). The values are unique in the database.
-    //•	description - accepts char sequence about the naming of the constellation with a character length value higher than or equal to 5.
-
     @Expose
     private String name;
     @Expose

@@ -3,7 +3,6 @@ package softuni.exam.models.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Set;
 
 @Entity
 @Table(name = "constellations")

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.StarSeedDto;
+import softuni.exam.models.entity.Constellation;
 import softuni.exam.models.entity.Star;
 import softuni.exam.repository.ConstellationRepository;
 import softuni.exam.repository.StarRepository;
@@ -72,7 +73,8 @@ public class StarServiceImpl implements StarService {
                 .map(starSeedDto -> {
                     Star star = modelMapper.map(starSeedDto, Star.class);
 
-                    star.setConstellation(constellationRepository.findFirstById(starSeedDto.getConstellation()));
+                    Constellation firstById = constellationRepository.findFirstById(starSeedDto.getConstellation());
+                    star.setConstellation(firstById);
 
                     return star;
                 })
