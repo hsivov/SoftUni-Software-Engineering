@@ -14,3 +14,5 @@ Java Web Developer Curriculum
 | <a href="https://softuni.bg/trainings/3845/java-oop-october-2022" > Java OOP </a> | <a href="https://softuni.bg/Certificates/Details/169876/4e511374"> Link</a> |
 | <a href="https://softuni.bg/trainings/3975/html-and-css-january-2023">HTML & CSS</a> | <a href="https://softuni.bg/certificates/details/163143/85b495cd">Link</a> |
 | <a href="https://softuni.bg/trainings/3976/js-front-end-february-2023">JS Front-End</a> | <a href="https://softuni.bg/certificates/details/170781/b5b9ed98">Link</a> |
+| <a href="https://softuni.bg/trainings/4116/mysql-may-2023">MySQL</a> | <a href="https://softuni.bg/certificates/details/172171/8e53d7ef">Link</a> |
+| <a href="https://softuni.bg/trainings/4115/spring-data-june-2023">Spring Data</a> | <a href="https://softuni.bg/certificates/details/182102/23b7e256">Link</a> |
