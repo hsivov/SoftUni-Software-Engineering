@@ -16,3 +16,7 @@ Java Web Developer Curriculum
 | <a href="https://softuni.bg/trainings/3976/js-front-end-february-2023">JS Front-End</a> | <a href="https://softuni.bg/certificates/details/170781/b5b9ed98">Link</a> |
 | <a href="https://softuni.bg/trainings/4116/mysql-may-2023">MySQL</a> | <a href="https://softuni.bg/certificates/details/172171/8e53d7ef">Link</a> |
 | <a href="https://softuni.bg/trainings/4115/spring-data-june-2023">Spring Data</a> | <a href="https://softuni.bg/certificates/details/182102/23b7e256">Link</a> |
+| <a href="https://softuni.bg/trainings/4843/spring-fundamentals-january-2025">Spring Fundamentals</a> | <a href="https://softuni.bg/certificates/details/242790/0d944ccb">Link</a> |
+| <a href="https://softuni.bg/trainings/4844/spring-advanced-february-2025">Spring Advanced</a> | <a href="https://softuni.bg/certificates/details/242005/a9cc1345">Link</a> |
+| <a href="https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024">Software Engineering and DevOps</a> | <a href="https://softuni.bg/certificates/details/213390/587dfd96">Link</a> |
+| <a href="https://softuni.bg/trainings/4359/containers-and-cloud-january-2024">Containers and Cloud</a> | <a href="https://softuni.bg/certificates/details/207047/c38db249">Link</a> |
